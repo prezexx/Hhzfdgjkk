@@ -1,0 +1,69 @@
+name: Fix MagicHandy v7 integration
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-magichandy-v7.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fix app integration
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          p=Path('app-v4.html')
+          s=p.read_text(encoding='utf-8')
+
+          old='<div class="card"><div class="row"><div><div class="kicker">Preset-Tempo</div><div class="muted">Playback-Rate, ohne die Hubgrenzen zu ändern</div></div><div id="tempoOut" class="tempoValue">100%</div></div><input id="tempo" type="range" min="50" max="160" value="100"><div class="hint">Die Bewegung bleibt als Zeitlinie gepuffert. Dadurch gibt es keine Stop–Start-Pausen zwischen einzelnen Punkten.</div></div>'
+          new='<div class="card"><div class="row"><div><div class="kicker">Preset-Geschwindigkeit</div><div class="muted">100% fordert die maximale Preset-Geschwindigkeit an</div></div><div id="tempoOut" class="tempoValue">60%</div></div><input id="tempo" type="range" min="10" max="100" step="5" value="60"><div class="three"><button class="btn tempoBtn" data-tempo="50">50%</button><button class="btn tempoBtn" data-tempo="75">75%</button><button class="btn tempoBtn" data-tempo="100">MAX</button></div><div class="hint">Die HSP-Zeitlinie bleibt gepuffert. 100% fordert deutlich mehr Tempo an als die alte Einstellung; die physische Gerätebegrenzung bleibt aktiv.</div></div>'
+          s=s.replace(old,new)
+          if '.three{' not in s:
+              s=s.replace('.two{display:grid;grid-template-columns:1fr 1fr;gap:9px}', '.two{display:grid;grid-template-columns:1fr 1fr;gap:9px}.three{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:6px}')
+
+          funcs='''function toHspPoints(actions){const raw=actions.map(a=>({t:Math.max(0,Math.round(a.at)),x:Math.round(clamp(a.pos,0,100))}));const out=[];for(let i=0;i<raw.length;i++){const p=raw[i],prev=raw[i-1],next=raw[i+1];if(i>0&&i<raw.length-1&&prev.x===p.x&&next.x===p.x)continue;out.push(p)}return out.slice(0,100)}
+          function fitTimeline(actions,maxPoints=96){if(actions.length<=maxPoints)return actions;const src=[...actions].sort((a,b)=>a.at-b.at),start=src[0].at,end=src[src.length-1].at,out=[];let j=0;for(let i=0;i<maxPoints;i++){const at=start+(end-start)*i/(maxPoints-1);while(j<src.length-2&&src[j+1].at<at)j++;const a=src[j],b=src[j+1],u=b.at===a.at?0:(at-a.at)/(b.at-a.at);out.push({at:Math.round(at),pos:a.pos+(b.pos-a.pos)*clamp(u,0,1)})}out[0]={...src[0]};out[out.length-1]={...src[src.length-1]};return out}
+          async function loadFileActions(p){const r=await fetch(p.file,{cache:'no-store'});if(!r.ok)throw Error(`Preset-Datei HTTP ${r.status}`);const d=await r.json();if(!Array.isArray(d.points)||d.points.length<2)throw Error('Preset enthält keine gültige Punktfolge.');const actions=d.points.map(x=>({at:Number(x.time_ms),pos:Number(x.position_percent)})).filter(x=>Number.isFinite(x.at)&&Number.isFinite(x.pos));if(actions.length<2)throw Error('Preset enthält zu wenige gültige Punkte.');return fitTimeline(actions,96)}'''
+          s=re.sub(r'function toHspPoints\(actions\)\{.*?\}\n(?:function fitTimeline[\s\S]*?\nasync function loadFileActions\(p\)\{.*?\}\n)?async function stopMotionQuiet', funcs+'\nasync function stopMotionQuiet', s, count=1)
+
+          if "document.querySelectorAll('.tempoBtn')" not in s:
+              s=s.replace("E.speed.oninput=", "document.querySelectorAll('.tempoBtn').forEach(b=>b.onclick=()=>{E.tempo.value=b.dataset.tempo;E.tempo.dispatchEvent(new Event('input'))});\nE.speed.oninput=")
+
+          load="function load(){E.appId.value=localStorage.getItem(K.a)||'';E.ck.value=localStorage.getItem(K.c)||'';E.gmin.value=localStorage.getItem(K.min)||10;E.gmax.value=localStorage.getItem(K.max)||90;E.tempo.value=clamp(+(localStorage.getItem(K.tempo)||60),10,100);E.speed.value=localStorage.getItem(K.speed)||30;E.tempoOut.textContent=E.tempo.value+'%';E.speedOut.textContent=E.speed.value;renderBounds();renderPresets();loadPatternLibrary();poll();pollTimer=setInterval(poll,2500);if(E.appId.value&&E.ck.value)check()}"
+          s=re.sub(r'function load\(\)\{.*?\}\nwindow\.addEventListener', load+'\nwindow.addEventListener', s, count=1, flags=re.S)
+          s=s.replace('Handy Remote 7.0 · 76 MagicHandy Presets + eigene','Handy Remote 7.1 · 76 MagicHandy Presets + 9 eigene')
+          p.write_text(s,encoding='utf-8')
+          PY
+
+      - name: Validate JavaScript
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+          s=Path('app-v4.html').read_text(encoding='utf-8')
+          m=re.search(r'<script>([\s\S]*?)</script>',s)
+          if not m: raise SystemExit('script missing')
+          Path('/tmp/app.js').write_text(m.group(1),encoding='utf-8')
+          if 'loadFileActions' not in m.group(1): raise SystemExit('MagicHandy loader missing')
+          if 'min="10" max="100"' not in s: raise SystemExit('speed UI missing')
+          PY
+          node --check /tmp/app.js
+
+      - name: Commit fixes
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add app-v4.html
+          git commit -m 'Fix MagicHandy preset loader and speed control'
+          git push
