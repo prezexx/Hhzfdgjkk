@@ -1,0 +1,45 @@
+name: Import MagicHandy patterns
+
+on:
+  push:
+    paths:
+      - '.github/workflows/import-magichandy-patterns.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  import-patterns:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+
+      - name: Checkout MagicHandy source
+        uses: actions/checkout@v4
+        with:
+          repository: mapledaemon/MagicHandy
+          path: _magichandy
+
+      - name: Copy curated pattern library
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p patterns/magichandy
+          cp _magichandy/internal/motion/builtinpatterns/curated/*.json patterns/magichandy/
+          cp _magichandy/LICENSE patterns/magichandy/LICENSE
+          rm -rf _magichandy
+
+      - name: Commit imported patterns
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add patterns/magichandy
+          if git diff --cached --quiet; then
+            echo 'No pattern changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Import complete MagicHandy pattern library'
+          git push
