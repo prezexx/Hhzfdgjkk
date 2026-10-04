@@ -1,9 +1,10 @@
 {
-  "name":"Handy Remote Pro",
+  "name":"Handy Remote",
   "short_name":"Handy Remote",
-  "start_url":"./",
+  "start_url":"./app-v4.html",
+  "scope":"./",
   "display":"standalone",
-  "background_color":"#090b0f",
-  "theme_color":"#090b0f",
-  "description":"Mobile browser controller for Handy REST API v3"
+  "background_color":"#08090c",
+  "theme_color":"#08090c",
+  "description":"Mobile Handy API v3 controller with smooth HSP motion presets"
 }
