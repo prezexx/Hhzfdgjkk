@@ -1,0 +1,242 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Split-Level Pulse",
+  "description": "Full sweeps alternate with a repeated middle-range pulse. Reversal timing varies within the loop.",
+  "kind": "routine",
+  "cycle_ms": 10000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 167,
+      "position_percent": 57.142857
+    },
+    {
+      "time_ms": 334,
+      "position_percent": 21.428571
+    },
+    {
+      "time_ms": 500,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 701,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 867,
+      "position_percent": 57.142857
+    },
+    {
+      "time_ms": 1034,
+      "position_percent": 21.428571
+    },
+    {
+      "time_ms": 1201,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1401,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1568,
+      "position_percent": 57.142857
+    },
+    {
+      "time_ms": 1735,
+      "position_percent": 21.428571
+    },
+    {
+      "time_ms": 1901,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2102,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2269,
+      "position_percent": 57.142857
+    },
+    {
+      "time_ms": 2436,
+      "position_percent": 21.428571
+    },
+    {
+      "time_ms": 2602,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2803,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2970,
+      "position_percent": 57.142857
+    },
+    {
+      "time_ms": 3136,
+      "position_percent": 21.428571
+    },
+    {
+      "time_ms": 3303,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3503,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3670,
+      "position_percent": 57.142857
+    },
+    {
+      "time_ms": 3837,
+      "position_percent": 21.428571
+    },
+    {
+      "time_ms": 4004,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4204,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4371,
+      "position_percent": 57.142857
+    },
+    {
+      "time_ms": 4538,
+      "position_percent": 21.428571
+    },
+    {
+      "time_ms": 4704,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4905,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5072,
+      "position_percent": 57.142857
+    },
+    {
+      "time_ms": 5238,
+      "position_percent": 21.428571
+    },
+    {
+      "time_ms": 5405,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5606,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5772,
+      "position_percent": 57.142857
+    },
+    {
+      "time_ms": 5939,
+      "position_percent": 21.428571
+    },
+    {
+      "time_ms": 6106,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6306,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6473,
+      "position_percent": 57.142857
+    },
+    {
+      "time_ms": 6640,
+      "position_percent": 21.428571
+    },
+    {
+      "time_ms": 6806,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7007,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7174,
+      "position_percent": 57.142857
+    },
+    {
+      "time_ms": 7341,
+      "position_percent": 21.428571
+    },
+    {
+      "time_ms": 7507,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7708,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7874,
+      "position_percent": 57.142857
+    },
+    {
+      "time_ms": 8041,
+      "position_percent": 21.428571
+    },
+    {
+      "time_ms": 8208,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8408,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8575,
+      "position_percent": 57.142857
+    },
+    {
+      "time_ms": 8742,
+      "position_percent": 21.428571
+    },
+    {
+      "time_ms": 8908,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9109,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9276,
+      "position_percent": 57.142857
+    },
+    {
+      "time_ms": 9443,
+      "position_percent": 21.428571
+    },
+    {
+      "time_ms": 9609,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 10000,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "split-level",
+    "middle-pulse",
+    "varied-rhythm"
+  ]
+}

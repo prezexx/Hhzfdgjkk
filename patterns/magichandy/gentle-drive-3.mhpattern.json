@@ -1,7 +1,7 @@
 {
   "schema": "magichandy.pattern.v1",
-  "name": "Notched Full Sweep",
-  "description": "Mostly full-span reversals with one shortened peak. Reversal timing varies within the loop.",
+  "name": "Full Sweep Run F",
+  "description": "Repeating full-span reversals. Reversal timing varies within the loop.",
   "kind": "routine",
   "cycle_ms": 10000,
   "points": [
@@ -10,39 +10,31 @@
       "position_percent": 100
     },
     {
-      "time_ms": 797,
+      "time_ms": 1001,
       "position_percent": 0
     },
     {
-      "time_ms": 1730,
-      "position_percent": 87.5
-    },
-    {
-      "time_ms": 2763,
-      "position_percent": 0
-    },
-    {
-      "time_ms": 3563,
+      "time_ms": 2269,
       "position_percent": 100
     },
     {
-      "time_ms": 4730,
+      "time_ms": 3370,
       "position_percent": 0
     },
     {
-      "time_ms": 5696,
+      "time_ms": 4538,
       "position_percent": 100
     },
     {
-      "time_ms": 6896,
+      "time_ms": 5539,
       "position_percent": 0
     },
     {
-      "time_ms": 8096,
+      "time_ms": 6840,
       "position_percent": 100
     },
     {
-      "time_ms": 9296,
+      "time_ms": 7875,
       "position_percent": 0
     },
     {
@@ -52,7 +44,7 @@
   ],
   "tags": [
     "full-span",
-    "single-notch",
+    "repeating",
     "varied-rhythm"
   ]
 }

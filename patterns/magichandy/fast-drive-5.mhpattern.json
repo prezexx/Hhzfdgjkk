@@ -1,0 +1,138 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Multi-Level Circuit B",
+  "description": "Broad sweeps and middle-range strokes alternate through several levels. Reversal timing varies within the loop.",
+  "kind": "routine",
+  "cycle_ms": 10000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 334,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 601,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 935,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1135,
+      "position_percent": 85.714286
+    },
+    {
+      "time_ms": 1302,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1536,
+      "position_percent": 85.714286
+    },
+    {
+      "time_ms": 1769,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2036,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2370,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2637,
+      "position_percent": 85.714286
+    },
+    {
+      "time_ms": 2870,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3137,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3371,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3571,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3804,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4038,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4305,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4505,
+      "position_percent": 85.714286
+    },
+    {
+      "time_ms": 4705,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4939,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5206,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5706,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6340,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6774,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7341,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7842,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8409,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8943,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9410,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 10000,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "multi-level",
+    "broad-contrast",
+    "varied-rhythm"
+  ]
+}

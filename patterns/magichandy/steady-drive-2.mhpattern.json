@@ -1,0 +1,82 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Peak Accent Run",
+  "description": "Deep returns repeat under a sequence of full and shortened peaks. Reversal timing is even.",
+  "kind": "routine",
+  "cycle_ms": 10000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 633,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1366,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1913,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2546,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3146,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3813,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 4313,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4979,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5613,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6212,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 6779,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7412,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 7912,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8612,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9145,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 10000,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "varied-peaks",
+    "deep-return",
+    "even-rhythm"
+  ]
+}

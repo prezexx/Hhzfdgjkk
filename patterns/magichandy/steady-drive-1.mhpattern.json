@@ -1,0 +1,186 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Lower Anchor Circuit",
+  "description": "An upper entry drops into repeated lower-range anchors before a full reset. Reversal timing is even.",
+  "kind": "routine",
+  "cycle_ms": 10000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 234,
+      "position_percent": 60
+    },
+    {
+      "time_ms": 534,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 968,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 1302,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 1535,
+      "position_percent": 60
+    },
+    {
+      "time_ms": 1936,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2536,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2736,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 2936,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3136,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 3335,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3534,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 3732,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3930,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 4128,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4325,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 4522,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4718,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 4915,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5111,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 5308,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5504,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 5700,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5896,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 6091,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6286,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 6480,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6675,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 6869,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7064,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 7258,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7452,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 7646,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7840,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 8033,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8226,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 8418,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8610,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 8802,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8994,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 9185,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 10000,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "lower-anchor",
+    "multi-level",
+    "even-rhythm"
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Peak Accent Chain",
+  "description": "Mostly full sweeps carry a chain of slightly shortened peak accents. Reversal timing varies within the loop.",
+  "kind": "routine",
+  "cycle_ms": 10000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 234,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 501,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 701,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 968,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1168,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1468,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1669,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1935,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2136,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2436,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2636,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2903,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3137,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3404,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3604,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3904,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4138,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4405,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 4605,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4905,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 5139,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5406,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 5639,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5906,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6140,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6440,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6674,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6974,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 7207,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7508,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 7708,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8008,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 8242,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8509,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8709,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9043,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9276,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9576,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 9777,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 10000,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "peak-accents",
+    "deep-return",
+    "varied-rhythm"
+  ]
+}

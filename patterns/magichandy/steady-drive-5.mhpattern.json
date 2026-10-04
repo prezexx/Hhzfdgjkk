@@ -1,0 +1,82 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Deep Step Quartet",
+  "description": "A four-level descending step repeats between full sweeps. Reversal timing varies within the loop.",
+  "kind": "routine",
+  "cycle_ms": 6708,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1200,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1504,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1841,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2114,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2416,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2721,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3057,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3354,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4554,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4858,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5195,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5468,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5770,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6075,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6411,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6708,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "descending-steps",
+    "full-frame",
+    "varied-rhythm"
+  ]
+}
