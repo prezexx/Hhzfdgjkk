@@ -25,9 +25,65 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p patterns/magichandy
-          cp _magichandy/internal/motion/builtinpatterns/curated/*.json patterns/magichandy/
+          mkdir -p patterns/magichandy/curated patterns/magichandy/continuous
+          cp _magichandy/internal/motion/builtinpatterns/curated/*.json patterns/magichandy/curated/
           cp _magichandy/LICENSE patterns/magichandy/LICENSE
+
+      - name: Export all continuous patterns
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p _magichandy/cmd/exportpatterns
+          cat > _magichandy/cmd/exportpatterns/main.go <<'EOF'
+          package main
+
+          import (
+            "encoding/json"
+            "fmt"
+            "os"
+            "path/filepath"
+
+            "github.com/mapledaemon/MagicHandy/internal/motion"
+          )
+
+          type patternFile struct {
+            Schema      string              `json:"schema"`
+            Name        string              `json:"name"`
+            Description string              `json:"description,omitempty"`
+            Kind        string              `json:"kind"`
+            CycleMS     int64               `json:"cycle_ms"`
+            Points      []motion.CurvePoint `json:"points"`
+            Tags        []string            `json:"tags,omitempty"`
+          }
+
+          func main() {
+            out := os.Getenv("OUTPUT_DIR")
+            if out == "" { panic("OUTPUT_DIR missing") }
+            if err := os.MkdirAll(out, 0755); err != nil { panic(err) }
+            recipes := motion.ContinuousRecipes(25)
+            for _, recipe := range recipes {
+              pts, dur, ok := motion.ContinuousPatternPreview(recipe.ID)
+              if !ok { panic(fmt.Sprintf("preview unavailable: %s", recipe.ID)) }
+              doc := patternFile{
+                Schema: "magichandy.pattern.v1",
+                Name: recipe.Name,
+                Description: recipe.Description,
+                Kind: "routine",
+                CycleMS: dur,
+                Points: pts,
+                Tags: []string{"continuous", "smooth"},
+              }
+              b, err := json.MarshalIndent(doc, "", "  ")
+              if err != nil { panic(err) }
+              name := filepath.Join(out, string(recipe.ID)+".mhpattern.json")
+              if err := os.WriteFile(name, append(b, '\n'), 0644); err != nil { panic(err) }
+            }
+            fmt.Printf("exported %d continuous patterns\n", len(recipes))
+          }
+          EOF
+          cd _magichandy
+          OUTPUT_DIR="$GITHUB_WORKSPACE/patterns/magichandy/continuous" go run ./cmd/exportpatterns
+          cd "$GITHUB_WORKSPACE"
           rm -rf _magichandy
 
       - name: Commit imported patterns
@@ -41,5 +97,5 @@ jobs:
             echo 'No pattern changes to commit.'
             exit 0
           fi
-          git commit -m 'Import complete MagicHandy pattern library'
+          git commit -m 'Import all MagicHandy curated and continuous patterns'
           git push
