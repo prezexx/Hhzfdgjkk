@@ -1,0 +1,23 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Full Sweep Run A",
+  "description": "Repeating full-span reversals. Reversal timing is even.",
+  "kind": "routine",
+  "cycle_ms": 10000,
+  "points": [
+    {"time_ms":0,"position_percent":100},
+    {"time_ms":833,"position_percent":0},
+    {"time_ms":1666,"position_percent":100},
+    {"time_ms":2500,"position_percent":0},
+    {"time_ms":3333,"position_percent":100},
+    {"time_ms":4166,"position_percent":0},
+    {"time_ms":5000,"position_percent":100},
+    {"time_ms":5833,"position_percent":0},
+    {"time_ms":6666,"position_percent":100},
+    {"time_ms":7500,"position_percent":0},
+    {"time_ms":8333,"position_percent":100},
+    {"time_ms":9167,"position_percent":0},
+    {"time_ms":10000,"position_percent":100}
+  ],
+  "tags":["full-span","repeating","even-rhythm"]
+}
