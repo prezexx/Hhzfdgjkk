@@ -1,0 +1,82 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Three-Level Pairing",
+  "description": "Three middle levels form a paired phrase framed by full sweeps. Reversal timing varies within the loop.",
+  "kind": "routine",
+  "cycle_ms": 8328,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 601,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1035,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1569,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1969,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2536,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2970,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3504,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4164,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4765,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5199,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5733,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6133,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6700,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7134,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7668,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8328,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "three-level",
+    "paired",
+    "varied-rhythm"
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Full Sweep Run I",
+  "description": "Repeating full-span reversals. Reversal timing is even.",
+  "kind": "routine",
+  "cycle_ms": 10000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 134,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 300,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 467,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 634,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 801,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 901,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1068,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1235,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1401,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1568,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1702,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1869,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2035,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2202,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2336,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2503,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2669,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2836,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3003,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3170,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3303,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3470,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3637,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3804,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3971,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4090,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4238,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4404,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4571,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4738,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4890,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5038,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5205,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5372,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5539,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5672,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5839,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6006,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6173,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6340,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6473,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6640,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6807,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6927,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7060,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7194,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7360,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7527,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7694,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7861,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7994,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8161,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8328,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8495,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8628,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8795,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8962,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9129,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9296,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9463,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9596,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9763,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9896,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 10000,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "full-span",
+    "repeating",
+    "even-rhythm"
+  ]
+}

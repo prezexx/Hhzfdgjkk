@@ -1,0 +1,114 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Return Depth Shuffle",
+  "description": "Broad strokes shuffle among full and partial return depths. Reversal timing varies within the loop.",
+  "kind": "routine",
+  "cycle_ms": 10000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 366,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 733,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1100,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1466,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1833,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2200,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2566,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2933,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3300,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3666,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4033,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4400,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4766,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5133,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5500,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5866,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6233,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6600,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6966,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7333,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7700,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8700,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9533,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 10000,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "varied-returns",
+    "broad-strokes",
+    "varied-rhythm"
+  ]
+}

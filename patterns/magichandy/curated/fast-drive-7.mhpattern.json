@@ -1,0 +1,138 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Peak Drift",
+  "description": "Peak heights drift while mostly deep returns anchor the phrase. Reversal timing is even.",
+  "kind": "routine",
+  "cycle_ms": 8810,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 300,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 534,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 868,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 1101,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1401,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 1668,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1935,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2202,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2536,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 2770,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3103,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 3370,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3637,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 3904,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4204,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 4471,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4805,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5072,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5439,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5706,
+      "position_percent": 10
+    },
+    {
+      "time_ms": 6073,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6373,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 6673,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7007,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7293,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 7675,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7942,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 8242,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8542,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 8810,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "drifting-peaks",
+    "deep-return",
+    "even-rhythm"
+  ]
+}

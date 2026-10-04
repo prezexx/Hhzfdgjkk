@@ -1,0 +1,146 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Multi-Level Circuit A",
+  "description": "Full, partial, and centered strokes rotate through an irregular circuit. Reversal timing varies within the loop.",
+  "kind": "routine",
+  "cycle_ms": 10000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 367,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 734,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1068,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1402,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1769,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2136,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2470,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2803,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3170,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3471,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3838,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4138,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4438,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4738,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 5105,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 5339,
+      "position_percent": 40
+    },
+    {
+      "time_ms": 5539,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 5706,
+      "position_percent": 40
+    },
+    {
+      "time_ms": 5906,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 6073,
+      "position_percent": 40
+    },
+    {
+      "time_ms": 6340,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6607,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 6907,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7274,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7741,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8309,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8709,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8943,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 9109,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9310,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 9476,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 10000,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "multi-level",
+    "alternating",
+    "varied-rhythm"
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "schema": "magichandy.generated-pattern-catalog.v3",
+  "status_policy": "runtime-budget-audit",
+  "normal_speed_controls": true,
+  "reason": "Generated clips remain available; problematic curves are experimental, unsafe source timing is resampled, and every curve passes normal catalog budgets without a bulk exemption.",
+  "pattern_count": 59,
+  "patterns": [
+    {
+      "file": "easy-drive-1.mhpattern.json",
+      "name": "Notched Full Sweep"
+    },
+    {
+      "file": "easy-drive-2.mhpattern.json",
+      "name": "Full Sweep Run A"
+    },
+    {
+      "file": "easy-drive-3.mhpattern.json",
+      "name": "Full Sweep Run B"
+    },
+    {
+      "file": "easy-drive-4.mhpattern.json",
+      "name": "Full Sweep Run C"
+    },
+    {
+      "file": "easy-drive-5.mhpattern.json",
+      "name": "Peak Steps"
+    },
+    {
+      "file": "easy-roll.mhpattern.json",
+      "name": "Upper Cascade"
+    },
+    {
+      "file": "fast-drive-1.mhpattern.json",
+      "name": "Return Depth Shuffle"
+    },
+    {
+      "file": "fast-drive-10.mhpattern.json",
+      "name": "Broken Full Sweep"
+    },
+    {
+      "file": "fast-drive-11.mhpattern.json",
+      "name": "Peak Ladder Mosaic"
+    },
+    {
+      "file": "fast-drive-12.mhpattern.json",
+      "name": "Midrange Break"
+    },
+    {
+      "file": "fast-drive-13.mhpattern.json",
+      "name": "Descending Peak Finish"
+    },
+    {
+      "file": "fast-drive-2.mhpattern.json",
+      "name": "Multi-Level Circuit A"
+    },
+    {
+      "file": "fast-drive-3.mhpattern.json",
+      "name": "Upper Shelf Pulse"
+    },
+    {
+      "file": "fast-drive-4.mhpattern.json",
+      "name": "Return Ladder"
+    },
+    {
+      "file": "fast-drive-5.mhpattern.json",
+      "name": "Multi-Level Circuit B"
+    },
+    {
+      "file": "fast-drive-6.mhpattern.json",
+      "name": "Return Depth Accents"
+    },
+    {
+      "file": "fast-drive-7.mhpattern.json",
+      "name": "Peak Drift"
+    },
+    {
+      "file": "fast-drive-8.mhpattern.json",
+      "name": "Descending Peak Blocks"
+    },
+    {
+      "file": "fast-drive-9.mhpattern.json",
+      "name": "Lowered Return Shuffle"
+    },
+    {
+      "file": "fast-roll-1.mhpattern.json",
+      "name": "Upper to Full Blocks"
+    },
+    {
+      "file": "fast-roll-2.mhpattern.json",
+      "name": "Full Sweep Tail"
+    },
+    {
+      "file": "fast-roll-3.mhpattern.json",
+      "name": "Upper Step Blocks"
+    },
+    {
+      "file": "fast-roll-4.mhpattern.json",
+      "name": "Near-Full Accent"
+    },
+    {
+      "file": "fast-surge-1.mhpattern.json",
+      "name": "Rising Ladder Reset"
+    },
+    {
+      "file": "fast-surge-2.mhpattern.json",
+      "name": "Offset Zigzag"
+    },
+    {
+      "file": "gentle-drive-1.mhpattern.json",
+      "name": "Full Sweep Run D"
+    },
+    {
+      "file": "gentle-drive-2.mhpattern.json",
+      "name": "Full Sweep Run E"
+    },
+    {
+      "file": "gentle-drive-3.mhpattern.json",
+      "name": "Full Sweep Run F"
+    },
+    {
+      "file": "intense-drive-1.mhpattern.json",
+      "name": "Split-Level Pulse"
+    },
+    {
+      "file": "intense-drive-10.mhpattern.json",
+      "name": "Full Sweep Run G"
+    },
+    {
+      "file": "intense-drive-11.mhpattern.json",
+      "name": "Return Ladder Mosaic"
+    },
+    {
+      "file": "intense-drive-12.mhpattern.json",
+      "name": "Peak Groups"
+    },
+    {
+      "file": "intense-drive-13.mhpattern.json",
+      "name": "Full Sweep Run H"
+    },
+    {
+      "file": "intense-drive-14.mhpattern.json",
+      "name": "Full Sweep Run I"
+    },
+    {
+      "file": "intense-drive-15.mhpattern.json",
+      "name": "Two-Stage Peaks"
+    },
+    {
+      "file": "intense-drive-16.mhpattern.json",
+      "name": "Full Sweep Run J"
+    },
+    {
+      "file": "intense-drive-2.mhpattern.json",
+      "name": "Peak Accent Chain"
+    },
+    {
+      "file": "intense-drive-3.mhpattern.json",
+      "name": "Single Shallow Return"
+    },
+    {
+      "file": "intense-drive-4.mhpattern.json",
+      "name": "Lowered Finish"
+    },
+    {
+      "file": "intense-drive-5.mhpattern.json",
+      "name": "Framed Full Sweep"
+    },
+    {
+      "file": "intense-drive-6.mhpattern.json",
+      "name": "Full Sweep Run K"
+    },
+    {
+      "file": "intense-drive-7.mhpattern.json",
+      "name": "Descending Peaks"
+    },
+    {
+      "file": "intense-drive-8.mhpattern.json",
+      "name": "Peak Alternation"
+    },
+    {
+      "file": "intense-drive-9.mhpattern.json",
+      "name": "Full Sweep Run L"
+    },
+    {
+      "file": "intense-roll-1.mhpattern.json",
+      "name": "Offset Full Sweep"
+    },
+    {
+      "file": "intense-roll-2.mhpattern.json",
+      "name": "Double Peak Accent"
+    },
+    {
+      "file": "intense-roll-3.mhpattern.json",
+      "name": "Tapered Peak Finish"
+    },
+    {
+      "file": "intense-roll-4.mhpattern.json",
+      "name": "Full Sweep Run M"
+    },
+    {
+      "file": "intense-roll-5.mhpattern.json",
+      "name": "Descending Entry"
+    },
+    {
+      "file": "intense-surge-1.mhpattern.json",
+      "name": "Peak Shuffle"
+    },
+    {
+      "file": "intense-surge-2.mhpattern.json",
+      "name": "Full Sweep Run N"
+    },
+    {
+      "file": "intense-surge-3.mhpattern.json",
+      "name": "Near-Full Run"
+    },
+    {
+      "file": "steady-drive-1.mhpattern.json",
+      "name": "Lower Anchor Circuit"
+    },
+    {
+      "file": "steady-drive-2.mhpattern.json",
+      "name": "Peak Accent Run"
+    },
+    {
+      "file": "steady-drive-3.mhpattern.json",
+      "name": "Three-Level Pairing"
+    },
+    {
+      "file": "steady-drive-4.mhpattern.json",
+      "name": "Upper Accent Circuit"
+    },
+    {
+      "file": "steady-drive-5.mhpattern.json",
+      "name": "Deep Step Quartet"
+    },
+    {
+      "file": "steady-roll-1.mhpattern.json",
+      "name": "Upper Pulse Run"
+    },
+    {
+      "file": "steady-roll-2.mhpattern.json",
+      "name": "Multi-Level Drift"
+    }
+  ]
+}

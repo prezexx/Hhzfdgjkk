@@ -1,0 +1,178 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Framed Full Sweep",
+  "description": "A short upper-range frame interrupts an otherwise full-sweep run. Reversal timing varies within the loop.",
+  "kind": "routine",
+  "cycle_ms": 10000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 267,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 568,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 768,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1102,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1302,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1602,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1802,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2136,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2369,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2670,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2870,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3137,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3370,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3637,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3871,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4171,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4371,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4605,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4839,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5139,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5306,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5539,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5773,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6040,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6240,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6474,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6707,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6941,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7141,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7408,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7641,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7908,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8109,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8409,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8609,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8876,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9110,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9410,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9577,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 10000,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "full-span",
+    "upper-frame",
+    "varied-rhythm"
+  ]
+}

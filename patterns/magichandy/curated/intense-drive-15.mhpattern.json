@@ -1,0 +1,298 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Two-Stage Peaks",
+  "description": "Deep returns support one repeated peak height followed by a higher one. Reversal timing varies within the loop.",
+  "kind": "routine",
+  "cycle_ms": 10000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 116,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 234,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 367,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 501,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 634,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 768,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 902,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 1001,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1135,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 1235,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1368,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 1502,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1635,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 1735,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1869,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 2002,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2136,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 2236,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2369,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 2503,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2603,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 2736,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2868,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 3003,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3104,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 3237,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3370,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 3504,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3637,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 3737,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3871,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 4004,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4138,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 4238,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4371,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 4505,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4638,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 4738,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4903,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 5072,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5239,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 5406,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5573,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 5739,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5906,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 6073,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6240,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 6407,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6574,
+      "position_percent": 88.888889
+    },
+    {
+      "time_ms": 6741,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6907,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7074,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7241,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7408,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7575,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7742,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7908,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8075,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8209,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8375,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8542,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8709,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8876,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9011,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9176,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9343,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9510,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9643,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9810,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 10000,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "two-stage-peaks",
+    "deep-return",
+    "varied-rhythm"
+  ]
+}

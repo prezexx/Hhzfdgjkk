@@ -1,0 +1,178 @@
+{
+  "schema": "magichandy.pattern.v1",
+  "name": "Offset Full Sweep",
+  "description": "Full sweeps carry a small set of near-endpoint offsets. Grouped timing creates offbeat accents.",
+  "kind": "routine",
+  "cycle_ms": 10000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 301,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 568,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 868,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1102,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1368,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1602,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1869,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2103,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2369,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2603,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2870,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3104,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3404,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 3604,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3871,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4105,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4438,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4638,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4939,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5139,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5439,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5639,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5940,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6140,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6474,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6674,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7007,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7174,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7475,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7675,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8008,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8209,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8509,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8709,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8976,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9210,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9477,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9643,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9944,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 10000,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "near-full",
+    "endpoint-offsets",
+    "syncopated"
+  ]
+}
