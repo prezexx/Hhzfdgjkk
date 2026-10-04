@@ -1,0 +1,1055 @@
+{
+  "schema": "handy-remote.magichandy-catalog.v1",
+  "source": "https://github.com/mapledaemon/MagicHandy",
+  "license": "GPL-3.0",
+  "count": 76,
+  "patterns": [
+    {
+      "id": "mh-continuous-flow-base-anchored",
+      "name": "Base-anchored variety",
+      "description": "Return to base 0 every stroke while reach gradually varies between short and broad. Pace stays independent.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-base-anchored.mhpattern.json",
+      "cycle_ms": 18703,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-base-drift",
+      "name": "Base-anchored drift",
+      "description": "Return to base 0 while reach wanders gradually and irregularly. Longer variation memory; pace stays independent.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-base-drift.mhpattern.json",
+      "cycle_ms": 71452,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-breathing-window",
+      "name": "Breathing window",
+      "description": "Gradually move a varying-width window through the band. Width wanders between 20 and 65; neither endpoint stays anchored.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-breathing-window.mhpattern.json",
+      "cycle_ms": 50789,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-centered-drift",
+      "name": "Centered drift",
+      "description": "Keep the middle fixed while stroke width wanders gradually and irregularly. Both endpoints move symmetrically.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-centered-drift.mhpattern.json",
+      "cycle_ms": 71187,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-centered-variety",
+      "name": "Centered variety",
+      "description": "Gradually vary stroke width symmetrically around the middle. Both endpoints move; neither endpoint is anchored.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-centered-variety.mhpattern.json",
+      "cycle_ms": 18369,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-even-beat",
+      "name": "Even-beat variety",
+      "description": "Vary width irregularly around the middle while holding a steadier cycle beat. Short strokes travel more slowly.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-even-beat.mhpattern.json",
+      "cycle_ms": 116244,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-full-sweeps",
+      "name": "Full sweeps",
+      "description": "Repeat smooth full-length strokes from base 0 to tip 100. Fixed reach and even pace.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-full-sweeps.mhpattern.json",
+      "cycle_ms": 14544,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-lower-strokes",
+      "name": "Lower strokes",
+      "description": "Repeat smooth fixed-width strokes only in the lower/base region, 0–40. Even pace.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-lower-strokes.mhpattern.json",
+      "cycle_ms": 9048,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-middle-strokes",
+      "name": "Middle strokes",
+      "description": "Repeat smooth fixed-width strokes only around the middle, 30–70. Even pace.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-middle-strokes.mhpattern.json",
+      "cycle_ms": 9048,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-pace-wave",
+      "name": "Pace wave",
+      "description": "Keep every stroke full-length while pace gradually slows and rises over eight cycles. Reach does not change.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-pace-wave.mhpattern.json",
+      "cycle_ms": 18022,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-soft-sweeps",
+      "name": "Soft turnarounds",
+      "description": "Keep full-length strokes and even pace with longer, gentler turnarounds at both ends. Reach does not vary.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-soft-sweeps.mhpattern.json",
+      "cycle_ms": 14576,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-tip-anchored",
+      "name": "Tip-anchored variety",
+      "description": "Return to tip 100 every stroke while reach gradually varies between short and broad. Pace stays independent.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-tip-anchored.mhpattern.json",
+      "cycle_ms": 18701,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-tip-drift",
+      "name": "Tip-anchored drift",
+      "description": "Return to tip 100 while reach wanders gradually and irregularly. Longer variation memory; pace stays independent.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-tip-drift.mhpattern.json",
+      "cycle_ms": 71451,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-traveling-window",
+      "name": "Traveling window",
+      "description": "Keep a 40-wide stroke window and gradually move it from lower to middle to upper and back. Preserve stroke width.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-traveling-window.mhpattern.json",
+      "cycle_ms": 12630,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-upper-strokes",
+      "name": "Upper strokes",
+      "description": "Repeat smooth fixed-width strokes only in the upper/tip region, 60–100. Even pace.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-upper-strokes.mhpattern.json",
+      "cycle_ms": 9048,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-wide-narrow",
+      "name": "Wide then narrow",
+      "description": "Repeat four full-width cycles, then four middle-width cycles. Blend between the two sections; keep the pace setting.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-wide-narrow.mhpattern.json",
+      "cycle_ms": 10498,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-continuous-flow-zone-tour",
+      "name": "Three-zone tour",
+      "description": "Repeat four lower cycles, four middle, four upper, then four middle. Blend each transition; retain short strokes.",
+      "category": "continuous",
+      "group": "continuous",
+      "file": "patterns/magichandy/continuous/flow-zone-tour.mhpattern.json",
+      "cycle_ms": 11618,
+      "tags": [
+        "continuous",
+        "smooth"
+      ]
+    },
+    {
+      "id": "mh-curated-easy-drive-1",
+      "name": "Notched Full Sweep",
+      "description": "Mostly full-span reversals with one shortened peak. Reversal timing varies within the loop.",
+      "category": "easy",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/easy-drive-1.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "single-notch",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-easy-drive-2",
+      "name": "Full Sweep Run A",
+      "description": "Repeating full-span reversals. Reversal timing is even.",
+      "category": "easy",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/easy-drive-2.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "repeating",
+        "even-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-easy-drive-3",
+      "name": "Full Sweep Run B",
+      "description": "Repeating full-span reversals. Reversal timing is even.",
+      "category": "easy",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/easy-drive-3.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "repeating",
+        "even-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-easy-drive-4",
+      "name": "Full Sweep Run C",
+      "description": "Repeating full-span reversals. Reversal timing is even.",
+      "category": "easy",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/easy-drive-4.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "repeating",
+        "even-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-easy-drive-5",
+      "name": "Peak Steps",
+      "description": "A fixed lower return alternates among several upper peaks. Reversal timing is even.",
+      "category": "easy",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/easy-drive-5.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "stepped-peaks",
+        "fixed-return",
+        "even-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-easy-roll",
+      "name": "Upper Cascade",
+      "description": "An upper-biased sequence moves through several return depths and peaks. Grouped timing creates offbeat accents.",
+      "category": "easy",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/easy-roll.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "upper-biased",
+        "multi-level",
+        "syncopated"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-drive-1",
+      "name": "Return Depth Shuffle",
+      "description": "Broad strokes shuffle among full and partial return depths. Reversal timing varies within the loop.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-drive-1.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "varied-returns",
+        "broad-strokes",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-drive-10",
+      "name": "Broken Full Sweep",
+      "description": "Full-span reversals are interrupted by a small set of partial returns. Reversal timing is even.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-drive-10.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "partial-breaks",
+        "even-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-drive-11",
+      "name": "Peak Ladder Mosaic",
+      "description": "Peak heights and return depths change in short stepped groups. Reversal timing varies within the loop.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-drive-11.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "stepped-peaks",
+        "varied-returns",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-drive-12",
+      "name": "Midrange Break",
+      "description": "A run of full sweeps gives way briefly to a centered pair before resetting. Reversal timing varies within the loop.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-drive-12.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-to-midrange",
+        "grouped",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-drive-13",
+      "name": "Descending Peak Finish",
+      "description": "Mostly full-depth returns meet upper peaks that shorten near the end. Reversal timing varies within the loop.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-drive-13.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "descending-peaks",
+        "deep-return",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-drive-2",
+      "name": "Multi-Level Circuit A",
+      "description": "Full, partial, and centered strokes rotate through an irregular circuit. Reversal timing varies within the loop.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-drive-2.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "multi-level",
+        "alternating",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-drive-3",
+      "name": "Upper Shelf Pulse",
+      "description": "Upper-range pulses settle onto a repeated shallow return shelf. Reversal timing varies within the loop.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-drive-3.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "upper-range",
+        "return-shelf",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-drive-4",
+      "name": "Return Ladder",
+      "description": "Broad upper peaks meet a ladder of progressively different return depths. Reversal timing varies within the loop.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-drive-4.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "return-ladder",
+        "broad-peaks",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-drive-5",
+      "name": "Multi-Level Circuit B",
+      "description": "Broad sweeps and middle-range strokes alternate through several levels. Reversal timing varies within the loop.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-drive-5.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "multi-level",
+        "broad-contrast",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-drive-6",
+      "name": "Return Depth Accents",
+      "description": "Full sweeps are punctuated by several shallower return accents. Reversal timing varies within the loop.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-drive-6.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "varied-returns",
+        "full-span",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-drive-7",
+      "name": "Peak Drift",
+      "description": "Peak heights drift while mostly deep returns anchor the phrase. Reversal timing is even.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-drive-7.mhpattern.json",
+      "cycle_ms": 8810,
+      "tags": [
+        "drifting-peaks",
+        "deep-return",
+        "even-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-drive-8",
+      "name": "Descending Peak Blocks",
+      "description": "Deep returns support grouped peaks that step down in height. Reversal timing varies within the loop.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-drive-8.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "descending-peaks",
+        "grouped",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-drive-9",
+      "name": "Lowered Return Shuffle",
+      "description": "Upper peaks repeat over a shuffled set of lower return depths. Reversal timing varies within the loop.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-drive-9.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "varied-returns",
+        "upper-peaks",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-roll-1",
+      "name": "Upper to Full Blocks",
+      "description": "Upper-range blocks transition into broad and full-span sweeps. Reversal timing varies within the loop.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-roll-1.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "upper-to-full",
+        "grouped",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-roll-2",
+      "name": "Full Sweep Tail",
+      "description": "A long full-sweep run ends with two partial-depth accents. Reversal timing varies within the loop.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-roll-2.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "tail-accent",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-roll-3",
+      "name": "Upper Step Blocks",
+      "description": "A full sweep frames a block of repeated upper-half strokes. Grouped timing creates offbeat accents.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-roll-3.mhpattern.json",
+      "cycle_ms": 8780,
+      "tags": [
+        "upper-block",
+        "full-frame",
+        "syncopated"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-roll-4",
+      "name": "Near-Full Accent",
+      "description": "Near-full reversals carry a few small endpoint offsets. Grouped timing creates offbeat accents.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-roll-4.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "near-full",
+        "endpoint-offsets",
+        "syncopated"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-surge-1",
+      "name": "Rising Ladder Reset",
+      "description": "Lower-anchored peaks rise in stages before an upper multi-level reset. Grouped timing creates offbeat accents.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-surge-1.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "rising-peaks",
+        "lower-anchor",
+        "syncopated"
+      ]
+    },
+    {
+      "id": "mh-curated-fast-surge-2",
+      "name": "Offset Zigzag",
+      "description": "Both endpoints shift through a broad irregular zigzag. Grouped timing creates offbeat accents.",
+      "category": "fast",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/fast-surge-2.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "offset-zigzag",
+        "multi-level",
+        "syncopated"
+      ]
+    },
+    {
+      "id": "mh-curated-gentle-drive-1",
+      "name": "Full Sweep Run D",
+      "description": "Repeating full-span reversals. Reversal timing varies within the loop.",
+      "category": "gentle",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/gentle-drive-1.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "repeating",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-gentle-drive-2",
+      "name": "Full Sweep Run E",
+      "description": "Repeating full-span reversals. Reversal timing varies within the loop.",
+      "category": "gentle",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/gentle-drive-2.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "repeating",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-gentle-drive-3",
+      "name": "Full Sweep Run F",
+      "description": "Repeating full-span reversals. Reversal timing varies within the loop.",
+      "category": "gentle",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/gentle-drive-3.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "repeating",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-1",
+      "name": "Split-Level Pulse",
+      "description": "Full sweeps alternate with a repeated middle-range pulse. Reversal timing varies within the loop.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-1.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "split-level",
+        "middle-pulse",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-10",
+      "name": "Full Sweep Run G",
+      "description": "Repeating full-span reversals. Reversal timing is even.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-10.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "repeating",
+        "even-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-11",
+      "name": "Return Ladder Mosaic",
+      "description": "Upper peaks combine with a stepped mosaic of return depths. Reversal timing varies within the loop.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-11.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "return-ladder",
+        "varied-peaks",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-12",
+      "name": "Peak Groups",
+      "description": "Deep returns anchor grouped upper peaks of several heights. Reversal timing varies within the loop.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-12.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "grouped-peaks",
+        "deep-return",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-13",
+      "name": "Full Sweep Run H",
+      "description": "Repeating full-span reversals. Reversal timing varies within the loop.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-13.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "repeating",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-14",
+      "name": "Full Sweep Run I",
+      "description": "Repeating full-span reversals. Reversal timing is even.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-14.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "repeating",
+        "even-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-15",
+      "name": "Two-Stage Peaks",
+      "description": "Deep returns support one repeated peak height followed by a higher one. Reversal timing varies within the loop.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-15.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "two-stage-peaks",
+        "deep-return",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-16",
+      "name": "Full Sweep Run J",
+      "description": "Repeating full-span reversals. Reversal timing is even.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-16.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "repeating",
+        "even-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-2",
+      "name": "Peak Accent Chain",
+      "description": "Mostly full sweeps carry a chain of slightly shortened peak accents. Reversal timing varies within the loop.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-2.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "peak-accents",
+        "deep-return",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-3",
+      "name": "Single Shallow Return",
+      "description": "A full-sweep run contains one shallow return and one shortened peak. Reversal timing varies within the loop.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-3.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "single-return-accent",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-4",
+      "name": "Lowered Finish",
+      "description": "A full-sweep run ends on a shortened upper peak. Reversal timing varies within the loop.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-4.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "shortened-finish",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-5",
+      "name": "Framed Full Sweep",
+      "description": "A short upper-range frame interrupts an otherwise full-sweep run. Reversal timing varies within the loop.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-5.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "upper-frame",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-6",
+      "name": "Full Sweep Run K",
+      "description": "Repeating full-span reversals. Reversal timing varies within the loop.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-6.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "repeating",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-7",
+      "name": "Descending Peaks",
+      "description": "Deep returns support a sequence of upper peaks at changing heights. Reversal timing varies within the loop.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-7.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "descending-peaks",
+        "deep-return",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-8",
+      "name": "Peak Alternation",
+      "description": "Full peaks alternate with a repeated slightly shortened peak. Reversal timing varies within the loop.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-8.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "alternating-peaks",
+        "deep-return",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-drive-9",
+      "name": "Full Sweep Run L",
+      "description": "Repeating full-span reversals. Reversal timing is even.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-drive-9.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "repeating",
+        "even-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-roll-1",
+      "name": "Offset Full Sweep",
+      "description": "Full sweeps carry a small set of near-endpoint offsets. Grouped timing creates offbeat accents.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-roll-1.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "near-full",
+        "endpoint-offsets",
+        "syncopated"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-roll-2",
+      "name": "Double Peak Accent",
+      "description": "A full-sweep run contains a paired set of shortened peak accents. Grouped timing creates offbeat accents.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-roll-2.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "paired-peaks",
+        "full-span",
+        "syncopated"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-roll-3",
+      "name": "Tapered Peak Finish",
+      "description": "Full sweeps taper to a shortened peak at each end of the phrase. Grouped timing creates offbeat accents.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-roll-3.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "tapered-peaks",
+        "deep-return",
+        "syncopated"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-roll-4",
+      "name": "Full Sweep Run M",
+      "description": "Repeating full-span reversals. Reversal timing varies within the loop.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-roll-4.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "repeating",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-roll-5",
+      "name": "Descending Entry",
+      "description": "A descending staircase enters a run of full sweeps. Grouped timing creates offbeat accents.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-roll-5.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "descending-entry",
+        "full-span",
+        "syncopated"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-surge-1",
+      "name": "Peak Shuffle",
+      "description": "Deep returns support a shuffled set of near-full peak heights. Grouped timing creates offbeat accents.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-surge-1.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "varied-peaks",
+        "deep-return",
+        "syncopated"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-surge-2",
+      "name": "Full Sweep Run N",
+      "description": "Repeating full-span reversals. Grouped timing creates offbeat accents.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-surge-2.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "full-span",
+        "repeating",
+        "syncopated"
+      ]
+    },
+    {
+      "id": "mh-curated-intense-surge-3",
+      "name": "Near-Full Run",
+      "description": "Repeating full-span reversals with one near-full peak. Grouped timing creates offbeat accents.",
+      "category": "intense",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/intense-surge-3.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "near-full",
+        "repeating",
+        "syncopated"
+      ]
+    },
+    {
+      "id": "mh-curated-steady-drive-1",
+      "name": "Lower Anchor Circuit",
+      "description": "An upper entry drops into repeated lower-range anchors before a full reset. Reversal timing is even.",
+      "category": "steady",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/steady-drive-1.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "lower-anchor",
+        "multi-level",
+        "even-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-steady-drive-2",
+      "name": "Peak Accent Run",
+      "description": "Deep returns repeat under a sequence of full and shortened peaks. Reversal timing is even.",
+      "category": "steady",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/steady-drive-2.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "varied-peaks",
+        "deep-return",
+        "even-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-steady-drive-3",
+      "name": "Three-Level Pairing",
+      "description": "Three middle levels form a paired phrase framed by full sweeps. Reversal timing varies within the loop.",
+      "category": "steady",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/steady-drive-3.mhpattern.json",
+      "cycle_ms": 8328,
+      "tags": [
+        "three-level",
+        "paired",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-steady-drive-4",
+      "name": "Upper Accent Circuit",
+      "description": "Full sweeps transition into an upper-biased multi-level circuit. Reversal timing varies within the loop.",
+      "category": "steady",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/steady-drive-4.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "upper-biased",
+        "multi-level",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-steady-drive-5",
+      "name": "Deep Step Quartet",
+      "description": "A four-level descending step repeats between full sweeps. Reversal timing varies within the loop.",
+      "category": "steady",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/steady-drive-5.mhpattern.json",
+      "cycle_ms": 6708,
+      "tags": [
+        "descending-steps",
+        "full-frame",
+        "varied-rhythm"
+      ]
+    },
+    {
+      "id": "mh-curated-steady-roll-1",
+      "name": "Upper Pulse Run",
+      "description": "A long upper-range pulse run resolves through one full sweep. Grouped timing creates offbeat accents.",
+      "category": "steady",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/steady-roll-1.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "upper-pulses",
+        "full-resolution",
+        "syncopated"
+      ]
+    },
+    {
+      "id": "mh-curated-steady-roll-2",
+      "name": "Multi-Level Drift",
+      "description": "Both endpoints drift through an irregular set of partial and broad strokes. Grouped timing creates offbeat accents.",
+      "category": "steady",
+      "group": "curated",
+      "file": "patterns/magichandy/curated/steady-roll-2.mhpattern.json",
+      "cycle_ms": 10000,
+      "tags": [
+        "multi-level",
+        "drifting-window",
+        "syncopated"
+      ]
+    }
+  ]
+}
