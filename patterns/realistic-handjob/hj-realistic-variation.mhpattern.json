@@ -1,0 +1,242 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Realistic Variation",
+  "description": "Weniger mechanisch wirkende Folge mit unregelmäßigem Hub, variabler Umkehrgeschwindigkeit und wechselnden Pausen.",
+  "kind": "routine",
+  "cycle_ms": 14404,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 26
+    },
+    {
+      "time_ms": 332,
+      "position_percent": 42.66
+    },
+    {
+      "time_ms": 790,
+      "position_percent": 75
+    },
+    {
+      "time_ms": 870,
+      "position_percent": 75
+    },
+    {
+      "time_ms": 1266,
+      "position_percent": 56.38
+    },
+    {
+      "time_ms": 1790,
+      "position_percent": 26
+    },
+    {
+      "time_ms": 1880,
+      "position_percent": 26
+    },
+    {
+      "time_ms": 2048,
+      "position_percent": 32
+    },
+    {
+      "time_ms": 2275,
+      "position_percent": 51.38
+    },
+    {
+      "time_ms": 2588,
+      "position_percent": 89
+    },
+    {
+      "time_ms": 2608,
+      "position_percent": 89
+    },
+    {
+      "time_ms": 2952,
+      "position_percent": 67.34
+    },
+    {
+      "time_ms": 3408,
+      "position_percent": 32
+    },
+    {
+      "time_ms": 3528,
+      "position_percent": 32
+    },
+    {
+      "time_ms": 3729,
+      "position_percent": 49
+    },
+    {
+      "time_ms": 3893,
+      "position_percent": 59.54
+    },
+    {
+      "time_ms": 4119,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 4134,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 4340,
+      "position_percent": 68.22
+    },
+    {
+      "time_ms": 4614,
+      "position_percent": 49
+    },
+    {
+      "time_ms": 4664,
+      "position_percent": 49
+    },
+    {
+      "time_ms": 4907,
+      "position_percent": 18
+    },
+    {
+      "time_ms": 5285,
+      "position_percent": 42.82
+    },
+    {
+      "time_ms": 5807,
+      "position_percent": 91
+    },
+    {
+      "time_ms": 5867,
+      "position_percent": 91
+    },
+    {
+      "time_ms": 6319,
+      "position_percent": 63.26
+    },
+    {
+      "time_ms": 6917,
+      "position_percent": 18
+    },
+    {
+      "time_ms": 6977,
+      "position_percent": 18
+    },
+    {
+      "time_ms": 7148,
+      "position_percent": 25
+    },
+    {
+      "time_ms": 7446,
+      "position_percent": 44.38
+    },
+    {
+      "time_ms": 7858,
+      "position_percent": 82
+    },
+    {
+      "time_ms": 8215,
+      "position_percent": 60.34
+    },
+    {
+      "time_ms": 8688,
+      "position_percent": 25
+    },
+    {
+      "time_ms": 8868,
+      "position_percent": 25
+    },
+    {
+      "time_ms": 9075,
+      "position_percent": 44
+    },
+    {
+      "time_ms": 9293,
+      "position_percent": 54.88
+    },
+    {
+      "time_ms": 9595,
+      "position_percent": 76
+    },
+    {
+      "time_ms": 9605,
+      "position_percent": 76
+    },
+    {
+      "time_ms": 9850,
+      "position_percent": 63.84
+    },
+    {
+      "time_ms": 10175,
+      "position_percent": 44
+    },
+    {
+      "time_ms": 10225,
+      "position_percent": 44
+    },
+    {
+      "time_ms": 10447,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 10804,
+      "position_percent": 45.16
+    },
+    {
+      "time_ms": 11297,
+      "position_percent": 94
+    },
+    {
+      "time_ms": 11347,
+      "position_percent": 94
+    },
+    {
+      "time_ms": 11743,
+      "position_percent": 65.88
+    },
+    {
+      "time_ms": 12267,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 12347,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 12524,
+      "position_percent": 29
+    },
+    {
+      "time_ms": 12793,
+      "position_percent": 48.04
+    },
+    {
+      "time_ms": 13164,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 13204,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 13625,
+      "position_percent": 63.72
+    },
+    {
+      "time_ms": 14184,
+      "position_percent": 29
+    },
+    {
+      "time_ms": 14244,
+      "position_percent": 29
+    },
+    {
+      "time_ms": 14404,
+      "position_percent": 26
+    }
+  ],
+  "tags": [
+    "handjob",
+    "realistic",
+    "variation",
+    "random",
+    "irregular"
+  ],
+  "source": "Realistic Handjob",
+  "license": "Original"
+}
