@@ -1,0 +1,154 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Natural Handjob",
+  "description": "Natürlich wirkender Rhythmus mit leicht wechselndem Hub, ungleichen Auf- und Abbewegungen und kurzen Umkehrpausen.",
+  "kind": "routine",
+  "cycle_ms": 9223,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 307,
+      "position_percent": 41.08
+    },
+    {
+      "time_ms": 730,
+      "position_percent": 82
+    },
+    {
+      "time_ms": 810,
+      "position_percent": 82
+    },
+    {
+      "time_ms": 1193,
+      "position_percent": 58.44
+    },
+    {
+      "time_ms": 1700,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 1750,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 2040,
+      "position_percent": 43.12
+    },
+    {
+      "time_ms": 2440,
+      "position_percent": 88
+    },
+    {
+      "time_ms": 2480,
+      "position_percent": 88
+    },
+    {
+      "time_ms": 2850,
+      "position_percent": 62.16
+    },
+    {
+      "time_ms": 3340,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 3365,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 3527,
+      "position_percent": 24
+    },
+    {
+      "time_ms": 3888,
+      "position_percent": 43.04
+    },
+    {
+      "time_ms": 4387,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 4447,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 4851,
+      "position_percent": 58.72
+    },
+    {
+      "time_ms": 5387,
+      "position_percent": 24
+    },
+    {
+      "time_ms": 5437,
+      "position_percent": 24
+    },
+    {
+      "time_ms": 5611,
+      "position_percent": 16
+    },
+    {
+      "time_ms": 5922,
+      "position_percent": 41.84
+    },
+    {
+      "time_ms": 6351,
+      "position_percent": 92
+    },
+    {
+      "time_ms": 6441,
+      "position_percent": 92
+    },
+    {
+      "time_ms": 6789,
+      "position_percent": 63.12
+    },
+    {
+      "time_ms": 7251,
+      "position_percent": 16
+    },
+    {
+      "time_ms": 7281,
+      "position_percent": 16
+    },
+    {
+      "time_ms": 7443,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 7779,
+      "position_percent": 42.44
+    },
+    {
+      "time_ms": 8243,
+      "position_percent": 86
+    },
+    {
+      "time_ms": 8313,
+      "position_percent": 86
+    },
+    {
+      "time_ms": 8687,
+      "position_percent": 60.92
+    },
+    {
+      "time_ms": 9183,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 9223,
+      "position_percent": 20
+    }
+  ],
+  "tags": [
+    "handjob",
+    "natural",
+    "realistic",
+    "varied",
+    "medium"
+  ],
+  "source": "Realistic Handjob",
+  "license": "Original"
+}
