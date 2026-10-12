@@ -1,0 +1,157 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Long Strokes",
+  "description": "Lange Bewegungen über einen großen Teil des eingestellten Hubbereichs, mit asymmetrischer Rückbewegung.",
+  "kind": "routine",
+  "cycle_ms": 11556,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 12
+    },
+    {
+      "time_ms": 391,
+      "position_percent": 38.86
+    },
+    {
+      "time_ms": 930,
+      "position_percent": 91
+    },
+    {
+      "time_ms": 990,
+      "position_percent": 91
+    },
+    {
+      "time_ms": 1454,
+      "position_percent": 60.98
+    },
+    {
+      "time_ms": 2070,
+      "position_percent": 12
+    },
+    {
+      "time_ms": 2150,
+      "position_percent": 12
+    },
+    {
+      "time_ms": 2309,
+      "position_percent": 15
+    },
+    {
+      "time_ms": 2721,
+      "position_percent": 42.2
+    },
+    {
+      "time_ms": 3289,
+      "position_percent": 95
+    },
+    {
+      "time_ms": 3319,
+      "position_percent": 95
+    },
+    {
+      "time_ms": 3766,
+      "position_percent": 64.6
+    },
+    {
+      "time_ms": 4359,
+      "position_percent": 15
+    },
+    {
+      "time_ms": 4409,
+      "position_percent": 15
+    },
+    {
+      "time_ms": 4574,
+      "position_percent": 10
+    },
+    {
+      "time_ms": 5015,
+      "position_percent": 36.18
+    },
+    {
+      "time_ms": 5624,
+      "position_percent": 87
+    },
+    {
+      "time_ms": 5674,
+      "position_percent": 87
+    },
+    {
+      "time_ms": 6177,
+      "position_percent": 57.74
+    },
+    {
+      "time_ms": 6844,
+      "position_percent": 10
+    },
+    {
+      "time_ms": 6894,
+      "position_percent": 10
+    },
+    {
+      "time_ms": 7053,
+      "position_percent": 13
+    },
+    {
+      "time_ms": 7431,
+      "position_percent": 40.2
+    },
+    {
+      "time_ms": 7953,
+      "position_percent": 93
+    },
+    {
+      "time_ms": 8003,
+      "position_percent": 93
+    },
+    {
+      "time_ms": 8493,
+      "position_percent": 62.6
+    },
+    {
+      "time_ms": 9143,
+      "position_percent": 13
+    },
+    {
+      "time_ms": 9223,
+      "position_percent": 13
+    },
+    {
+      "time_ms": 9376,
+      "position_percent": 12
+    },
+    {
+      "time_ms": 9792,
+      "position_percent": 38.52
+    },
+    {
+      "time_ms": 10366,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 10426,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 10899,
+      "position_percent": 60.36
+    },
+    {
+      "time_ms": 11526,
+      "position_percent": 12
+    },
+    {
+      "time_ms": 11556,
+      "position_percent": 12
+    }
+  ],
+  "tags": [
+    "handjob",
+    "long",
+    "deep",
+    "wide"
+  ],
+  "source": "Realistic Handjob",
+  "license": "Original"
+}
