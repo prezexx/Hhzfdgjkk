@@ -1,0 +1,669 @@
+{
+  "source": "Autoblow Panel",
+  "count": 39,
+  "patterns": [
+    {
+      "id": "autoblow-gentle-wave-up",
+      "name": "Gentle Wave Up",
+      "description": "Autoblow Panel preset · intensity: low · wave, smooth, rhythmic",
+      "category": "autoblow",
+      "group": "low",
+      "file": "patterns/autoblow/ab-gentle-wave-up.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "low",
+        "wave",
+        "smooth",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-gentle-wave-down",
+      "name": "Gentle Wave Down",
+      "description": "Autoblow Panel preset · intensity: low · wave, smooth, rhythmic",
+      "category": "autoblow",
+      "group": "low",
+      "file": "patterns/autoblow/ab-gentle-wave-down.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "low",
+        "wave",
+        "smooth",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-gradual-climb-up",
+      "name": "Gradual Climb Up",
+      "description": "Autoblow Panel preset · intensity: low · gradual, smooth",
+      "category": "autoblow",
+      "group": "low",
+      "file": "patterns/autoblow/ab-gradual-climb-up.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "low",
+        "gradual",
+        "smooth"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-gradual-descent-down",
+      "name": "Gradual Descent Down",
+      "description": "Autoblow Panel preset · intensity: low · gradual, smooth",
+      "category": "autoblow",
+      "group": "low",
+      "file": "patterns/autoblow/ab-gradual-descent-down.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "low",
+        "gradual",
+        "smooth"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-ramp-up-slow",
+      "name": "Ramp Up Slow",
+      "description": "Autoblow Panel preset · intensity: low · ramp, smooth, gradual",
+      "category": "autoblow",
+      "group": "low",
+      "file": "patterns/autoblow/ab-ramp-up-slow.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "low",
+        "ramp",
+        "smooth",
+        "gradual"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-ramp-down-slow",
+      "name": "Ramp Down Slow",
+      "description": "Autoblow Panel preset · intensity: low · ramp, smooth, gradual",
+      "category": "autoblow",
+      "group": "low",
+      "file": "patterns/autoblow/ab-ramp-down-slow.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "low",
+        "ramp",
+        "smooth",
+        "gradual"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-incremental-up-slow",
+      "name": "Incremental Up Slow",
+      "description": "Autoblow Panel preset · intensity: low · incremental, stepped",
+      "category": "autoblow",
+      "group": "low",
+      "file": "patterns/autoblow/ab-incremental-up-slow.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "low",
+        "incremental",
+        "stepped"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-incremental-down-slow",
+      "name": "Incremental Down Slow",
+      "description": "Autoblow Panel preset · intensity: low · incremental, stepped",
+      "category": "autoblow",
+      "group": "low",
+      "file": "patterns/autoblow/ab-incremental-down-slow.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "low",
+        "incremental",
+        "stepped"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-direct-up-8s",
+      "name": "Direct Up 8s",
+      "description": "Autoblow Panel preset · intensity: low · direct, smooth",
+      "category": "autoblow",
+      "group": "low",
+      "file": "patterns/autoblow/ab-direct-up-8s.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "low",
+        "direct",
+        "smooth"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-direct-down-8s",
+      "name": "Direct Down 8s",
+      "description": "Autoblow Panel preset · intensity: low · direct, smooth",
+      "category": "autoblow",
+      "group": "low",
+      "file": "patterns/autoblow/ab-direct-down-8s.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "low",
+        "direct",
+        "smooth"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-high-pause",
+      "name": "High Pause",
+      "description": "Autoblow Panel preset · intensity: low · pause",
+      "category": "autoblow",
+      "group": "low",
+      "file": "patterns/autoblow/ab-high-pause.mhpattern.json",
+      "cycle_ms": 2000,
+      "tags": [
+        "autoblow",
+        "low",
+        "pause"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-mid-pause",
+      "name": "Mid Pause",
+      "description": "Autoblow Panel preset · intensity: low · pause",
+      "category": "autoblow",
+      "group": "low",
+      "file": "patterns/autoblow/ab-mid-pause.mhpattern.json",
+      "cycle_ms": 2000,
+      "tags": [
+        "autoblow",
+        "low",
+        "pause"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-low-pause",
+      "name": "Low Pause",
+      "description": "Autoblow Panel preset · intensity: low · pause",
+      "category": "autoblow",
+      "group": "low",
+      "file": "patterns/autoblow/ab-low-pause.mhpattern.json",
+      "cycle_ms": 2000,
+      "tags": [
+        "autoblow",
+        "low",
+        "pause"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-wave-up-slow",
+      "name": "Wave Up Slow",
+      "description": "Autoblow Panel preset · intensity: medium · wave, rhythmic",
+      "category": "autoblow",
+      "group": "medium",
+      "file": "patterns/autoblow/ab-wave-up-slow.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "medium",
+        "wave",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-wave-down-slow",
+      "name": "Wave Down Slow",
+      "description": "Autoblow Panel preset · intensity: medium · wave, rhythmic",
+      "category": "autoblow",
+      "group": "medium",
+      "file": "patterns/autoblow/ab-wave-down-slow.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "medium",
+        "wave",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-double-wave-up",
+      "name": "Double Wave Up",
+      "description": "Autoblow Panel preset · intensity: medium · wave, rhythmic",
+      "category": "autoblow",
+      "group": "medium",
+      "file": "patterns/autoblow/ab-double-wave-up.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "medium",
+        "wave",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-double-wave-down",
+      "name": "Double Wave Down",
+      "description": "Autoblow Panel preset · intensity: medium · wave, rhythmic",
+      "category": "autoblow",
+      "group": "medium",
+      "file": "patterns/autoblow/ab-double-wave-down.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "medium",
+        "wave",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-plateau-up",
+      "name": "Plateau Up",
+      "description": "Autoblow Panel preset · intensity: medium · plateau, smooth",
+      "category": "autoblow",
+      "group": "medium",
+      "file": "patterns/autoblow/ab-plateau-up.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "medium",
+        "plateau",
+        "smooth"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-plateau-down",
+      "name": "Plateau Down",
+      "description": "Autoblow Panel preset · intensity: medium · plateau, smooth",
+      "category": "autoblow",
+      "group": "medium",
+      "file": "patterns/autoblow/ab-plateau-down.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "medium",
+        "plateau",
+        "smooth"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-stepped-up",
+      "name": "Stepped Up",
+      "description": "Autoblow Panel preset · intensity: medium · stepped",
+      "category": "autoblow",
+      "group": "medium",
+      "file": "patterns/autoblow/ab-stepped-up.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "medium",
+        "stepped"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-stepped-down",
+      "name": "Stepped Down",
+      "description": "Autoblow Panel preset · intensity: medium · stepped",
+      "category": "autoblow",
+      "group": "medium",
+      "file": "patterns/autoblow/ab-stepped-down.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "medium",
+        "stepped"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-bounce-up",
+      "name": "Bounce Up",
+      "description": "Autoblow Panel preset · intensity: medium · bounce, rhythmic",
+      "category": "autoblow",
+      "group": "medium",
+      "file": "patterns/autoblow/ab-bounce-up.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "medium",
+        "bounce",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-bounce-down",
+      "name": "Bounce Down",
+      "description": "Autoblow Panel preset · intensity: medium · bounce, rhythmic",
+      "category": "autoblow",
+      "group": "medium",
+      "file": "patterns/autoblow/ab-bounce-down.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "medium",
+        "bounce",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-peak-valley-down",
+      "name": "Peak Valley Down",
+      "description": "Autoblow Panel preset · intensity: medium · wave, rhythmic",
+      "category": "autoblow",
+      "group": "medium",
+      "file": "patterns/autoblow/ab-peak-valley-down.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "medium",
+        "wave",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-valley-peak-up",
+      "name": "Valley Peak Up",
+      "description": "Autoblow Panel preset · intensity: medium · wave, rhythmic",
+      "category": "autoblow",
+      "group": "medium",
+      "file": "patterns/autoblow/ab-valley-peak-up.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "medium",
+        "wave",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-surge-up",
+      "name": "Surge Up",
+      "description": "Autoblow Panel preset · intensity: high · surge, pulse",
+      "category": "autoblow",
+      "group": "high",
+      "file": "patterns/autoblow/ab-surge-up.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "high",
+        "surge",
+        "pulse"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-surge-down",
+      "name": "Surge Down",
+      "description": "Autoblow Panel preset · intensity: high · surge, pulse",
+      "category": "autoblow",
+      "group": "high",
+      "file": "patterns/autoblow/ab-surge-down.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "high",
+        "surge",
+        "pulse"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-stutter-up",
+      "name": "Stutter Up",
+      "description": "Autoblow Panel preset · intensity: high · stutter, rhythmic",
+      "category": "autoblow",
+      "group": "high",
+      "file": "patterns/autoblow/ab-stutter-up.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "high",
+        "stutter",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-stutter-down",
+      "name": "Stutter Down",
+      "description": "Autoblow Panel preset · intensity: high · stutter, rhythmic",
+      "category": "autoblow",
+      "group": "high",
+      "file": "patterns/autoblow/ab-stutter-down.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "high",
+        "stutter",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-zigzag-up",
+      "name": "Zigzag Up",
+      "description": "Autoblow Panel preset · intensity: high · zigzag, rhythmic",
+      "category": "autoblow",
+      "group": "high",
+      "file": "patterns/autoblow/ab-zigzag-up.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "high",
+        "zigzag",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-zigzag-down",
+      "name": "Zigzag Down",
+      "description": "Autoblow Panel preset · intensity: high · zigzag, rhythmic",
+      "category": "autoblow",
+      "group": "high",
+      "file": "patterns/autoblow/ab-zigzag-down.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "high",
+        "zigzag",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-accelerating-up",
+      "name": "Accelerating Up",
+      "description": "Autoblow Panel preset · intensity: high · accelerating, rhythmic",
+      "category": "autoblow",
+      "group": "high",
+      "file": "patterns/autoblow/ab-accelerating-up.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "high",
+        "accelerating",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-accelerating-down",
+      "name": "Accelerating Down",
+      "description": "Autoblow Panel preset · intensity: high · accelerating, rhythmic",
+      "category": "autoblow",
+      "group": "high",
+      "file": "patterns/autoblow/ab-accelerating-down.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "high",
+        "accelerating",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-decelerating-up",
+      "name": "Decelerating Up",
+      "description": "Autoblow Panel preset · intensity: high · decelerating, rhythmic",
+      "category": "autoblow",
+      "group": "high",
+      "file": "patterns/autoblow/ab-decelerating-up.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "high",
+        "decelerating",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-decelerating-down",
+      "name": "Decelerating Down",
+      "description": "Autoblow Panel preset · intensity: high · decelerating, rhythmic",
+      "category": "autoblow",
+      "group": "high",
+      "file": "patterns/autoblow/ab-decelerating-down.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "high",
+        "decelerating",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-triple-wave-up",
+      "name": "Triple Wave Up",
+      "description": "Autoblow Panel preset · intensity: high · wave, rhythmic",
+      "category": "autoblow",
+      "group": "high",
+      "file": "patterns/autoblow/ab-triple-wave-up.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "high",
+        "wave",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-triple-wave-down",
+      "name": "Triple Wave Down",
+      "description": "Autoblow Panel preset · intensity: high · wave, rhythmic",
+      "category": "autoblow",
+      "group": "high",
+      "file": "patterns/autoblow/ab-triple-wave-down.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "high",
+        "wave",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-slow-sine-wave",
+      "name": "Slow Sine Wave",
+      "description": "Autoblow Panel preset · intensity: low · wave, smooth, rhythmic",
+      "category": "autoblow",
+      "group": "low",
+      "file": "patterns/autoblow/ab-slow-sine-wave.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "autoblow",
+        "low",
+        "wave",
+        "smooth",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    },
+    {
+      "id": "autoblow-rapid-pulse",
+      "name": "Rapid Pulse",
+      "description": "Autoblow Panel preset · intensity: high · pulse, rhythmic",
+      "category": "autoblow",
+      "group": "high",
+      "file": "patterns/autoblow/ab-rapid-pulse.mhpattern.json",
+      "cycle_ms": 12000,
+      "tags": [
+        "autoblow",
+        "high",
+        "pulse",
+        "rhythmic"
+      ],
+      "source": "Autoblow Panel",
+      "license": "MIT"
+    }
+  ]
+}

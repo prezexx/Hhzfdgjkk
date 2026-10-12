@@ -1,0 +1,51 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Normal Eighths",
+  "description": "Rhythmic pattern: Normal Eighths.",
+  "kind": "routine",
+  "cycle_ms": 4000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 500,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1000,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1500,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2000,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2500,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3000,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3500,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4000,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "generator",
+    "rhythm"
+  ],
+  "source": "Handy Remote Generator",
+  "license": "Original"
+}

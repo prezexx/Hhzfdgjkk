@@ -1,0 +1,116 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Random Phases",
+  "description": "Deterministic varied phases with changing depth and timing.",
+  "kind": "routine",
+  "cycle_ms": 11180,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 220,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 440,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 1040,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 1260,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 1480,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 2080,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 2430,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 3180,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 3930,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 4380,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 4660,
+      "position_percent": 10
+    },
+    {
+      "time_ms": 4880,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 5480,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 6080,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 6680,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 6900,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 7250,
+      "position_percent": 10
+    },
+    {
+      "time_ms": 8000,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 8350,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 8950,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 9230,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 9980,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 10730,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 11180,
+      "position_percent": 50
+    }
+  ],
+  "tags": [
+    "generator",
+    "random",
+    "varied"
+  ],
+  "source": "Handy Remote Generator",
+  "license": "Original"
+}

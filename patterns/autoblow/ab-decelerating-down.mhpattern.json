@@ -1,0 +1,46 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Decelerating Down",
+  "description": "Autoblow Panel preset · intensity: high · decelerating, rhythmic",
+  "kind": "routine",
+  "cycle_ms": 8000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 941,
+      "position_percent": 70
+    },
+    {
+      "time_ms": 1882,
+      "position_percent": 45
+    },
+    {
+      "time_ms": 3059,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 4471,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 6118,
+      "position_percent": 10
+    },
+    {
+      "time_ms": 8000,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "autoblow",
+    "high",
+    "decelerating",
+    "rhythmic"
+  ],
+  "source": "Autoblow Panel",
+  "source_url": "https://github.com/NinjaGuyDev/autoblow-panel",
+  "license": "MIT"
+}

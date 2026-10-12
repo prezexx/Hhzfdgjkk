@@ -1,0 +1,79 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Seven Beat",
+  "description": "Rhythmic pattern: Seven Beat.",
+  "kind": "routine",
+  "cycle_ms": 4000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 250,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 500,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 750,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1000,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1250,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1500,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1750,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2000,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2250,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2500,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2750,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3000,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3250,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3750,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4000,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "generator",
+    "rhythm"
+  ],
+  "source": "Handy Remote Generator",
+  "license": "Original"
+}

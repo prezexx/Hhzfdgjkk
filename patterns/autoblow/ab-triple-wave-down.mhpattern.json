@@ -1,0 +1,50 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Triple Wave Down",
+  "description": "Autoblow Panel preset · intensity: high · wave, rhythmic",
+  "kind": "routine",
+  "cycle_ms": 8000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1143,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 2286,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 3429,
+      "position_percent": 45
+    },
+    {
+      "time_ms": 4571,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 5714,
+      "position_percent": 25
+    },
+    {
+      "time_ms": 6857,
+      "position_percent": 45
+    },
+    {
+      "time_ms": 8000,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "autoblow",
+    "high",
+    "wave",
+    "rhythmic"
+  ],
+  "source": "Autoblow Panel",
+  "source_url": "https://github.com/NinjaGuyDev/autoblow-panel",
+  "license": "MIT"
+}

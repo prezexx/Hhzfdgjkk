@@ -1,0 +1,84 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Sine",
+  "description": "Smooth sinusoidal wave motion. Gentle, continuous up and down movement ideal for slow teasing or sustained stimulation.",
+  "kind": "routine",
+  "cycle_ms": 6400,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 400,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 800,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 1200,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 1600,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 2000,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2400,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 2800,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 3200,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 3600,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 4000,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 4400,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 4800,
+      "position_percent": 10
+    },
+    {
+      "time_ms": 5200,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5600,
+      "position_percent": 10
+    },
+    {
+      "time_ms": 6000,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 6400,
+      "position_percent": 35
+    }
+  ],
+  "tags": [
+    "handy-ai",
+    "loop"
+  ],
+  "source": "Handy AI Motion",
+  "source_url": "https://github.com/Fran31416/handy-ai-motion",
+  "license": "MIT"
+}

@@ -1,0 +1,223 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Slow Sine Wave",
+  "description": "Autoblow Panel preset · intensity: low · wave, smooth, rhythmic",
+  "kind": "routine",
+  "cycle_ms": 8000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 160,
+      "position_percent": 56
+    },
+    {
+      "time_ms": 320,
+      "position_percent": 62
+    },
+    {
+      "time_ms": 480,
+      "position_percent": 68
+    },
+    {
+      "time_ms": 640,
+      "position_percent": 74
+    },
+    {
+      "time_ms": 800,
+      "position_percent": 79
+    },
+    {
+      "time_ms": 960,
+      "position_percent": 84
+    },
+    {
+      "time_ms": 1120,
+      "position_percent": 89
+    },
+    {
+      "time_ms": 1280,
+      "position_percent": 92
+    },
+    {
+      "time_ms": 1440,
+      "position_percent": 95
+    },
+    {
+      "time_ms": 1600,
+      "position_percent": 98
+    },
+    {
+      "time_ms": 1760,
+      "position_percent": 99
+    },
+    {
+      "time_ms": 1920,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2080,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2240,
+      "position_percent": 99
+    },
+    {
+      "time_ms": 2400,
+      "position_percent": 98
+    },
+    {
+      "time_ms": 2560,
+      "position_percent": 95
+    },
+    {
+      "time_ms": 2720,
+      "position_percent": 92
+    },
+    {
+      "time_ms": 2880,
+      "position_percent": 89
+    },
+    {
+      "time_ms": 3040,
+      "position_percent": 84
+    },
+    {
+      "time_ms": 3200,
+      "position_percent": 79
+    },
+    {
+      "time_ms": 3360,
+      "position_percent": 74
+    },
+    {
+      "time_ms": 3520,
+      "position_percent": 68
+    },
+    {
+      "time_ms": 3680,
+      "position_percent": 62
+    },
+    {
+      "time_ms": 3840,
+      "position_percent": 56
+    },
+    {
+      "time_ms": 4000,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 4160,
+      "position_percent": 44
+    },
+    {
+      "time_ms": 4320,
+      "position_percent": 38
+    },
+    {
+      "time_ms": 4480,
+      "position_percent": 32
+    },
+    {
+      "time_ms": 4640,
+      "position_percent": 26
+    },
+    {
+      "time_ms": 4800,
+      "position_percent": 21
+    },
+    {
+      "time_ms": 4960,
+      "position_percent": 16
+    },
+    {
+      "time_ms": 5120,
+      "position_percent": 11
+    },
+    {
+      "time_ms": 5280,
+      "position_percent": 8
+    },
+    {
+      "time_ms": 5440,
+      "position_percent": 5
+    },
+    {
+      "time_ms": 5600,
+      "position_percent": 2
+    },
+    {
+      "time_ms": 5760,
+      "position_percent": 1
+    },
+    {
+      "time_ms": 5920,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6080,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6240,
+      "position_percent": 1
+    },
+    {
+      "time_ms": 6400,
+      "position_percent": 2
+    },
+    {
+      "time_ms": 6560,
+      "position_percent": 5
+    },
+    {
+      "time_ms": 6720,
+      "position_percent": 8
+    },
+    {
+      "time_ms": 6880,
+      "position_percent": 11
+    },
+    {
+      "time_ms": 7040,
+      "position_percent": 16
+    },
+    {
+      "time_ms": 7200,
+      "position_percent": 21
+    },
+    {
+      "time_ms": 7360,
+      "position_percent": 26
+    },
+    {
+      "time_ms": 7520,
+      "position_percent": 32
+    },
+    {
+      "time_ms": 7680,
+      "position_percent": 38
+    },
+    {
+      "time_ms": 7840,
+      "position_percent": 44
+    },
+    {
+      "time_ms": 8000,
+      "position_percent": 50
+    }
+  ],
+  "tags": [
+    "autoblow",
+    "low",
+    "wave",
+    "smooth",
+    "rhythmic"
+  ],
+  "source": "Autoblow Panel",
+  "source_url": "https://github.com/NinjaGuyDev/autoblow-panel",
+  "license": "MIT"
+}

@@ -1,0 +1,100 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Build Over Time",
+  "description": "Progressively accelerates from slow strokes to fast strokes.",
+  "kind": "routine",
+  "cycle_ms": 9800,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 900,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1800,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2600,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3400,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4100,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4800,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5400,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6000,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6500,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7000,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7400,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7800,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8120,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8440,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8700,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 8960,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9180,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9400,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9600,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9800,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "generator",
+    "build",
+    "accelerating"
+  ],
+  "source": "Handy Remote Generator",
+  "license": "Original"
+}

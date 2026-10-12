@@ -1,0 +1,68 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Grind",
+  "description": "Short, grinding movements at the top. Small range motion focused on the upper region.",
+  "kind": "routine",
+  "cycle_ms": 2800,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 200,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 400,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 600,
+      "position_percent": 95
+    },
+    {
+      "time_ms": 800,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1000,
+      "position_percent": 95
+    },
+    {
+      "time_ms": 1200,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 1400,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 1600,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 1800,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 2000,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 2400,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 2800,
+      "position_percent": 85
+    }
+  ],
+  "tags": [
+    "handy-ai",
+    "loop"
+  ],
+  "source": "Handy AI Motion",
+  "source_url": "https://github.com/Fran31416/handy-ai-motion",
+  "license": "MIT"
+}

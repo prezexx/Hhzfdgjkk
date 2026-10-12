@@ -1,0 +1,40 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Edge Hold",
+  "description": "Long slow strokes to the edge with extended holds. Builds to near-climax then backs off.",
+  "kind": "routine",
+  "cycle_ms": 10500,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 4000,
+      "position_percent": 95
+    },
+    {
+      "time_ms": 7000,
+      "position_percent": 95
+    },
+    {
+      "time_ms": 7500,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 8500,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 10500,
+      "position_percent": 20
+    }
+  ],
+  "tags": [
+    "handy-ai",
+    "loop"
+  ],
+  "source": "Handy AI Motion",
+  "source_url": "https://github.com/Fran31416/handy-ai-motion",
+  "license": "MIT"
+}

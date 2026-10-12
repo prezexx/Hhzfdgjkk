@@ -1,0 +1,66 @@
+{
+  "source": "WaveDriver",
+  "count": 4,
+  "patterns": [
+    {
+      "id": "wavedriver-wave",
+      "name": "Wave",
+      "description": "Smooth, even sinusoidal reciprocating motion.",
+      "category": "wavedriver",
+      "group": "wavedriver",
+      "file": "patterns/wavedriver/wd-wave.mhpattern.json",
+      "cycle_ms": 4000,
+      "tags": [
+        "wavedriver",
+        "wave"
+      ],
+      "source": "WaveDriver",
+      "license": "MIT"
+    },
+    {
+      "id": "wavedriver-realistic",
+      "name": "Realistic",
+      "description": "Asymmetric slider-crank motion with different acceleration in each direction.",
+      "category": "wavedriver",
+      "group": "wavedriver",
+      "file": "patterns/wavedriver/wd-realistic.mhpattern.json",
+      "cycle_ms": 4000,
+      "tags": [
+        "wavedriver",
+        "realistic"
+      ],
+      "source": "WaveDriver",
+      "license": "MIT"
+    },
+    {
+      "id": "wavedriver-thrust",
+      "name": "Thrust",
+      "description": "Slow retract, rapid thrust and brief hold.",
+      "category": "wavedriver",
+      "group": "wavedriver",
+      "file": "patterns/wavedriver/wd-thrust.mhpattern.json",
+      "cycle_ms": 4000,
+      "tags": [
+        "wavedriver",
+        "thrust"
+      ],
+      "source": "WaveDriver",
+      "license": "MIT"
+    },
+    {
+      "id": "wavedriver-escalate",
+      "name": "Escalate",
+      "description": "Sine movement that gradually builds its stroke depth.",
+      "category": "wavedriver",
+      "group": "wavedriver",
+      "file": "patterns/wavedriver/wd-escalate.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "wavedriver",
+        "escalate"
+      ],
+      "source": "WaveDriver",
+      "license": "MIT"
+    }
+  ]
+}

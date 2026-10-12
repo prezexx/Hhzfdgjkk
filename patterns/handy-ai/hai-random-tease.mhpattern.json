@@ -1,0 +1,52 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Random Tease",
+  "description": "Varied positions with irregular timing. Unpredictable movements that keep stimulation interesting.",
+  "kind": "routine",
+  "cycle_ms": 6900,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 15
+    },
+    {
+      "time_ms": 800,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 2000,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 2500,
+      "position_percent": 45
+    },
+    {
+      "time_ms": 4000,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 4600,
+      "position_percent": 25
+    },
+    {
+      "time_ms": 5500,
+      "position_percent": 70
+    },
+    {
+      "time_ms": 5900,
+      "position_percent": 55
+    },
+    {
+      "time_ms": 6900,
+      "position_percent": 15
+    }
+  ],
+  "tags": [
+    "handy-ai",
+    "loop"
+  ],
+  "source": "Handy AI Motion",
+  "source_url": "https://github.com/Fran31416/handy-ai-motion",
+  "license": "MIT"
+}

@@ -1,0 +1,340 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Realistic",
+  "description": "Asymmetric slider-crank motion with different acceleration in each direction.",
+  "kind": "routine",
+  "cycle_ms": 4000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 50,
+      "position_percent": 96.594
+    },
+    {
+      "time_ms": 100,
+      "position_percent": 86.947
+    },
+    {
+      "time_ms": 150,
+      "position_percent": 72.663
+    },
+    {
+      "time_ms": 200,
+      "position_percent": 56.052
+    },
+    {
+      "time_ms": 250,
+      "position_percent": 39.564
+    },
+    {
+      "time_ms": 300,
+      "position_percent": 25.151
+    },
+    {
+      "time_ms": 350,
+      "position_percent": 13.885
+    },
+    {
+      "time_ms": 400,
+      "position_percent": 6.045
+    },
+    {
+      "time_ms": 450,
+      "position_percent": 1.489
+    },
+    {
+      "time_ms": 500,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 550,
+      "position_percent": 1.489
+    },
+    {
+      "time_ms": 600,
+      "position_percent": 6.045
+    },
+    {
+      "time_ms": 650,
+      "position_percent": 13.885
+    },
+    {
+      "time_ms": 700,
+      "position_percent": 25.151
+    },
+    {
+      "time_ms": 750,
+      "position_percent": 39.564
+    },
+    {
+      "time_ms": 800,
+      "position_percent": 56.052
+    },
+    {
+      "time_ms": 850,
+      "position_percent": 72.663
+    },
+    {
+      "time_ms": 900,
+      "position_percent": 86.947
+    },
+    {
+      "time_ms": 950,
+      "position_percent": 96.594
+    },
+    {
+      "time_ms": 1000,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1050,
+      "position_percent": 96.594
+    },
+    {
+      "time_ms": 1100,
+      "position_percent": 86.947
+    },
+    {
+      "time_ms": 1150,
+      "position_percent": 72.663
+    },
+    {
+      "time_ms": 1200,
+      "position_percent": 56.052
+    },
+    {
+      "time_ms": 1250,
+      "position_percent": 39.564
+    },
+    {
+      "time_ms": 1300,
+      "position_percent": 25.151
+    },
+    {
+      "time_ms": 1350,
+      "position_percent": 13.885
+    },
+    {
+      "time_ms": 1400,
+      "position_percent": 6.045
+    },
+    {
+      "time_ms": 1450,
+      "position_percent": 1.489
+    },
+    {
+      "time_ms": 1500,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1550,
+      "position_percent": 1.489
+    },
+    {
+      "time_ms": 1600,
+      "position_percent": 6.045
+    },
+    {
+      "time_ms": 1650,
+      "position_percent": 13.885
+    },
+    {
+      "time_ms": 1700,
+      "position_percent": 25.151
+    },
+    {
+      "time_ms": 1750,
+      "position_percent": 39.564
+    },
+    {
+      "time_ms": 1800,
+      "position_percent": 56.052
+    },
+    {
+      "time_ms": 1850,
+      "position_percent": 72.663
+    },
+    {
+      "time_ms": 1900,
+      "position_percent": 86.947
+    },
+    {
+      "time_ms": 1950,
+      "position_percent": 96.594
+    },
+    {
+      "time_ms": 2000,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 2050,
+      "position_percent": 96.594
+    },
+    {
+      "time_ms": 2100,
+      "position_percent": 86.947
+    },
+    {
+      "time_ms": 2150,
+      "position_percent": 72.663
+    },
+    {
+      "time_ms": 2200,
+      "position_percent": 56.052
+    },
+    {
+      "time_ms": 2250,
+      "position_percent": 39.564
+    },
+    {
+      "time_ms": 2300,
+      "position_percent": 25.151
+    },
+    {
+      "time_ms": 2350,
+      "position_percent": 13.885
+    },
+    {
+      "time_ms": 2400,
+      "position_percent": 6.045
+    },
+    {
+      "time_ms": 2450,
+      "position_percent": 1.489
+    },
+    {
+      "time_ms": 2500,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2550,
+      "position_percent": 1.489
+    },
+    {
+      "time_ms": 2600,
+      "position_percent": 6.045
+    },
+    {
+      "time_ms": 2650,
+      "position_percent": 13.885
+    },
+    {
+      "time_ms": 2700,
+      "position_percent": 25.151
+    },
+    {
+      "time_ms": 2750,
+      "position_percent": 39.564
+    },
+    {
+      "time_ms": 2800,
+      "position_percent": 56.052
+    },
+    {
+      "time_ms": 2850,
+      "position_percent": 72.663
+    },
+    {
+      "time_ms": 2900,
+      "position_percent": 86.947
+    },
+    {
+      "time_ms": 2950,
+      "position_percent": 96.594
+    },
+    {
+      "time_ms": 3000,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3050,
+      "position_percent": 96.594
+    },
+    {
+      "time_ms": 3100,
+      "position_percent": 86.947
+    },
+    {
+      "time_ms": 3150,
+      "position_percent": 72.663
+    },
+    {
+      "time_ms": 3200,
+      "position_percent": 56.052
+    },
+    {
+      "time_ms": 3250,
+      "position_percent": 39.564
+    },
+    {
+      "time_ms": 3300,
+      "position_percent": 25.151
+    },
+    {
+      "time_ms": 3350,
+      "position_percent": 13.885
+    },
+    {
+      "time_ms": 3400,
+      "position_percent": 6.045
+    },
+    {
+      "time_ms": 3450,
+      "position_percent": 1.489
+    },
+    {
+      "time_ms": 3500,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3550,
+      "position_percent": 1.489
+    },
+    {
+      "time_ms": 3600,
+      "position_percent": 6.045
+    },
+    {
+      "time_ms": 3650,
+      "position_percent": 13.885
+    },
+    {
+      "time_ms": 3700,
+      "position_percent": 25.151
+    },
+    {
+      "time_ms": 3750,
+      "position_percent": 39.564
+    },
+    {
+      "time_ms": 3800,
+      "position_percent": 56.052
+    },
+    {
+      "time_ms": 3850,
+      "position_percent": 72.663
+    },
+    {
+      "time_ms": 3900,
+      "position_percent": 86.947
+    },
+    {
+      "time_ms": 3950,
+      "position_percent": 96.594
+    },
+    {
+      "time_ms": 4000,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "wavedriver",
+    "realistic"
+  ],
+  "source": "WaveDriver",
+  "source_url": "https://github.com/hapticforge/wavedriver",
+  "license": "MIT"
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Fast Stroke",
+  "description": "Quick full-range strokes. Rapid up and down movement for intense stimulation at high speeds.",
+  "kind": "routine",
+  "cycle_ms": 500,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 250,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 500,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "handy-ai",
+    "loop"
+  ],
+  "source": "Handy AI Motion",
+  "source_url": "https://github.com/Fran31416/handy-ai-motion",
+  "license": "MIT"
+}

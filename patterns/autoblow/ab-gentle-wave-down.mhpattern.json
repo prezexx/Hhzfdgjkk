@@ -1,0 +1,59 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Gentle Wave Down",
+  "description": "Autoblow Panel preset · intensity: low · wave, smooth, rhythmic",
+  "kind": "routine",
+  "cycle_ms": 8000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1043,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 1739,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 2783,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 3478,
+      "position_percent": 70
+    },
+    {
+      "time_ms": 4522,
+      "position_percent": 45
+    },
+    {
+      "time_ms": 5217,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 6261,
+      "position_percent": 25
+    },
+    {
+      "time_ms": 6957,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 8000,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "autoblow",
+    "low",
+    "wave",
+    "smooth",
+    "rhythmic"
+  ],
+  "source": "Autoblow Panel",
+  "source_url": "https://github.com/NinjaGuyDev/autoblow-panel",
+  "license": "MIT"
+}

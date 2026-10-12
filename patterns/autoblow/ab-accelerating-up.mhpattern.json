@@ -1,0 +1,42 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Accelerating Up",
+  "description": "Autoblow Panel preset · intensity: high · accelerating, rhythmic",
+  "kind": "routine",
+  "cycle_ms": 8000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2462,
+      "position_percent": 10
+    },
+    {
+      "time_ms": 4308,
+      "position_percent": 25
+    },
+    {
+      "time_ms": 5846,
+      "position_percent": 45
+    },
+    {
+      "time_ms": 7077,
+      "position_percent": 70
+    },
+    {
+      "time_ms": 8000,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "autoblow",
+    "high",
+    "accelerating",
+    "rhythmic"
+  ],
+  "source": "Autoblow Panel",
+  "source_url": "https://github.com/NinjaGuyDev/autoblow-panel",
+  "license": "MIT"
+}

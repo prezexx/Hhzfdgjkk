@@ -1,0 +1,102 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Rapid Pulse",
+  "description": "Autoblow Panel preset · intensity: high · pulse, rhythmic",
+  "kind": "routine",
+  "cycle_ms": 12000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 600,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1200,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1800,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2400,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3000,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3600,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4200,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4800,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 5400,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6000,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6600,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7200,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 7800,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8400,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 9000,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9600,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 10200,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 10800,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 11400,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 12000,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "autoblow",
+    "high",
+    "pulse",
+    "rhythmic"
+  ],
+  "source": "Autoblow Panel",
+  "source_url": "https://github.com/NinjaGuyDev/autoblow-panel",
+  "license": "MIT"
+}

@@ -1,0 +1,46 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Surge Up",
+  "description": "Autoblow Panel preset · intensity: high · surge, pulse",
+  "kind": "routine",
+  "cycle_ms": 8000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1143,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2286,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 4000,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 5143,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 6857,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 8000,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "autoblow",
+    "high",
+    "surge",
+    "pulse"
+  ],
+  "source": "Autoblow Panel",
+  "source_url": "https://github.com/NinjaGuyDev/autoblow-panel",
+  "license": "MIT"
+}

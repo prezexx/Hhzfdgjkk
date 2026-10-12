@@ -1,0 +1,62 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Incremental Up Slow",
+  "description": "Autoblow Panel preset · intensity: low · incremental, stepped",
+  "kind": "routine",
+  "cycle_ms": 8000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 800,
+      "position_percent": 10
+    },
+    {
+      "time_ms": 1600,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 2400,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 3200,
+      "position_percent": 40
+    },
+    {
+      "time_ms": 4000,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 4800,
+      "position_percent": 60
+    },
+    {
+      "time_ms": 5600,
+      "position_percent": 70
+    },
+    {
+      "time_ms": 6400,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 7200,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 8000,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "autoblow",
+    "low",
+    "incremental",
+    "stepped"
+  ],
+  "source": "Autoblow Panel",
+  "source_url": "https://github.com/NinjaGuyDev/autoblow-panel",
+  "license": "MIT"
+}

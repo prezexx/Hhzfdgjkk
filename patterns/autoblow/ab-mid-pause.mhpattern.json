@@ -1,0 +1,25 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Mid Pause",
+  "description": "Autoblow Panel preset · intensity: low · pause",
+  "kind": "routine",
+  "cycle_ms": 2000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 2000,
+      "position_percent": 50
+    }
+  ],
+  "tags": [
+    "autoblow",
+    "low",
+    "pause"
+  ],
+  "source": "Autoblow Panel",
+  "source_url": "https://github.com/NinjaGuyDev/autoblow-panel",
+  "license": "MIT"
+}

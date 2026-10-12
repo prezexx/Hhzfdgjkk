@@ -1,0 +1,143 @@
+{
+  "source": "Handy Remote Generator",
+  "count": 9,
+  "patterns": [
+    {
+      "id": "generator-consistent",
+      "name": "Consistent Rhythm",
+      "description": "Steady full-range rhythm with even timing.",
+      "category": "generator",
+      "group": "generator",
+      "file": "patterns/generator/gen-consistent.mhpattern.json",
+      "cycle_ms": 4000,
+      "tags": [
+        "generator",
+        "steady"
+      ],
+      "source": "Handy Remote Generator",
+      "license": "Original"
+    },
+    {
+      "id": "generator-build-over-time",
+      "name": "Build Over Time",
+      "description": "Progressively accelerates from slow strokes to fast strokes.",
+      "category": "generator",
+      "group": "generator",
+      "file": "patterns/generator/gen-build-over-time.mhpattern.json",
+      "cycle_ms": 9800,
+      "tags": [
+        "generator",
+        "build",
+        "accelerating"
+      ],
+      "source": "Handy Remote Generator",
+      "license": "Original"
+    },
+    {
+      "id": "generator-random-phases",
+      "name": "Random Phases",
+      "description": "Deterministic varied phases with changing depth and timing.",
+      "category": "generator",
+      "group": "generator",
+      "file": "patterns/generator/gen-random-phases.mhpattern.json",
+      "cycle_ms": 11180,
+      "tags": [
+        "generator",
+        "random",
+        "varied"
+      ],
+      "source": "Handy Remote Generator",
+      "license": "Original"
+    },
+    {
+      "id": "generator-slow-quarters",
+      "name": "Slow Quarters",
+      "description": "Rhythmic pattern: Slow Quarters.",
+      "category": "generator",
+      "group": "generator",
+      "file": "patterns/generator/gen-slow-quarters.mhpattern.json",
+      "cycle_ms": 4000,
+      "tags": [
+        "generator",
+        "rhythm"
+      ],
+      "source": "Handy Remote Generator",
+      "license": "Original"
+    },
+    {
+      "id": "generator-three-rest-slow",
+      "name": "Three + Rest Slow",
+      "description": "Rhythmic pattern: Three + Rest Slow.",
+      "category": "generator",
+      "group": "generator",
+      "file": "patterns/generator/gen-three-rest-slow.mhpattern.json",
+      "cycle_ms": 4000,
+      "tags": [
+        "generator",
+        "rhythm"
+      ],
+      "source": "Handy Remote Generator",
+      "license": "Original"
+    },
+    {
+      "id": "generator-normal-eighths",
+      "name": "Normal Eighths",
+      "description": "Rhythmic pattern: Normal Eighths.",
+      "category": "generator",
+      "group": "generator",
+      "file": "patterns/generator/gen-normal-eighths.mhpattern.json",
+      "cycle_ms": 4000,
+      "tags": [
+        "generator",
+        "rhythm"
+      ],
+      "source": "Handy Remote Generator",
+      "license": "Original"
+    },
+    {
+      "id": "generator-heartbeat",
+      "name": "Heartbeat",
+      "description": "Rhythmic pattern: Heartbeat.",
+      "category": "generator",
+      "group": "generator",
+      "file": "patterns/generator/gen-heartbeat.mhpattern.json",
+      "cycle_ms": 4000,
+      "tags": [
+        "generator",
+        "rhythm"
+      ],
+      "source": "Handy Remote Generator",
+      "license": "Original"
+    },
+    {
+      "id": "generator-seven-beat",
+      "name": "Seven Beat",
+      "description": "Rhythmic pattern: Seven Beat.",
+      "category": "generator",
+      "group": "generator",
+      "file": "patterns/generator/gen-seven-beat.mhpattern.json",
+      "cycle_ms": 4000,
+      "tags": [
+        "generator",
+        "rhythm"
+      ],
+      "source": "Handy Remote Generator",
+      "license": "Original"
+    },
+    {
+      "id": "generator-double-time",
+      "name": "Double Time",
+      "description": "Rhythmic pattern: Double Time.",
+      "category": "generator",
+      "group": "generator",
+      "file": "patterns/generator/gen-double-time.mhpattern.json",
+      "cycle_ms": 4000,
+      "tags": [
+        "generator",
+        "rhythm"
+      ],
+      "source": "Handy Remote Generator",
+      "license": "Original"
+    }
+  ]
+}

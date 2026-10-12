@@ -1,0 +1,57 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Stepped Up",
+  "description": "Autoblow Panel preset · intensity: medium · stepped",
+  "kind": "routine",
+  "cycle_ms": 8000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1263,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 1684,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 2947,
+      "position_percent": 40
+    },
+    {
+      "time_ms": 3368,
+      "position_percent": 40
+    },
+    {
+      "time_ms": 4632,
+      "position_percent": 60
+    },
+    {
+      "time_ms": 5053,
+      "position_percent": 60
+    },
+    {
+      "time_ms": 6316,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 6737,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 8000,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "autoblow",
+    "medium",
+    "stepped"
+  ],
+  "source": "Autoblow Panel",
+  "source_url": "https://github.com/NinjaGuyDev/autoblow-panel",
+  "license": "MIT"
+}

@@ -1,0 +1,156 @@
+{
+  "source": "Handy AI Motion",
+  "count": 10,
+  "patterns": [
+    {
+      "id": "handy-ai-sine",
+      "name": "Sine",
+      "description": "Smooth sinusoidal wave motion. Gentle, continuous up and down movement ideal for slow teasing or sustained stimulation.",
+      "category": "handy-ai",
+      "group": "handy-ai",
+      "file": "patterns/handy-ai/hai-sine.mhpattern.json",
+      "cycle_ms": 6400,
+      "tags": [
+        "handy-ai",
+        "loop"
+      ],
+      "source": "Handy AI Motion",
+      "license": "MIT"
+    },
+    {
+      "id": "handy-ai-fast-stroke",
+      "name": "Fast Stroke",
+      "description": "Quick full-range strokes. Rapid up and down movement for intense stimulation at high speeds.",
+      "category": "handy-ai",
+      "group": "handy-ai",
+      "file": "patterns/handy-ai/hai-fast-stroke.mhpattern.json",
+      "cycle_ms": 500,
+      "tags": [
+        "handy-ai",
+        "loop"
+      ],
+      "source": "Handy AI Motion",
+      "license": "MIT"
+    },
+    {
+      "id": "handy-ai-slow-tease",
+      "name": "Slow Tease",
+      "description": "Slow, deliberate strokes with pauses. Builds anticipation with extended holds at extremes.",
+      "category": "handy-ai",
+      "group": "handy-ai",
+      "file": "patterns/handy-ai/hai-slow-tease.mhpattern.json",
+      "cycle_ms": 8000,
+      "tags": [
+        "handy-ai",
+        "loop"
+      ],
+      "source": "Handy AI Motion",
+      "license": "MIT"
+    },
+    {
+      "id": "handy-ai-pulse",
+      "name": "Pulse",
+      "description": "Rhythmic pulsing motion in mid-range. Quick pulses centered around 50% position.",
+      "category": "handy-ai",
+      "group": "handy-ai",
+      "file": "patterns/handy-ai/hai-pulse.mhpattern.json",
+      "cycle_ms": 1500,
+      "tags": [
+        "handy-ai",
+        "loop"
+      ],
+      "source": "Handy AI Motion",
+      "license": "MIT"
+    },
+    {
+      "id": "handy-ai-edge-hold",
+      "name": "Edge Hold",
+      "description": "Long slow strokes to the edge with extended holds. Builds to near-climax then backs off.",
+      "category": "handy-ai",
+      "group": "handy-ai",
+      "file": "patterns/handy-ai/hai-edge-hold.mhpattern.json",
+      "cycle_ms": 10500,
+      "tags": [
+        "handy-ai",
+        "loop"
+      ],
+      "source": "Handy AI Motion",
+      "license": "MIT"
+    },
+    {
+      "id": "handy-ai-grind",
+      "name": "Grind",
+      "description": "Short, grinding movements at the top. Small range motion focused on the upper region.",
+      "category": "handy-ai",
+      "group": "handy-ai",
+      "file": "patterns/handy-ai/hai-grind.mhpattern.json",
+      "cycle_ms": 2800,
+      "tags": [
+        "handy-ai",
+        "loop"
+      ],
+      "source": "Handy AI Motion",
+      "license": "MIT"
+    },
+    {
+      "id": "handy-ai-depth-thrust",
+      "name": "Depth Thrust",
+      "description": "Full depth thrusting motion. Deep strokes from top to bottom with consistent rhythm.",
+      "category": "handy-ai",
+      "group": "handy-ai",
+      "file": "patterns/handy-ai/hai-depth-thrust.mhpattern.json",
+      "cycle_ms": 1400,
+      "tags": [
+        "handy-ai",
+        "loop"
+      ],
+      "source": "Handy AI Motion",
+      "license": "MIT"
+    },
+    {
+      "id": "handy-ai-random-tease",
+      "name": "Random Tease",
+      "description": "Varied positions with irregular timing. Unpredictable movements that keep stimulation interesting.",
+      "category": "handy-ai",
+      "group": "handy-ai",
+      "file": "patterns/handy-ai/hai-random-tease.mhpattern.json",
+      "cycle_ms": 6900,
+      "tags": [
+        "handy-ai",
+        "loop"
+      ],
+      "source": "Handy AI Motion",
+      "license": "MIT"
+    },
+    {
+      "id": "handy-ai-wave-build",
+      "name": "Wave Build",
+      "description": "Gradual intensity building wave. Starts slow and increases in speed before resetting.",
+      "category": "handy-ai",
+      "group": "handy-ai",
+      "file": "patterns/handy-ai/hai-wave-build.mhpattern.json",
+      "cycle_ms": 5200,
+      "tags": [
+        "handy-ai",
+        "loop"
+      ],
+      "source": "Handy AI Motion",
+      "license": "MIT"
+    },
+    {
+      "id": "handy-ai-shallow-fast",
+      "name": "Shallow Fast",
+      "description": "Fast shallow strokes. Quick movements in the lower third for focused stimulation.",
+      "category": "handy-ai",
+      "group": "handy-ai",
+      "file": "patterns/handy-ai/hai-shallow-fast.mhpattern.json",
+      "cycle_ms": 1200,
+      "tags": [
+        "handy-ai",
+        "loop"
+      ],
+      "source": "Handy AI Motion",
+      "license": "MIT"
+    }
+  ]
+}

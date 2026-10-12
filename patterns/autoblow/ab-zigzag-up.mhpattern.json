@@ -1,0 +1,66 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Zigzag Up",
+  "description": "Autoblow Panel preset · intensity: high · zigzag, rhythmic",
+  "kind": "routine",
+  "cycle_ms": 8000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 941,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 1412,
+      "position_percent": 15
+    },
+    {
+      "time_ms": 2353,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 2824,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 3765,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 4235,
+      "position_percent": 45
+    },
+    {
+      "time_ms": 5176,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 5647,
+      "position_percent": 60
+    },
+    {
+      "time_ms": 6588,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 7059,
+      "position_percent": 75
+    },
+    {
+      "time_ms": 8000,
+      "position_percent": 100
+    }
+  ],
+  "tags": [
+    "autoblow",
+    "high",
+    "zigzag",
+    "rhythmic"
+  ],
+  "source": "Autoblow Panel",
+  "source_url": "https://github.com/NinjaGuyDev/autoblow-panel",
+  "license": "MIT"
+}
