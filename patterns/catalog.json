@@ -1,6 +1,6 @@
 {
   "schema": "handy-remote.motion-catalog.v3",
-  "count": 152,
+  "count": 160,
   "sources": [
     {
       "name": "MagicHandy",
@@ -35,6 +35,11 @@
       "name": "FunSync Player",
       "license": "GPL-3.0-or-later",
       "url": "https://github.com/DaveMakesWaves/funsync-player"
+    },
+    {
+      "name": "Realistic Handjob",
+      "license": "Original",
+      "description": "Eigenständig entwickelte wiederholbare Bewegungsabläufe"
     }
   ],
   "patterns": [
@@ -2622,6 +2627,153 @@
       "source": "FunSync Player",
       "license": "GPL-3.0-or-later",
       "motion": "pulse"
+    },
+    {
+      "id": "handjob-natural",
+      "name": "Natural Handjob",
+      "description": "Natürlich wirkender Rhythmus mit leicht wechselndem Hub, ungleichen Auf- und Abbewegungen und kurzen Umkehrpausen.",
+      "category": "handjob",
+      "group": "handjob",
+      "file": "patterns/realistic-handjob/hj-natural.mhpattern.json",
+      "cycle_ms": 9223,
+      "tags": [
+        "handjob",
+        "natural",
+        "realistic",
+        "varied",
+        "medium"
+      ],
+      "source": "Realistic Handjob",
+      "license": "Original",
+      "motion": "handjob"
+    },
+    {
+      "id": "handjob-slow-sensual",
+      "name": "Slow Sensual",
+      "description": "Ruhiger, weicher Handjob-Rhythmus mit langen Auf- und Abbewegungen und kurzen Haltephasen.",
+      "category": "handjob",
+      "group": "handjob",
+      "file": "patterns/realistic-handjob/hj-slow-sensual.mhpattern.json",
+      "cycle_ms": 14300,
+      "tags": [
+        "handjob",
+        "slow",
+        "gentle",
+        "sensual"
+      ],
+      "source": "Realistic Handjob",
+      "license": "Original",
+      "motion": "handjob"
+    },
+    {
+      "id": "handjob-short-strokes",
+      "name": "Short Strokes",
+      "description": "Kurze, schnelle Bewegungen innerhalb eines begrenzten Teilbereichs mit bewusst kleinen Tempounterschieden.",
+      "category": "handjob",
+      "group": "handjob",
+      "file": "patterns/realistic-handjob/hj-short-strokes.mhpattern.json",
+      "cycle_ms": 7080,
+      "tags": [
+        "handjob",
+        "short",
+        "quick",
+        "shallow"
+      ],
+      "source": "Realistic Handjob",
+      "license": "Original",
+      "motion": "handjob"
+    },
+    {
+      "id": "handjob-long-strokes",
+      "name": "Long Strokes",
+      "description": "Lange Bewegungen über einen großen Teil des eingestellten Hubbereichs, mit asymmetrischer Rückbewegung.",
+      "category": "handjob",
+      "group": "handjob",
+      "file": "patterns/realistic-handjob/hj-long-strokes.mhpattern.json",
+      "cycle_ms": 11556,
+      "tags": [
+        "handjob",
+        "long",
+        "deep",
+        "wide"
+      ],
+      "source": "Realistic Handjob",
+      "license": "Original",
+      "motion": "handjob"
+    },
+    {
+      "id": "handjob-double-stroke",
+      "name": "Double Stroke",
+      "description": "Jeweils zwei etwas schnellere Bewegungen hintereinander, gefolgt von einer spürbaren Rhythmuspause.",
+      "category": "handjob",
+      "group": "handjob",
+      "file": "patterns/realistic-handjob/hj-double-stroke.mhpattern.json",
+      "cycle_ms": 7510,
+      "tags": [
+        "handjob",
+        "double",
+        "pulse",
+        "pause"
+      ],
+      "source": "Realistic Handjob",
+      "license": "Original",
+      "motion": "handjob"
+    },
+    {
+      "id": "handjob-mixed-rhythm",
+      "name": "Mixed Rhythm",
+      "description": "Wechsel aus kurzen und langen Handbewegungen mit variierender Geschwindigkeit sowie kleinen Pausen.",
+      "category": "handjob",
+      "group": "handjob",
+      "file": "patterns/realistic-handjob/hj-mixed-rhythm.mhpattern.json",
+      "cycle_ms": 11001,
+      "tags": [
+        "handjob",
+        "mixed",
+        "rhythm",
+        "short",
+        "long"
+      ],
+      "source": "Realistic Handjob",
+      "license": "Original",
+      "motion": "handjob"
+    },
+    {
+      "id": "handjob-realistic-variation",
+      "name": "Realistic Variation",
+      "description": "Weniger mechanisch wirkende Folge mit unregelmäßigem Hub, variabler Umkehrgeschwindigkeit und wechselnden Pausen.",
+      "category": "handjob",
+      "group": "handjob",
+      "file": "patterns/realistic-handjob/hj-realistic-variation.mhpattern.json",
+      "cycle_ms": 14404,
+      "tags": [
+        "handjob",
+        "realistic",
+        "variation",
+        "random",
+        "irregular"
+      ],
+      "source": "Realistic Handjob",
+      "license": "Original",
+      "motion": "handjob"
+    },
+    {
+      "id": "handjob-progressive",
+      "name": "Progressive Handjob",
+      "description": "Beginnt langsam und vergrößert den Hub; anschließend werden die Handbewegungen schneller, bevor die Schleife neu beginnt.",
+      "category": "handjob",
+      "group": "handjob",
+      "file": "patterns/realistic-handjob/hj-progressive.mhpattern.json",
+      "cycle_ms": 15120,
+      "tags": [
+        "handjob",
+        "progressive",
+        "build",
+        "accelerating"
+      ],
+      "source": "Realistic Handjob",
+      "license": "Original",
+      "motion": "handjob"
     }
   ]
 }
