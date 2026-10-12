@@ -1,0 +1,229 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Short Strokes",
+  "description": "Kurze, schnelle Bewegungen innerhalb eines begrenzten Teilbereichs mit bewusst kleinen Tempounterschieden.",
+  "kind": "routine",
+  "cycle_ms": 7080,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 55
+    },
+    {
+      "time_ms": 134,
+      "position_percent": 63.16
+    },
+    {
+      "time_ms": 320,
+      "position_percent": 79
+    },
+    {
+      "time_ms": 340,
+      "position_percent": 79
+    },
+    {
+      "time_ms": 503,
+      "position_percent": 69.88
+    },
+    {
+      "time_ms": 720,
+      "position_percent": 55
+    },
+    {
+      "time_ms": 760,
+      "position_percent": 55
+    },
+    {
+      "time_ms": 916,
+      "position_percent": 53
+    },
+    {
+      "time_ms": 1034,
+      "position_percent": 60.14
+    },
+    {
+      "time_ms": 1196,
+      "position_percent": 74
+    },
+    {
+      "time_ms": 1206,
+      "position_percent": 74
+    },
+    {
+      "time_ms": 1348,
+      "position_percent": 66.02
+    },
+    {
+      "time_ms": 1536,
+      "position_percent": 53
+    },
+    {
+      "time_ms": 1576,
+      "position_percent": 53
+    },
+    {
+      "time_ms": 1732,
+      "position_percent": 55
+    },
+    {
+      "time_ms": 1879,
+      "position_percent": 64.18
+    },
+    {
+      "time_ms": 2082,
+      "position_percent": 82
+    },
+    {
+      "time_ms": 2237,
+      "position_percent": 71.74
+    },
+    {
+      "time_ms": 2442,
+      "position_percent": 55
+    },
+    {
+      "time_ms": 2472,
+      "position_percent": 55
+    },
+    {
+      "time_ms": 2634,
+      "position_percent": 59
+    },
+    {
+      "time_ms": 2764,
+      "position_percent": 66.14
+    },
+    {
+      "time_ms": 2944,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 2964,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 3136,
+      "position_percent": 72.02
+    },
+    {
+      "time_ms": 3364,
+      "position_percent": 59
+    },
+    {
+      "time_ms": 3404,
+      "position_percent": 59
+    },
+    {
+      "time_ms": 3566,
+      "position_percent": 55
+    },
+    {
+      "time_ms": 3705,
+      "position_percent": 62.48
+    },
+    {
+      "time_ms": 3896,
+      "position_percent": 77
+    },
+    {
+      "time_ms": 4047,
+      "position_percent": 68.64
+    },
+    {
+      "time_ms": 4246,
+      "position_percent": 55
+    },
+    {
+      "time_ms": 4276,
+      "position_percent": 55
+    },
+    {
+      "time_ms": 4432,
+      "position_percent": 57
+    },
+    {
+      "time_ms": 4579,
+      "position_percent": 66.52
+    },
+    {
+      "time_ms": 4782,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 4812,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 4997,
+      "position_percent": 74.36
+    },
+    {
+      "time_ms": 5242,
+      "position_percent": 57
+    },
+    {
+      "time_ms": 5262,
+      "position_percent": 57
+    },
+    {
+      "time_ms": 5424,
+      "position_percent": 53
+    },
+    {
+      "time_ms": 5546,
+      "position_percent": 60.82
+    },
+    {
+      "time_ms": 5714,
+      "position_percent": 76
+    },
+    {
+      "time_ms": 5886,
+      "position_percent": 67.26
+    },
+    {
+      "time_ms": 6114,
+      "position_percent": 53
+    },
+    {
+      "time_ms": 6144,
+      "position_percent": 53
+    },
+    {
+      "time_ms": 6300,
+      "position_percent": 55
+    },
+    {
+      "time_ms": 6451,
+      "position_percent": 63.84
+    },
+    {
+      "time_ms": 6660,
+      "position_percent": 81
+    },
+    {
+      "time_ms": 6670,
+      "position_percent": 81
+    },
+    {
+      "time_ms": 6838,
+      "position_percent": 71.12
+    },
+    {
+      "time_ms": 7060,
+      "position_percent": 55
+    },
+    {
+      "time_ms": 7080,
+      "position_percent": 55
+    }
+  ],
+  "tags": [
+    "handjob",
+    "short",
+    "quick",
+    "shallow"
+  ],
+  "source": "Realistic Handjob",
+  "license": "Original"
+}
