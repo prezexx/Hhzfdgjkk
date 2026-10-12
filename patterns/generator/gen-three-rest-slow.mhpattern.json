@@ -1,41 +1,33 @@
 {
   "schema": "handy-remote.pattern.v1",
-  "name": "Three + Rest Slow",
-  "description": "Rhythmic pattern: Three + Rest Slow.",
+  "name": "Long-Short Pulse",
+  "description": "Two long strokes followed by a short accent and recovery.",
   "kind": "routine",
-  "cycle_ms": 4000,
+  "cycle_ms": 2480,
   "points": [
     {
       "time_ms": 0,
-      "position_percent": 0
+      "position_percent": 20
     },
     {
-      "time_ms": 500,
-      "position_percent": 100
+      "time_ms": 700,
+      "position_percent": 90
     },
     {
-      "time_ms": 1000,
-      "position_percent": 0
+      "time_ms": 1400,
+      "position_percent": 20
     },
     {
-      "time_ms": 1500,
-      "position_percent": 100
+      "time_ms": 1660,
+      "position_percent": 82
     },
     {
-      "time_ms": 2000,
-      "position_percent": 0
+      "time_ms": 1920,
+      "position_percent": 20
     },
     {
-      "time_ms": 2500,
-      "position_percent": 100
-    },
-    {
-      "time_ms": 3500,
-      "position_percent": 100
-    },
-    {
-      "time_ms": 4000,
-      "position_percent": 0
+      "time_ms": 2480,
+      "position_percent": 20
     }
   ],
   "tags": [
@@ -43,5 +35,6 @@
     "rhythm"
   ],
   "source": "Handy Remote Generator",
+  "source_url": "",
   "license": "Original"
 }

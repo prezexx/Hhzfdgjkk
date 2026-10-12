@@ -1,0 +1,145 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Chaos (Edgy)",
+  "description": "Rapidly changing depth and timing in an unpredictable deterministic loop.",
+  "kind": "routine",
+  "cycle_ms": 15210,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 330,
+      "position_percent": 27.141
+    },
+    {
+      "time_ms": 796,
+      "position_percent": 10.927
+    },
+    {
+      "time_ms": 1195,
+      "position_percent": 15.575
+    },
+    {
+      "time_ms": 1605,
+      "position_percent": 88.421
+    },
+    {
+      "time_ms": 2264,
+      "position_percent": 69.883
+    },
+    {
+      "time_ms": 2587,
+      "position_percent": 16.029
+    },
+    {
+      "time_ms": 3280,
+      "position_percent": 63.449
+    },
+    {
+      "time_ms": 3927,
+      "position_percent": 46.543
+    },
+    {
+      "time_ms": 4419,
+      "position_percent": 70.593
+    },
+    {
+      "time_ms": 4840,
+      "position_percent": 61.272
+    },
+    {
+      "time_ms": 5493,
+      "position_percent": 61.753
+    },
+    {
+      "time_ms": 6143,
+      "position_percent": 87.708
+    },
+    {
+      "time_ms": 6705,
+      "position_percent": 23.331
+    },
+    {
+      "time_ms": 7264,
+      "position_percent": 11.391
+    },
+    {
+      "time_ms": 7758,
+      "position_percent": 62.543
+    },
+    {
+      "time_ms": 8084,
+      "position_percent": 26.8
+    },
+    {
+      "time_ms": 8549,
+      "position_percent": 78.553
+    },
+    {
+      "time_ms": 8904,
+      "position_percent": 33.079
+    },
+    {
+      "time_ms": 9265,
+      "position_percent": 30.233
+    },
+    {
+      "time_ms": 9761,
+      "position_percent": 65.399
+    },
+    {
+      "time_ms": 10138,
+      "position_percent": 87.841
+    },
+    {
+      "time_ms": 10802,
+      "position_percent": 9.784
+    },
+    {
+      "time_ms": 11305,
+      "position_percent": 60.942
+    },
+    {
+      "time_ms": 11774,
+      "position_percent": 62.202
+    },
+    {
+      "time_ms": 12455,
+      "position_percent": 35.877
+    },
+    {
+      "time_ms": 12770,
+      "position_percent": 53.742
+    },
+    {
+      "time_ms": 13338,
+      "position_percent": 61.097
+    },
+    {
+      "time_ms": 13891,
+      "position_percent": 68.684
+    },
+    {
+      "time_ms": 14226,
+      "position_percent": 15.67
+    },
+    {
+      "time_ms": 14810,
+      "position_percent": 15.271
+    },
+    {
+      "time_ms": 15210,
+      "position_percent": 50
+    }
+  ],
+  "tags": [
+    "the-edgy",
+    "random",
+    "chaos"
+  ],
+  "source": "The Edgy",
+  "source_url": "https://github.com/testerone321/The-Edgy",
+  "license": "MIT / ISC"
+}

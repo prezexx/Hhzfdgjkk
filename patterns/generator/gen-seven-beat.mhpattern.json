@@ -1,73 +1,41 @@
 {
   "schema": "handy-remote.pattern.v1",
-  "name": "Seven Beat",
-  "description": "Rhythmic pattern: Seven Beat.",
+  "name": "Broken Triplet",
+  "description": "Broken three-part rhythm with changing reach.",
   "kind": "routine",
-  "cycle_ms": 4000,
+  "cycle_ms": 2900,
   "points": [
     {
       "time_ms": 0,
-      "position_percent": 0
+      "position_percent": 20
     },
     {
-      "time_ms": 250,
-      "position_percent": 100
+      "time_ms": 330,
+      "position_percent": 88
     },
     {
-      "time_ms": 500,
-      "position_percent": 0
+      "time_ms": 660,
+      "position_percent": 30
     },
     {
-      "time_ms": 750,
-      "position_percent": 100
+      "time_ms": 1120,
+      "position_percent": 92
     },
     {
-      "time_ms": 1000,
-      "position_percent": 0
+      "time_ms": 1450,
+      "position_percent": 20
     },
     {
-      "time_ms": 1250,
-      "position_percent": 100
+      "time_ms": 1980,
+      "position_percent": 72
     },
     {
-      "time_ms": 1500,
-      "position_percent": 0
+      "time_ms": 2310,
+      "position_percent": 18
     },
     {
-      "time_ms": 1750,
-      "position_percent": 100
-    },
-    {
-      "time_ms": 2000,
-      "position_percent": 0
-    },
-    {
-      "time_ms": 2250,
-      "position_percent": 100
-    },
-    {
-      "time_ms": 2500,
-      "position_percent": 0
-    },
-    {
-      "time_ms": 2750,
-      "position_percent": 100
-    },
-    {
-      "time_ms": 3000,
-      "position_percent": 0
-    },
-    {
-      "time_ms": 3250,
-      "position_percent": 100
-    },
-    {
-      "time_ms": 3750,
-      "position_percent": 100
-    },
-    {
-      "time_ms": 4000,
-      "position_percent": 0
+      "time_ms": 2900,
+      "position_percent": 20
     }
   ],
   "tags": [
@@ -75,5 +43,6 @@
     "rhythm"
   ],
   "source": "Handy Remote Generator",
+  "source_url": "",
   "license": "Original"
 }

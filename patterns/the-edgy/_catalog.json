@@ -1,0 +1,134 @@
+{
+  "source": "The Edgy",
+  "count": 8,
+  "patterns": [
+    {
+      "id": "the-edgy-wave",
+      "name": "Wave (Edgy)",
+      "description": "Gradually rises and falls in intensity while stroke reach varies.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-wave.mhpattern.json",
+      "cycle_ms": 15000,
+      "tags": [
+        "the-edgy",
+        "wave",
+        "variable"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "the-edgy-pulse",
+      "name": "Pulse (Edgy)",
+      "description": "Six short high-intensity bursts separated by longer rests.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-pulse.mhpattern.json",
+      "cycle_ms": 12000,
+      "tags": [
+        "the-edgy",
+        "pulse",
+        "burst"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "the-edgy-escalation",
+      "name": "Escalation (Edgy)",
+      "description": "Smooth motion that steadily builds speed and reach over the loop.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-escalation.mhpattern.json",
+      "cycle_ms": 20000,
+      "tags": [
+        "the-edgy",
+        "build",
+        "escalating"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "the-edgy-tease",
+      "name": "Tease (Edgy)",
+      "description": "Small slow movements interrupted by sudden large strokes.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-tease.mhpattern.json",
+      "cycle_ms": 18000,
+      "tags": [
+        "the-edgy",
+        "tease",
+        "contrast"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "the-edgy-chaos",
+      "name": "Chaos (Edgy)",
+      "description": "Rapidly changing depth and timing in an unpredictable deterministic loop.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-chaos.mhpattern.json",
+      "cycle_ms": 15210,
+      "tags": [
+        "the-edgy",
+        "random",
+        "chaos"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "the-edgy-teasing-ghost",
+      "name": "The Teasing Ghost",
+      "description": "Extremely slow full-range rise and return.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-teasing-ghost.mhpattern.json",
+      "cycle_ms": 30000,
+      "tags": [
+        "the-edgy",
+        "slow",
+        "full-range"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "the-edgy-inchworm",
+      "name": "The Inchworm",
+      "description": "Tiny strokes crawl gradually across the entire available range and back.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-inchworm.mhpattern.json",
+      "cycle_ms": 40000,
+      "tags": [
+        "the-edgy",
+        "traveling",
+        "shallow"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "the-edgy-fake-out-exit",
+      "name": "The Fake-Out Exit",
+      "description": "Gradually slows, pauses, then returns with three fast full-range accents.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-fake-out-exit.mhpattern.json",
+      "cycle_ms": 15890,
+      "tags": [
+        "the-edgy",
+        "fakeout",
+        "burst"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    }
+  ]
+}

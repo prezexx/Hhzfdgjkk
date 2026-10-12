@@ -1,77 +1,53 @@
 {
   "schema": "handy-remote.pattern.v1",
-  "name": "Double Time",
-  "description": "Rhythmic pattern: Double Time.",
+  "name": "Rolling Six",
+  "description": "Rolling six-accent sequence with changing peaks.",
   "kind": "routine",
-  "cycle_ms": 4000,
+  "cycle_ms": 3000,
   "points": [
     {
       "time_ms": 0,
-      "position_percent": 0
+      "position_percent": 15
     },
     {
-      "time_ms": 250,
-      "position_percent": 100
+      "time_ms": 300,
+      "position_percent": 70
     },
     {
-      "time_ms": 500,
-      "position_percent": 0
+      "time_ms": 600,
+      "position_percent": 25
     },
     {
-      "time_ms": 750,
-      "position_percent": 100
+      "time_ms": 900,
+      "position_percent": 85
     },
     {
-      "time_ms": 1000,
-      "position_percent": 0
-    },
-    {
-      "time_ms": 1250,
-      "position_percent": 100
+      "time_ms": 1200,
+      "position_percent": 35
     },
     {
       "time_ms": 1500,
-      "position_percent": 0
+      "position_percent": 95
     },
     {
-      "time_ms": 1750,
-      "position_percent": 100
+      "time_ms": 1800,
+      "position_percent": 40
     },
     {
-      "time_ms": 2000,
-      "position_percent": 0
+      "time_ms": 2100,
+      "position_percent": 80
     },
     {
-      "time_ms": 2250,
-      "position_percent": 100
+      "time_ms": 2400,
+      "position_percent": 28
     },
     {
-      "time_ms": 2500,
-      "position_percent": 0
-    },
-    {
-      "time_ms": 2750,
-      "position_percent": 100
+      "time_ms": 2700,
+      "position_percent": 72
     },
     {
       "time_ms": 3000,
-      "position_percent": 0
-    },
-    {
-      "time_ms": 3250,
-      "position_percent": 100
-    },
-    {
-      "time_ms": 3500,
-      "position_percent": 0
-    },
-    {
-      "time_ms": 3750,
-      "position_percent": 100
-    },
-    {
-      "time_ms": 4000,
-      "position_percent": 0
+      "position_percent": 15
     }
   ],
   "tags": [
@@ -79,5 +55,6 @@
     "rhythm"
   ],
   "source": "Handy Remote Generator",
+  "source_url": "",
   "license": "Original"
 }

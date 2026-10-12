@@ -1,0 +1,81 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Wave (Edgy)",
+  "description": "Gradually rises and falls in intensity while stroke reach varies.",
+  "kind": "routine",
+  "cycle_ms": 15000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 37.558
+    },
+    {
+      "time_ms": 1000,
+      "position_percent": 57.868
+    },
+    {
+      "time_ms": 2000,
+      "position_percent": 27.065
+    },
+    {
+      "time_ms": 3000,
+      "position_percent": 72.411
+    },
+    {
+      "time_ms": 4000,
+      "position_percent": 18.741
+    },
+    {
+      "time_ms": 5000,
+      "position_percent": 90.813
+    },
+    {
+      "time_ms": 6000,
+      "position_percent": 7.12
+    },
+    {
+      "time_ms": 7000,
+      "position_percent": 87.816
+    },
+    {
+      "time_ms": 8000,
+      "position_percent": 11.681
+    },
+    {
+      "time_ms": 9000,
+      "position_percent": 91.821
+    },
+    {
+      "time_ms": 10000,
+      "position_percent": 10.742
+    },
+    {
+      "time_ms": 11000,
+      "position_percent": 94.422
+    },
+    {
+      "time_ms": 12000,
+      "position_percent": 27.788
+    },
+    {
+      "time_ms": 13000,
+      "position_percent": 71.972
+    },
+    {
+      "time_ms": 14000,
+      "position_percent": 41.873
+    },
+    {
+      "time_ms": 15000,
+      "position_percent": 37.558
+    }
+  ],
+  "tags": [
+    "the-edgy",
+    "wave",
+    "variable"
+  ],
+  "source": "The Edgy",
+  "source_url": "https://github.com/testerone321/The-Edgy",
+  "license": "MIT / ISC"
+}

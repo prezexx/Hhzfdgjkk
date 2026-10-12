@@ -1,6 +1,6 @@
 {
-  "schema": "handy-remote.motion-catalog.v2",
-  "count": 138,
+  "schema": "handy-remote.motion-catalog.v3",
+  "count": 152,
   "sources": [
     {
       "name": "MagicHandy",
@@ -25,6 +25,16 @@
     {
       "name": "Handy Remote Generator",
       "license": "Original"
+    },
+    {
+      "name": "The Edgy",
+      "license": "MIT / ISC",
+      "url": "https://github.com/testerone321/The-Edgy"
+    },
+    {
+      "name": "FunSync Player",
+      "license": "GPL-3.0-or-later",
+      "url": "https://github.com/DaveMakesWaves/funsync-player"
     }
   ],
   "patterns": [
@@ -136,7 +146,7 @@
     {
       "id": "mh-continuous-flow-lower-strokes",
       "name": "Lower strokes",
-      "description": "Repeat smooth fixed-width strokes only in the lower/base region, 0\u201340. Even pace.",
+      "description": "Repeat smooth fixed-width strokes only in the lower/base region, 0–40. Even pace.",
       "category": "continuous",
       "group": "continuous",
       "file": "patterns/magichandy/continuous/flow-lower-strokes.mhpattern.json",
@@ -151,7 +161,7 @@
     {
       "id": "mh-continuous-flow-middle-strokes",
       "name": "Middle strokes",
-      "description": "Repeat smooth fixed-width strokes only around the middle, 30\u201370. Even pace.",
+      "description": "Repeat smooth fixed-width strokes only around the middle, 30–70. Even pace.",
       "category": "continuous",
       "group": "continuous",
       "file": "patterns/magichandy/continuous/flow-middle-strokes.mhpattern.json",
@@ -241,7 +251,7 @@
     {
       "id": "mh-continuous-flow-upper-strokes",
       "name": "Upper strokes",
-      "description": "Repeat smooth fixed-width strokes only in the upper/tip region, 60\u2013100. Even pace.",
+      "description": "Repeat smooth fixed-width strokes only in the upper/tip region, 60–100. Even pace.",
       "category": "continuous",
       "group": "continuous",
       "file": "patterns/magichandy/continuous/flow-upper-strokes.mhpattern.json",
@@ -1230,7 +1240,7 @@
     {
       "id": "autoblow-gentle-wave-up",
       "name": "Gentle Wave Up",
-      "description": "Autoblow Panel preset \u00b7 intensity: low \u00b7 wave, smooth, rhythmic",
+      "description": "Autoblow Panel preset · intensity: low · wave, smooth, rhythmic",
       "category": "autoblow",
       "group": "low",
       "file": "patterns/autoblow/ab-gentle-wave-up.mhpattern.json",
@@ -1248,7 +1258,7 @@
     {
       "id": "autoblow-gentle-wave-down",
       "name": "Gentle Wave Down",
-      "description": "Autoblow Panel preset \u00b7 intensity: low \u00b7 wave, smooth, rhythmic",
+      "description": "Autoblow Panel preset · intensity: low · wave, smooth, rhythmic",
       "category": "autoblow",
       "group": "low",
       "file": "patterns/autoblow/ab-gentle-wave-down.mhpattern.json",
@@ -1266,7 +1276,7 @@
     {
       "id": "autoblow-gradual-climb-up",
       "name": "Gradual Climb Up",
-      "description": "Autoblow Panel preset \u00b7 intensity: low \u00b7 gradual, smooth",
+      "description": "Autoblow Panel preset · intensity: low · gradual, smooth",
       "category": "autoblow",
       "group": "low",
       "file": "patterns/autoblow/ab-gradual-climb-up.mhpattern.json",
@@ -1283,7 +1293,7 @@
     {
       "id": "autoblow-gradual-descent-down",
       "name": "Gradual Descent Down",
-      "description": "Autoblow Panel preset \u00b7 intensity: low \u00b7 gradual, smooth",
+      "description": "Autoblow Panel preset · intensity: low · gradual, smooth",
       "category": "autoblow",
       "group": "low",
       "file": "patterns/autoblow/ab-gradual-descent-down.mhpattern.json",
@@ -1300,7 +1310,7 @@
     {
       "id": "autoblow-ramp-up-slow",
       "name": "Ramp Up Slow",
-      "description": "Autoblow Panel preset \u00b7 intensity: low \u00b7 ramp, smooth, gradual",
+      "description": "Autoblow Panel preset · intensity: low · ramp, smooth, gradual",
       "category": "autoblow",
       "group": "low",
       "file": "patterns/autoblow/ab-ramp-up-slow.mhpattern.json",
@@ -1318,7 +1328,7 @@
     {
       "id": "autoblow-ramp-down-slow",
       "name": "Ramp Down Slow",
-      "description": "Autoblow Panel preset \u00b7 intensity: low \u00b7 ramp, smooth, gradual",
+      "description": "Autoblow Panel preset · intensity: low · ramp, smooth, gradual",
       "category": "autoblow",
       "group": "low",
       "file": "patterns/autoblow/ab-ramp-down-slow.mhpattern.json",
@@ -1336,7 +1346,7 @@
     {
       "id": "autoblow-incremental-up-slow",
       "name": "Incremental Up Slow",
-      "description": "Autoblow Panel preset \u00b7 intensity: low \u00b7 incremental, stepped",
+      "description": "Autoblow Panel preset · intensity: low · incremental, stepped",
       "category": "autoblow",
       "group": "low",
       "file": "patterns/autoblow/ab-incremental-up-slow.mhpattern.json",
@@ -1353,7 +1363,7 @@
     {
       "id": "autoblow-incremental-down-slow",
       "name": "Incremental Down Slow",
-      "description": "Autoblow Panel preset \u00b7 intensity: low \u00b7 incremental, stepped",
+      "description": "Autoblow Panel preset · intensity: low · incremental, stepped",
       "category": "autoblow",
       "group": "low",
       "file": "patterns/autoblow/ab-incremental-down-slow.mhpattern.json",
@@ -1370,7 +1380,7 @@
     {
       "id": "autoblow-direct-up-8s",
       "name": "Direct Up 8s",
-      "description": "Autoblow Panel preset \u00b7 intensity: low \u00b7 direct, smooth",
+      "description": "Autoblow Panel preset · intensity: low · direct, smooth",
       "category": "autoblow",
       "group": "low",
       "file": "patterns/autoblow/ab-direct-up-8s.mhpattern.json",
@@ -1387,7 +1397,7 @@
     {
       "id": "autoblow-direct-down-8s",
       "name": "Direct Down 8s",
-      "description": "Autoblow Panel preset \u00b7 intensity: low \u00b7 direct, smooth",
+      "description": "Autoblow Panel preset · intensity: low · direct, smooth",
       "category": "autoblow",
       "group": "low",
       "file": "patterns/autoblow/ab-direct-down-8s.mhpattern.json",
@@ -1404,7 +1414,7 @@
     {
       "id": "autoblow-high-pause",
       "name": "High Pause",
-      "description": "Autoblow Panel preset \u00b7 intensity: low \u00b7 pause",
+      "description": "Autoblow Panel preset · intensity: low · pause",
       "category": "autoblow",
       "group": "low",
       "file": "patterns/autoblow/ab-high-pause.mhpattern.json",
@@ -1420,7 +1430,7 @@
     {
       "id": "autoblow-mid-pause",
       "name": "Mid Pause",
-      "description": "Autoblow Panel preset \u00b7 intensity: low \u00b7 pause",
+      "description": "Autoblow Panel preset · intensity: low · pause",
       "category": "autoblow",
       "group": "low",
       "file": "patterns/autoblow/ab-mid-pause.mhpattern.json",
@@ -1436,7 +1446,7 @@
     {
       "id": "autoblow-low-pause",
       "name": "Low Pause",
-      "description": "Autoblow Panel preset \u00b7 intensity: low \u00b7 pause",
+      "description": "Autoblow Panel preset · intensity: low · pause",
       "category": "autoblow",
       "group": "low",
       "file": "patterns/autoblow/ab-low-pause.mhpattern.json",
@@ -1452,7 +1462,7 @@
     {
       "id": "autoblow-wave-up-slow",
       "name": "Wave Up Slow",
-      "description": "Autoblow Panel preset \u00b7 intensity: medium \u00b7 wave, rhythmic",
+      "description": "Autoblow Panel preset · intensity: medium · wave, rhythmic",
       "category": "autoblow",
       "group": "medium",
       "file": "patterns/autoblow/ab-wave-up-slow.mhpattern.json",
@@ -1469,7 +1479,7 @@
     {
       "id": "autoblow-wave-down-slow",
       "name": "Wave Down Slow",
-      "description": "Autoblow Panel preset \u00b7 intensity: medium \u00b7 wave, rhythmic",
+      "description": "Autoblow Panel preset · intensity: medium · wave, rhythmic",
       "category": "autoblow",
       "group": "medium",
       "file": "patterns/autoblow/ab-wave-down-slow.mhpattern.json",
@@ -1486,7 +1496,7 @@
     {
       "id": "autoblow-double-wave-up",
       "name": "Double Wave Up",
-      "description": "Autoblow Panel preset \u00b7 intensity: medium \u00b7 wave, rhythmic",
+      "description": "Autoblow Panel preset · intensity: medium · wave, rhythmic",
       "category": "autoblow",
       "group": "medium",
       "file": "patterns/autoblow/ab-double-wave-up.mhpattern.json",
@@ -1503,7 +1513,7 @@
     {
       "id": "autoblow-double-wave-down",
       "name": "Double Wave Down",
-      "description": "Autoblow Panel preset \u00b7 intensity: medium \u00b7 wave, rhythmic",
+      "description": "Autoblow Panel preset · intensity: medium · wave, rhythmic",
       "category": "autoblow",
       "group": "medium",
       "file": "patterns/autoblow/ab-double-wave-down.mhpattern.json",
@@ -1520,7 +1530,7 @@
     {
       "id": "autoblow-plateau-up",
       "name": "Plateau Up",
-      "description": "Autoblow Panel preset \u00b7 intensity: medium \u00b7 plateau, smooth",
+      "description": "Autoblow Panel preset · intensity: medium · plateau, smooth",
       "category": "autoblow",
       "group": "medium",
       "file": "patterns/autoblow/ab-plateau-up.mhpattern.json",
@@ -1537,7 +1547,7 @@
     {
       "id": "autoblow-plateau-down",
       "name": "Plateau Down",
-      "description": "Autoblow Panel preset \u00b7 intensity: medium \u00b7 plateau, smooth",
+      "description": "Autoblow Panel preset · intensity: medium · plateau, smooth",
       "category": "autoblow",
       "group": "medium",
       "file": "patterns/autoblow/ab-plateau-down.mhpattern.json",
@@ -1554,7 +1564,7 @@
     {
       "id": "autoblow-stepped-up",
       "name": "Stepped Up",
-      "description": "Autoblow Panel preset \u00b7 intensity: medium \u00b7 stepped",
+      "description": "Autoblow Panel preset · intensity: medium · stepped",
       "category": "autoblow",
       "group": "medium",
       "file": "patterns/autoblow/ab-stepped-up.mhpattern.json",
@@ -1570,7 +1580,7 @@
     {
       "id": "autoblow-stepped-down",
       "name": "Stepped Down",
-      "description": "Autoblow Panel preset \u00b7 intensity: medium \u00b7 stepped",
+      "description": "Autoblow Panel preset · intensity: medium · stepped",
       "category": "autoblow",
       "group": "medium",
       "file": "patterns/autoblow/ab-stepped-down.mhpattern.json",
@@ -1586,7 +1596,7 @@
     {
       "id": "autoblow-bounce-up",
       "name": "Bounce Up",
-      "description": "Autoblow Panel preset \u00b7 intensity: medium \u00b7 bounce, rhythmic",
+      "description": "Autoblow Panel preset · intensity: medium · bounce, rhythmic",
       "category": "autoblow",
       "group": "medium",
       "file": "patterns/autoblow/ab-bounce-up.mhpattern.json",
@@ -1603,7 +1613,7 @@
     {
       "id": "autoblow-bounce-down",
       "name": "Bounce Down",
-      "description": "Autoblow Panel preset \u00b7 intensity: medium \u00b7 bounce, rhythmic",
+      "description": "Autoblow Panel preset · intensity: medium · bounce, rhythmic",
       "category": "autoblow",
       "group": "medium",
       "file": "patterns/autoblow/ab-bounce-down.mhpattern.json",
@@ -1620,7 +1630,7 @@
     {
       "id": "autoblow-peak-valley-down",
       "name": "Peak Valley Down",
-      "description": "Autoblow Panel preset \u00b7 intensity: medium \u00b7 wave, rhythmic",
+      "description": "Autoblow Panel preset · intensity: medium · wave, rhythmic",
       "category": "autoblow",
       "group": "medium",
       "file": "patterns/autoblow/ab-peak-valley-down.mhpattern.json",
@@ -1637,7 +1647,7 @@
     {
       "id": "autoblow-valley-peak-up",
       "name": "Valley Peak Up",
-      "description": "Autoblow Panel preset \u00b7 intensity: medium \u00b7 wave, rhythmic",
+      "description": "Autoblow Panel preset · intensity: medium · wave, rhythmic",
       "category": "autoblow",
       "group": "medium",
       "file": "patterns/autoblow/ab-valley-peak-up.mhpattern.json",
@@ -1654,7 +1664,7 @@
     {
       "id": "autoblow-surge-up",
       "name": "Surge Up",
-      "description": "Autoblow Panel preset \u00b7 intensity: high \u00b7 surge, pulse",
+      "description": "Autoblow Panel preset · intensity: high · surge, pulse",
       "category": "autoblow",
       "group": "high",
       "file": "patterns/autoblow/ab-surge-up.mhpattern.json",
@@ -1671,7 +1681,7 @@
     {
       "id": "autoblow-surge-down",
       "name": "Surge Down",
-      "description": "Autoblow Panel preset \u00b7 intensity: high \u00b7 surge, pulse",
+      "description": "Autoblow Panel preset · intensity: high · surge, pulse",
       "category": "autoblow",
       "group": "high",
       "file": "patterns/autoblow/ab-surge-down.mhpattern.json",
@@ -1688,7 +1698,7 @@
     {
       "id": "autoblow-stutter-up",
       "name": "Stutter Up",
-      "description": "Autoblow Panel preset \u00b7 intensity: high \u00b7 stutter, rhythmic",
+      "description": "Autoblow Panel preset · intensity: high · stutter, rhythmic",
       "category": "autoblow",
       "group": "high",
       "file": "patterns/autoblow/ab-stutter-up.mhpattern.json",
@@ -1705,7 +1715,7 @@
     {
       "id": "autoblow-stutter-down",
       "name": "Stutter Down",
-      "description": "Autoblow Panel preset \u00b7 intensity: high \u00b7 stutter, rhythmic",
+      "description": "Autoblow Panel preset · intensity: high · stutter, rhythmic",
       "category": "autoblow",
       "group": "high",
       "file": "patterns/autoblow/ab-stutter-down.mhpattern.json",
@@ -1722,7 +1732,7 @@
     {
       "id": "autoblow-zigzag-up",
       "name": "Zigzag Up",
-      "description": "Autoblow Panel preset \u00b7 intensity: high \u00b7 zigzag, rhythmic",
+      "description": "Autoblow Panel preset · intensity: high · zigzag, rhythmic",
       "category": "autoblow",
       "group": "high",
       "file": "patterns/autoblow/ab-zigzag-up.mhpattern.json",
@@ -1739,7 +1749,7 @@
     {
       "id": "autoblow-zigzag-down",
       "name": "Zigzag Down",
-      "description": "Autoblow Panel preset \u00b7 intensity: high \u00b7 zigzag, rhythmic",
+      "description": "Autoblow Panel preset · intensity: high · zigzag, rhythmic",
       "category": "autoblow",
       "group": "high",
       "file": "patterns/autoblow/ab-zigzag-down.mhpattern.json",
@@ -1756,7 +1766,7 @@
     {
       "id": "autoblow-accelerating-up",
       "name": "Accelerating Up",
-      "description": "Autoblow Panel preset \u00b7 intensity: high \u00b7 accelerating, rhythmic",
+      "description": "Autoblow Panel preset · intensity: high · accelerating, rhythmic",
       "category": "autoblow",
       "group": "high",
       "file": "patterns/autoblow/ab-accelerating-up.mhpattern.json",
@@ -1773,7 +1783,7 @@
     {
       "id": "autoblow-accelerating-down",
       "name": "Accelerating Down",
-      "description": "Autoblow Panel preset \u00b7 intensity: high \u00b7 accelerating, rhythmic",
+      "description": "Autoblow Panel preset · intensity: high · accelerating, rhythmic",
       "category": "autoblow",
       "group": "high",
       "file": "patterns/autoblow/ab-accelerating-down.mhpattern.json",
@@ -1790,7 +1800,7 @@
     {
       "id": "autoblow-decelerating-up",
       "name": "Decelerating Up",
-      "description": "Autoblow Panel preset \u00b7 intensity: high \u00b7 decelerating, rhythmic",
+      "description": "Autoblow Panel preset · intensity: high · decelerating, rhythmic",
       "category": "autoblow",
       "group": "high",
       "file": "patterns/autoblow/ab-decelerating-up.mhpattern.json",
@@ -1807,7 +1817,7 @@
     {
       "id": "autoblow-decelerating-down",
       "name": "Decelerating Down",
-      "description": "Autoblow Panel preset \u00b7 intensity: high \u00b7 decelerating, rhythmic",
+      "description": "Autoblow Panel preset · intensity: high · decelerating, rhythmic",
       "category": "autoblow",
       "group": "high",
       "file": "patterns/autoblow/ab-decelerating-down.mhpattern.json",
@@ -1824,7 +1834,7 @@
     {
       "id": "autoblow-triple-wave-up",
       "name": "Triple Wave Up",
-      "description": "Autoblow Panel preset \u00b7 intensity: high \u00b7 wave, rhythmic",
+      "description": "Autoblow Panel preset · intensity: high · wave, rhythmic",
       "category": "autoblow",
       "group": "high",
       "file": "patterns/autoblow/ab-triple-wave-up.mhpattern.json",
@@ -1841,7 +1851,7 @@
     {
       "id": "autoblow-triple-wave-down",
       "name": "Triple Wave Down",
-      "description": "Autoblow Panel preset \u00b7 intensity: high \u00b7 wave, rhythmic",
+      "description": "Autoblow Panel preset · intensity: high · wave, rhythmic",
       "category": "autoblow",
       "group": "high",
       "file": "patterns/autoblow/ab-triple-wave-down.mhpattern.json",
@@ -1858,7 +1868,7 @@
     {
       "id": "autoblow-slow-sine-wave",
       "name": "Slow Sine Wave",
-      "description": "Autoblow Panel preset \u00b7 intensity: low \u00b7 wave, smooth, rhythmic",
+      "description": "Autoblow Panel preset · intensity: low · wave, smooth, rhythmic",
       "category": "autoblow",
       "group": "low",
       "file": "patterns/autoblow/ab-slow-sine-wave.mhpattern.json",
@@ -1876,7 +1886,7 @@
     {
       "id": "autoblow-rapid-pulse",
       "name": "Rapid Pulse",
-      "description": "Autoblow Panel preset \u00b7 intensity: high \u00b7 pulse, rhythmic",
+      "description": "Autoblow Panel preset · intensity: high · pulse, rhythmic",
       "category": "autoblow",
       "group": "high",
       "file": "patterns/autoblow/ab-rapid-pulse.mhpattern.json",
@@ -2148,13 +2158,13 @@
       "license": "Original"
     },
     {
-      "id": "generator-slow-quarters",
-      "name": "Slow Quarters",
-      "description": "Rhythmic pattern: Slow Quarters.",
+      "id": "generator-swing-3-2",
+      "name": "Swing 3-2",
+      "description": "Asymmetric 3-2 rhythm with alternating depth.",
       "category": "generator",
       "group": "generator",
       "file": "patterns/generator/gen-slow-quarters.mhpattern.json",
-      "cycle_ms": 4000,
+      "cycle_ms": 2920,
       "tags": [
         "generator",
         "rhythm"
@@ -2163,13 +2173,13 @@
       "license": "Original"
     },
     {
-      "id": "generator-three-rest-slow",
-      "name": "Three + Rest Slow",
-      "description": "Rhythmic pattern: Three + Rest Slow.",
+      "id": "generator-long-short-pulse",
+      "name": "Long-Short Pulse",
+      "description": "Two long strokes followed by a short accent and recovery.",
       "category": "generator",
       "group": "generator",
       "file": "patterns/generator/gen-three-rest-slow.mhpattern.json",
-      "cycle_ms": 4000,
+      "cycle_ms": 2480,
       "tags": [
         "generator",
         "rhythm"
@@ -2178,13 +2188,13 @@
       "license": "Original"
     },
     {
-      "id": "generator-normal-eighths",
-      "name": "Normal Eighths",
-      "description": "Rhythmic pattern: Normal Eighths.",
+      "id": "generator-syncopated-wave",
+      "name": "Syncopated Wave",
+      "description": "Irregular flowing rhythm with off-beat depth changes.",
       "category": "generator",
       "group": "generator",
       "file": "patterns/generator/gen-normal-eighths.mhpattern.json",
-      "cycle_ms": 4000,
+      "cycle_ms": 3100,
       "tags": [
         "generator",
         "rhythm"
@@ -2193,13 +2203,13 @@
       "license": "Original"
     },
     {
-      "id": "generator-heartbeat",
-      "name": "Heartbeat",
-      "description": "Rhythmic pattern: Heartbeat.",
+      "id": "generator-double-accent",
+      "name": "Double Accent",
+      "description": "Two quick accents separated by a longer relaxed section.",
       "category": "generator",
       "group": "generator",
       "file": "patterns/generator/gen-heartbeat.mhpattern.json",
-      "cycle_ms": 4000,
+      "cycle_ms": 3200,
       "tags": [
         "generator",
         "rhythm"
@@ -2208,13 +2218,13 @@
       "license": "Original"
     },
     {
-      "id": "generator-seven-beat",
-      "name": "Seven Beat",
-      "description": "Rhythmic pattern: Seven Beat.",
+      "id": "generator-broken-triplet",
+      "name": "Broken Triplet",
+      "description": "Broken three-part rhythm with changing reach.",
       "category": "generator",
       "group": "generator",
       "file": "patterns/generator/gen-seven-beat.mhpattern.json",
-      "cycle_ms": 4000,
+      "cycle_ms": 2900,
       "tags": [
         "generator",
         "rhythm"
@@ -2223,19 +2233,243 @@
       "license": "Original"
     },
     {
-      "id": "generator-double-time",
-      "name": "Double Time",
-      "description": "Rhythmic pattern: Double Time.",
+      "id": "generator-rolling-six",
+      "name": "Rolling Six",
+      "description": "Rolling six-accent sequence with changing peaks.",
       "category": "generator",
       "group": "generator",
       "file": "patterns/generator/gen-double-time.mhpattern.json",
-      "cycle_ms": 4000,
+      "cycle_ms": 3000,
       "tags": [
         "generator",
         "rhythm"
       ],
       "source": "Handy Remote Generator",
       "license": "Original"
+    },
+    {
+      "id": "the-edgy-wave",
+      "name": "Wave (Edgy)",
+      "description": "Gradually rises and falls in intensity while stroke reach varies.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-wave.mhpattern.json",
+      "cycle_ms": 15000,
+      "tags": [
+        "the-edgy",
+        "wave",
+        "variable"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "the-edgy-pulse",
+      "name": "Pulse (Edgy)",
+      "description": "Six short high-intensity bursts separated by longer rests.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-pulse.mhpattern.json",
+      "cycle_ms": 12000,
+      "tags": [
+        "the-edgy",
+        "pulse",
+        "burst"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "the-edgy-escalation",
+      "name": "Escalation (Edgy)",
+      "description": "Smooth motion that steadily builds speed and reach over the loop.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-escalation.mhpattern.json",
+      "cycle_ms": 20000,
+      "tags": [
+        "the-edgy",
+        "build",
+        "escalating"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "the-edgy-tease",
+      "name": "Tease (Edgy)",
+      "description": "Small slow movements interrupted by sudden large strokes.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-tease.mhpattern.json",
+      "cycle_ms": 18000,
+      "tags": [
+        "the-edgy",
+        "tease",
+        "contrast"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "the-edgy-chaos",
+      "name": "Chaos (Edgy)",
+      "description": "Rapidly changing depth and timing in an unpredictable deterministic loop.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-chaos.mhpattern.json",
+      "cycle_ms": 15210,
+      "tags": [
+        "the-edgy",
+        "random",
+        "chaos"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "the-edgy-teasing-ghost",
+      "name": "The Teasing Ghost",
+      "description": "Extremely slow full-range rise and return.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-teasing-ghost.mhpattern.json",
+      "cycle_ms": 30000,
+      "tags": [
+        "the-edgy",
+        "slow",
+        "full-range"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "the-edgy-inchworm",
+      "name": "The Inchworm",
+      "description": "Tiny strokes crawl gradually across the entire available range and back.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-inchworm.mhpattern.json",
+      "cycle_ms": 40000,
+      "tags": [
+        "the-edgy",
+        "traveling",
+        "shallow"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "the-edgy-fake-out-exit",
+      "name": "The Fake-Out Exit",
+      "description": "Gradually slows, pauses, then returns with three fast full-range accents.",
+      "category": "the-edgy",
+      "group": "the-edgy",
+      "file": "patterns/the-edgy/edgy-fake-out-exit.mhpattern.json",
+      "cycle_ms": 15890,
+      "tags": [
+        "the-edgy",
+        "fakeout",
+        "burst"
+      ],
+      "source": "The Edgy",
+      "license": "MIT / ISC"
+    },
+    {
+      "id": "funsync-slow-tease",
+      "name": "Slow Tease (FunSync)",
+      "description": "Gentle sine filler at roughly 20 BPM and 60% depth.",
+      "category": "funsync",
+      "group": "funsync",
+      "file": "patterns/funsync/funsync-slow-tease.mhpattern.json",
+      "cycle_ms": 9000,
+      "tags": [
+        "funsync",
+        "sine",
+        "slow"
+      ],
+      "source": "FunSync Player",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "id": "funsync-gentle",
+      "name": "Gentle (FunSync)",
+      "description": "Smooth sine motion at roughly 30 BPM and 80% depth.",
+      "category": "funsync",
+      "group": "funsync",
+      "file": "patterns/funsync/funsync-gentle.mhpattern.json",
+      "cycle_ms": 6000,
+      "tags": [
+        "funsync",
+        "sine",
+        "gentle"
+      ],
+      "source": "FunSync Player",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "id": "funsync-steady",
+      "name": "Steady (FunSync)",
+      "description": "Even full-depth triangle motion at roughly 40 BPM.",
+      "category": "funsync",
+      "group": "funsync",
+      "file": "patterns/funsync/funsync-steady.mhpattern.json",
+      "cycle_ms": 6000,
+      "tags": [
+        "funsync",
+        "triangle",
+        "steady"
+      ],
+      "source": "FunSync Player",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "id": "funsync-building",
+      "name": "Building (FunSync)",
+      "description": "Escalating reach at roughly 35 BPM.",
+      "category": "funsync",
+      "group": "funsync",
+      "file": "patterns/funsync/funsync-building.mhpattern.json",
+      "cycle_ms": 10286,
+      "tags": [
+        "funsync",
+        "escalating",
+        "build"
+      ],
+      "source": "FunSync Player",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "id": "funsync-drift",
+      "name": "Drift (FunSync)",
+      "description": "Slow randomized drift around the middle of the range.",
+      "category": "funsync",
+      "group": "funsync",
+      "file": "patterns/funsync/funsync-drift.mhpattern.json",
+      "cycle_ms": 10800,
+      "tags": [
+        "funsync",
+        "random",
+        "drift"
+      ],
+      "source": "FunSync Player",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "id": "funsync-pulse",
+      "name": "Pulse (FunSync)",
+      "description": "Pulse-style holds with short ramps between low and high positions.",
+      "category": "funsync",
+      "group": "funsync",
+      "file": "patterns/funsync/funsync-pulse.mhpattern.json",
+      "cycle_ms": 7200,
+      "tags": [
+        "funsync",
+        "pulse",
+        "square-adapted"
+      ],
+      "source": "FunSync Player",
+      "license": "GPL-3.0-or-later"
     }
   ]
 }

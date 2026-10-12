@@ -1,53 +1,45 @@
 {
   "schema": "handy-remote.pattern.v1",
-  "name": "Heartbeat",
-  "description": "Rhythmic pattern: Heartbeat.",
+  "name": "Double Accent",
+  "description": "Two quick accents separated by a longer relaxed section.",
   "kind": "routine",
-  "cycle_ms": 4000,
+  "cycle_ms": 3200,
   "points": [
     {
       "time_ms": 0,
-      "position_percent": 0
+      "position_percent": 25
     },
     {
-      "time_ms": 250,
-      "position_percent": 100
+      "time_ms": 240,
+      "position_percent": 85
     },
     {
-      "time_ms": 500,
-      "position_percent": 0
+      "time_ms": 480,
+      "position_percent": 25
     },
     {
-      "time_ms": 750,
-      "position_percent": 100
+      "time_ms": 700,
+      "position_percent": 95
+    },
+    {
+      "time_ms": 950,
+      "position_percent": 25
     },
     {
       "time_ms": 1750,
-      "position_percent": 100
+      "position_percent": 25
     },
     {
-      "time_ms": 2000,
-      "position_percent": 0
+      "time_ms": 2120,
+      "position_percent": 70
     },
     {
-      "time_ms": 2250,
-      "position_percent": 100
+      "time_ms": 2490,
+      "position_percent": 25
     },
     {
-      "time_ms": 2500,
-      "position_percent": 0
-    },
-    {
-      "time_ms": 2750,
-      "position_percent": 100
-    },
-    {
-      "time_ms": 3750,
-      "position_percent": 100
-    },
-    {
-      "time_ms": 4000,
-      "position_percent": 0
+      "time_ms": 3200,
+      "position_percent": 25
     }
   ],
   "tags": [
@@ -55,5 +47,6 @@
     "rhythm"
   ],
   "source": "Handy Remote Generator",
+  "source_url": "",
   "license": "Original"
 }

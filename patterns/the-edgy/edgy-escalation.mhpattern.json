@@ -1,0 +1,341 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Escalation (Edgy)",
+  "description": "Smooth motion that steadily builds speed and reach over the loop.",
+  "kind": "routine",
+  "cycle_ms": 20000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 53.061
+    },
+    {
+      "time_ms": 250,
+      "position_percent": 56.151
+    },
+    {
+      "time_ms": 500,
+      "position_percent": 58.559
+    },
+    {
+      "time_ms": 750,
+      "position_percent": 59.502
+    },
+    {
+      "time_ms": 1000,
+      "position_percent": 58.342
+    },
+    {
+      "time_ms": 1250,
+      "position_percent": 54.87
+    },
+    {
+      "time_ms": 1500,
+      "position_percent": 49.551
+    },
+    {
+      "time_ms": 1750,
+      "position_percent": 43.629
+    },
+    {
+      "time_ms": 2000,
+      "position_percent": 38.941
+    },
+    {
+      "time_ms": 2250,
+      "position_percent": 37.404
+    },
+    {
+      "time_ms": 2500,
+      "position_percent": 40.226
+    },
+    {
+      "time_ms": 2750,
+      "position_percent": 47.127
+    },
+    {
+      "time_ms": 3000,
+      "position_percent": 55.961
+    },
+    {
+      "time_ms": 3250,
+      "position_percent": 63.149
+    },
+    {
+      "time_ms": 3500,
+      "position_percent": 65.04
+    },
+    {
+      "time_ms": 3750,
+      "position_percent": 59.828
+    },
+    {
+      "time_ms": 4000,
+      "position_percent": 49.099
+    },
+    {
+      "time_ms": 4250,
+      "position_percent": 37.88
+    },
+    {
+      "time_ms": 4500,
+      "position_percent": 32.551
+    },
+    {
+      "time_ms": 4750,
+      "position_percent": 37.166
+    },
+    {
+      "time_ms": 5000,
+      "position_percent": 50.182
+    },
+    {
+      "time_ms": 5250,
+      "position_percent": 64.109
+    },
+    {
+      "time_ms": 5500,
+      "position_percent": 69.43
+    },
+    {
+      "time_ms": 5750,
+      "position_percent": 61.219
+    },
+    {
+      "time_ms": 6000,
+      "position_percent": 44.02
+    },
+    {
+      "time_ms": 6250,
+      "position_percent": 30.291
+    },
+    {
+      "time_ms": 6500,
+      "position_percent": 31.664
+    },
+    {
+      "time_ms": 6750,
+      "position_percent": 48.651
+    },
+    {
+      "time_ms": 7000,
+      "position_percent": 67.909
+    },
+    {
+      "time_ms": 7250,
+      "position_percent": 71.98
+    },
+    {
+      "time_ms": 7500,
+      "position_percent": 55.431
+    },
+    {
+      "time_ms": 7750,
+      "position_percent": 32.567
+    },
+    {
+      "time_ms": 8000,
+      "position_percent": 26.185
+    },
+    {
+      "time_ms": 8250,
+      "position_percent": 44.597
+    },
+    {
+      "time_ms": 8500,
+      "position_percent": 69.902
+    },
+    {
+      "time_ms": 8750,
+      "position_percent": 74.06
+    },
+    {
+      "time_ms": 9000,
+      "position_percent": 50.37
+    },
+    {
+      "time_ms": 9250,
+      "position_percent": 25.06
+    },
+    {
+      "time_ms": 9500,
+      "position_percent": 29.494
+    },
+    {
+      "time_ms": 9750,
+      "position_percent": 60.378
+    },
+    {
+      "time_ms": 10000,
+      "position_percent": 78.994
+    },
+    {
+      "time_ms": 10250,
+      "position_percent": 59.096
+    },
+    {
+      "time_ms": 10500,
+      "position_percent": 25.637
+    },
+    {
+      "time_ms": 10750,
+      "position_percent": 25.731
+    },
+    {
+      "time_ms": 11000,
+      "position_percent": 61.619
+    },
+    {
+      "time_ms": 11250,
+      "position_percent": 81.348
+    },
+    {
+      "time_ms": 11500,
+      "position_percent": 53.12
+    },
+    {
+      "time_ms": 11750,
+      "position_percent": 18.846
+    },
+    {
+      "time_ms": 12000,
+      "position_percent": 34.235
+    },
+    {
+      "time_ms": 12250,
+      "position_percent": 76.587
+    },
+    {
+      "time_ms": 12500,
+      "position_percent": 74.805
+    },
+    {
+      "time_ms": 12750,
+      "position_percent": 29.394
+    },
+    {
+      "time_ms": 13000,
+      "position_percent": 19.51
+    },
+    {
+      "time_ms": 13250,
+      "position_percent": 65.349
+    },
+    {
+      "time_ms": 13500,
+      "position_percent": 83.784
+    },
+    {
+      "time_ms": 13750,
+      "position_percent": 37.919
+    },
+    {
+      "time_ms": 14000,
+      "position_percent": 14.385
+    },
+    {
+      "time_ms": 14250,
+      "position_percent": 61.471
+    },
+    {
+      "time_ms": 14500,
+      "position_percent": 86.438
+    },
+    {
+      "time_ms": 14750,
+      "position_percent": 36.152
+    },
+    {
+      "time_ms": 15000,
+      "position_percent": 13.968
+    },
+    {
+      "time_ms": 15250,
+      "position_percent": 69.248
+    },
+    {
+      "time_ms": 15500,
+      "position_percent": 83.426
+    },
+    {
+      "time_ms": 15750,
+      "position_percent": 22.837
+    },
+    {
+      "time_ms": 16000,
+      "position_percent": 22.983
+    },
+    {
+      "time_ms": 16250,
+      "position_percent": 86.025
+    },
+    {
+      "time_ms": 16500,
+      "position_percent": 65.115
+    },
+    {
+      "time_ms": 16750,
+      "position_percent": 7.37
+    },
+    {
+      "time_ms": 17000,
+      "position_percent": 52.83
+    },
+    {
+      "time_ms": 17250,
+      "position_percent": 92.127
+    },
+    {
+      "time_ms": 17500,
+      "position_percent": 25.689
+    },
+    {
+      "time_ms": 17750,
+      "position_percent": 20.461
+    },
+    {
+      "time_ms": 18000,
+      "position_percent": 92.104
+    },
+    {
+      "time_ms": 18250,
+      "position_percent": 53.589
+    },
+    {
+      "time_ms": 18500,
+      "position_percent": 4.847
+    },
+    {
+      "time_ms": 18750,
+      "position_percent": 78.221
+    },
+    {
+      "time_ms": 19000,
+      "position_percent": 74.787
+    },
+    {
+      "time_ms": 19250,
+      "position_percent": 2.012
+    },
+    {
+      "time_ms": 19500,
+      "position_percent": 64.255
+    },
+    {
+      "time_ms": 19750,
+      "position_percent": 86.331
+    },
+    {
+      "time_ms": 20000,
+      "position_percent": 53.061
+    }
+  ],
+  "tags": [
+    "the-edgy",
+    "build",
+    "escalating"
+  ],
+  "source": "The Edgy",
+  "source_url": "https://github.com/testerone321/The-Edgy",
+  "license": "MIT / ISC"
+}

@@ -1,0 +1,133 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "The Fake-Out Exit",
+  "description": "Gradually slows, pauses, then returns with three fast full-range accents.",
+  "kind": "routine",
+  "cycle_ms": 15890,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 250,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 500,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 805,
+      "position_percent": 82
+    },
+    {
+      "time_ms": 1110,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 1470,
+      "position_percent": 79
+    },
+    {
+      "time_ms": 1830,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 2245,
+      "position_percent": 76
+    },
+    {
+      "time_ms": 2660,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 3130,
+      "position_percent": 73
+    },
+    {
+      "time_ms": 3600,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 4125,
+      "position_percent": 70
+    },
+    {
+      "time_ms": 4650,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 5230,
+      "position_percent": 67
+    },
+    {
+      "time_ms": 5810,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 6445,
+      "position_percent": 64
+    },
+    {
+      "time_ms": 7080,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 7770,
+      "position_percent": 61
+    },
+    {
+      "time_ms": 8460,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 9205,
+      "position_percent": 58
+    },
+    {
+      "time_ms": 9950,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 12950,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 13210,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 13630,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 13890,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 14310,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 14570,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 14990,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 15890,
+      "position_percent": 20
+    }
+  ],
+  "tags": [
+    "the-edgy",
+    "fakeout",
+    "burst"
+  ],
+  "source": "The Edgy",
+  "source_url": "https://github.com/testerone321/The-Edgy",
+  "license": "MIT / ISC"
+}

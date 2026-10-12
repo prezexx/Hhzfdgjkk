@@ -1,0 +1,77 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Pulse (FunSync)",
+  "description": "Pulse-style holds with short ramps between low and high positions.",
+  "kind": "routine",
+  "cycle_ms": 7200,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 180,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 1000,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 1380,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 2400,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 2400,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 2580,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 3400,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 3780,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 4800,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 4800,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 4980,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 5800,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 6180,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 7200,
+      "position_percent": 20
+    }
+  ],
+  "tags": [
+    "funsync",
+    "pulse",
+    "square-adapted"
+  ],
+  "source": "FunSync Player",
+  "source_url": "https://github.com/DaveMakesWaves/funsync-player",
+  "license": "GPL-3.0-or-later"
+}

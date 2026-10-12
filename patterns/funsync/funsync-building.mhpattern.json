@@ -1,0 +1,89 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Building (FunSync)",
+  "description": "Escalating reach at roughly 35 BPM.",
+  "kind": "routine",
+  "cycle_ms": 10286,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 857,
+      "position_percent": 10
+    },
+    {
+      "time_ms": 1714,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1714,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2571,
+      "position_percent": 28
+    },
+    {
+      "time_ms": 3429,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3429,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4286,
+      "position_percent": 46
+    },
+    {
+      "time_ms": 5143,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5143,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6000,
+      "position_percent": 64
+    },
+    {
+      "time_ms": 6857,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 6857,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 7714,
+      "position_percent": 82
+    },
+    {
+      "time_ms": 8571,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 8571,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 9429,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 10286,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "funsync",
+    "escalating",
+    "build"
+  ],
+  "source": "FunSync Player",
+  "source_url": "https://github.com/DaveMakesWaves/funsync-player",
+  "license": "GPL-3.0-or-later"
+}

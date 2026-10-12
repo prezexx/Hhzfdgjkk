@@ -1,0 +1,381 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Slow Tease (FunSync)",
+  "description": "Gentle sine filler at roughly 20 BPM and 60% depth.",
+  "kind": "routine",
+  "cycle_ms": 9000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 100,
+      "position_percent": 20.656
+    },
+    {
+      "time_ms": 200,
+      "position_percent": 22.594
+    },
+    {
+      "time_ms": 300,
+      "position_percent": 25.729
+    },
+    {
+      "time_ms": 400,
+      "position_percent": 29.926
+    },
+    {
+      "time_ms": 500,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 600,
+      "position_percent": 40.729
+    },
+    {
+      "time_ms": 700,
+      "position_percent": 46.864
+    },
+    {
+      "time_ms": 800,
+      "position_percent": 53.136
+    },
+    {
+      "time_ms": 900,
+      "position_percent": 59.271
+    },
+    {
+      "time_ms": 1000,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 1100,
+      "position_percent": 70.074
+    },
+    {
+      "time_ms": 1200,
+      "position_percent": 74.271
+    },
+    {
+      "time_ms": 1300,
+      "position_percent": 77.406
+    },
+    {
+      "time_ms": 1400,
+      "position_percent": 79.344
+    },
+    {
+      "time_ms": 1500,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 1600,
+      "position_percent": 79.344
+    },
+    {
+      "time_ms": 1700,
+      "position_percent": 77.406
+    },
+    {
+      "time_ms": 1800,
+      "position_percent": 74.271
+    },
+    {
+      "time_ms": 1900,
+      "position_percent": 70.074
+    },
+    {
+      "time_ms": 2000,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 2100,
+      "position_percent": 59.271
+    },
+    {
+      "time_ms": 2200,
+      "position_percent": 53.136
+    },
+    {
+      "time_ms": 2300,
+      "position_percent": 46.864
+    },
+    {
+      "time_ms": 2400,
+      "position_percent": 40.729
+    },
+    {
+      "time_ms": 2500,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 2600,
+      "position_percent": 29.926
+    },
+    {
+      "time_ms": 2700,
+      "position_percent": 25.729
+    },
+    {
+      "time_ms": 2800,
+      "position_percent": 22.594
+    },
+    {
+      "time_ms": 2900,
+      "position_percent": 20.656
+    },
+    {
+      "time_ms": 3000,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 3100,
+      "position_percent": 20.656
+    },
+    {
+      "time_ms": 3200,
+      "position_percent": 22.594
+    },
+    {
+      "time_ms": 3300,
+      "position_percent": 25.729
+    },
+    {
+      "time_ms": 3400,
+      "position_percent": 29.926
+    },
+    {
+      "time_ms": 3500,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 3600,
+      "position_percent": 40.729
+    },
+    {
+      "time_ms": 3700,
+      "position_percent": 46.864
+    },
+    {
+      "time_ms": 3800,
+      "position_percent": 53.136
+    },
+    {
+      "time_ms": 3900,
+      "position_percent": 59.271
+    },
+    {
+      "time_ms": 4000,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 4100,
+      "position_percent": 70.074
+    },
+    {
+      "time_ms": 4200,
+      "position_percent": 74.271
+    },
+    {
+      "time_ms": 4300,
+      "position_percent": 77.406
+    },
+    {
+      "time_ms": 4400,
+      "position_percent": 79.344
+    },
+    {
+      "time_ms": 4500,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 4600,
+      "position_percent": 79.344
+    },
+    {
+      "time_ms": 4700,
+      "position_percent": 77.406
+    },
+    {
+      "time_ms": 4800,
+      "position_percent": 74.271
+    },
+    {
+      "time_ms": 4900,
+      "position_percent": 70.074
+    },
+    {
+      "time_ms": 5000,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 5100,
+      "position_percent": 59.271
+    },
+    {
+      "time_ms": 5200,
+      "position_percent": 53.136
+    },
+    {
+      "time_ms": 5300,
+      "position_percent": 46.864
+    },
+    {
+      "time_ms": 5400,
+      "position_percent": 40.729
+    },
+    {
+      "time_ms": 5500,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 5600,
+      "position_percent": 29.926
+    },
+    {
+      "time_ms": 5700,
+      "position_percent": 25.729
+    },
+    {
+      "time_ms": 5800,
+      "position_percent": 22.594
+    },
+    {
+      "time_ms": 5900,
+      "position_percent": 20.656
+    },
+    {
+      "time_ms": 6000,
+      "position_percent": 20
+    },
+    {
+      "time_ms": 6100,
+      "position_percent": 20.656
+    },
+    {
+      "time_ms": 6200,
+      "position_percent": 22.594
+    },
+    {
+      "time_ms": 6300,
+      "position_percent": 25.729
+    },
+    {
+      "time_ms": 6400,
+      "position_percent": 29.926
+    },
+    {
+      "time_ms": 6500,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 6600,
+      "position_percent": 40.729
+    },
+    {
+      "time_ms": 6700,
+      "position_percent": 46.864
+    },
+    {
+      "time_ms": 6800,
+      "position_percent": 53.136
+    },
+    {
+      "time_ms": 6900,
+      "position_percent": 59.271
+    },
+    {
+      "time_ms": 7000,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 7100,
+      "position_percent": 70.074
+    },
+    {
+      "time_ms": 7200,
+      "position_percent": 74.271
+    },
+    {
+      "time_ms": 7300,
+      "position_percent": 77.406
+    },
+    {
+      "time_ms": 7400,
+      "position_percent": 79.344
+    },
+    {
+      "time_ms": 7500,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 7600,
+      "position_percent": 79.344
+    },
+    {
+      "time_ms": 7700,
+      "position_percent": 77.406
+    },
+    {
+      "time_ms": 7800,
+      "position_percent": 74.271
+    },
+    {
+      "time_ms": 7900,
+      "position_percent": 70.074
+    },
+    {
+      "time_ms": 8000,
+      "position_percent": 65
+    },
+    {
+      "time_ms": 8100,
+      "position_percent": 59.271
+    },
+    {
+      "time_ms": 8200,
+      "position_percent": 53.136
+    },
+    {
+      "time_ms": 8300,
+      "position_percent": 46.864
+    },
+    {
+      "time_ms": 8400,
+      "position_percent": 40.729
+    },
+    {
+      "time_ms": 8500,
+      "position_percent": 35
+    },
+    {
+      "time_ms": 8600,
+      "position_percent": 29.926
+    },
+    {
+      "time_ms": 8700,
+      "position_percent": 25.729
+    },
+    {
+      "time_ms": 8800,
+      "position_percent": 22.594
+    },
+    {
+      "time_ms": 8900,
+      "position_percent": 20.656
+    },
+    {
+      "time_ms": 9000,
+      "position_percent": 20
+    }
+  ],
+  "tags": [
+    "funsync",
+    "sine",
+    "slow"
+  ],
+  "source": "FunSync Player",
+  "source_url": "https://github.com/DaveMakesWaves/funsync-player",
+  "license": "GPL-3.0-or-later"
+}

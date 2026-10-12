@@ -1,29 +1,37 @@
 {
   "schema": "handy-remote.pattern.v1",
-  "name": "Slow Quarters",
-  "description": "Rhythmic pattern: Slow Quarters.",
+  "name": "Swing 3-2",
+  "description": "Asymmetric 3-2 rhythm with alternating depth.",
   "kind": "routine",
-  "cycle_ms": 4000,
+  "cycle_ms": 2920,
   "points": [
     {
       "time_ms": 0,
-      "position_percent": 0
+      "position_percent": 15
     },
     {
-      "time_ms": 1000,
-      "position_percent": 100
+      "time_ms": 420,
+      "position_percent": 90
     },
     {
-      "time_ms": 2000,
-      "position_percent": 0
+      "time_ms": 840,
+      "position_percent": 22
     },
     {
-      "time_ms": 3000,
-      "position_percent": 100
+      "time_ms": 1320,
+      "position_percent": 84
     },
     {
-      "time_ms": 4000,
-      "position_percent": 0
+      "time_ms": 1880,
+      "position_percent": 32
+    },
+    {
+      "time_ms": 2260,
+      "position_percent": 96
+    },
+    {
+      "time_ms": 2920,
+      "position_percent": 15
     }
   ],
   "tags": [
@@ -31,5 +39,6 @@
     "rhythm"
   ],
   "source": "Handy Remote Generator",
+  "source_url": "",
   "license": "Original"
 }

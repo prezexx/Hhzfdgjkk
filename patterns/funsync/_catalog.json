@@ -1,0 +1,102 @@
+{
+  "source": "FunSync Player",
+  "count": 6,
+  "patterns": [
+    {
+      "id": "funsync-slow-tease",
+      "name": "Slow Tease (FunSync)",
+      "description": "Gentle sine filler at roughly 20 BPM and 60% depth.",
+      "category": "funsync",
+      "group": "funsync",
+      "file": "patterns/funsync/funsync-slow-tease.mhpattern.json",
+      "cycle_ms": 9000,
+      "tags": [
+        "funsync",
+        "sine",
+        "slow"
+      ],
+      "source": "FunSync Player",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "id": "funsync-gentle",
+      "name": "Gentle (FunSync)",
+      "description": "Smooth sine motion at roughly 30 BPM and 80% depth.",
+      "category": "funsync",
+      "group": "funsync",
+      "file": "patterns/funsync/funsync-gentle.mhpattern.json",
+      "cycle_ms": 6000,
+      "tags": [
+        "funsync",
+        "sine",
+        "gentle"
+      ],
+      "source": "FunSync Player",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "id": "funsync-steady",
+      "name": "Steady (FunSync)",
+      "description": "Even full-depth triangle motion at roughly 40 BPM.",
+      "category": "funsync",
+      "group": "funsync",
+      "file": "patterns/funsync/funsync-steady.mhpattern.json",
+      "cycle_ms": 6000,
+      "tags": [
+        "funsync",
+        "triangle",
+        "steady"
+      ],
+      "source": "FunSync Player",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "id": "funsync-building",
+      "name": "Building (FunSync)",
+      "description": "Escalating reach at roughly 35 BPM.",
+      "category": "funsync",
+      "group": "funsync",
+      "file": "patterns/funsync/funsync-building.mhpattern.json",
+      "cycle_ms": 10286,
+      "tags": [
+        "funsync",
+        "escalating",
+        "build"
+      ],
+      "source": "FunSync Player",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "id": "funsync-drift",
+      "name": "Drift (FunSync)",
+      "description": "Slow randomized drift around the middle of the range.",
+      "category": "funsync",
+      "group": "funsync",
+      "file": "patterns/funsync/funsync-drift.mhpattern.json",
+      "cycle_ms": 10800,
+      "tags": [
+        "funsync",
+        "random",
+        "drift"
+      ],
+      "source": "FunSync Player",
+      "license": "GPL-3.0-or-later"
+    },
+    {
+      "id": "funsync-pulse",
+      "name": "Pulse (FunSync)",
+      "description": "Pulse-style holds with short ramps between low and high positions.",
+      "category": "funsync",
+      "group": "funsync",
+      "file": "patterns/funsync/funsync-pulse.mhpattern.json",
+      "cycle_ms": 7200,
+      "tags": [
+        "funsync",
+        "pulse",
+        "square-adapted"
+      ],
+      "source": "FunSync Player",
+      "license": "GPL-3.0-or-later"
+    }
+  ]
+}

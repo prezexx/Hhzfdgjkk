@@ -50,13 +50,13 @@
       "license": "Original"
     },
     {
-      "id": "generator-slow-quarters",
-      "name": "Slow Quarters",
-      "description": "Rhythmic pattern: Slow Quarters.",
+      "id": "generator-swing-3-2",
+      "name": "Swing 3-2",
+      "description": "Asymmetric 3-2 rhythm with alternating depth.",
       "category": "generator",
       "group": "generator",
       "file": "patterns/generator/gen-slow-quarters.mhpattern.json",
-      "cycle_ms": 4000,
+      "cycle_ms": 2920,
       "tags": [
         "generator",
         "rhythm"
@@ -65,13 +65,13 @@
       "license": "Original"
     },
     {
-      "id": "generator-three-rest-slow",
-      "name": "Three + Rest Slow",
-      "description": "Rhythmic pattern: Three + Rest Slow.",
+      "id": "generator-long-short-pulse",
+      "name": "Long-Short Pulse",
+      "description": "Two long strokes followed by a short accent and recovery.",
       "category": "generator",
       "group": "generator",
       "file": "patterns/generator/gen-three-rest-slow.mhpattern.json",
-      "cycle_ms": 4000,
+      "cycle_ms": 2480,
       "tags": [
         "generator",
         "rhythm"
@@ -80,13 +80,13 @@
       "license": "Original"
     },
     {
-      "id": "generator-normal-eighths",
-      "name": "Normal Eighths",
-      "description": "Rhythmic pattern: Normal Eighths.",
+      "id": "generator-syncopated-wave",
+      "name": "Syncopated Wave",
+      "description": "Irregular flowing rhythm with off-beat depth changes.",
       "category": "generator",
       "group": "generator",
       "file": "patterns/generator/gen-normal-eighths.mhpattern.json",
-      "cycle_ms": 4000,
+      "cycle_ms": 3100,
       "tags": [
         "generator",
         "rhythm"
@@ -95,13 +95,13 @@
       "license": "Original"
     },
     {
-      "id": "generator-heartbeat",
-      "name": "Heartbeat",
-      "description": "Rhythmic pattern: Heartbeat.",
+      "id": "generator-double-accent",
+      "name": "Double Accent",
+      "description": "Two quick accents separated by a longer relaxed section.",
       "category": "generator",
       "group": "generator",
       "file": "patterns/generator/gen-heartbeat.mhpattern.json",
-      "cycle_ms": 4000,
+      "cycle_ms": 3200,
       "tags": [
         "generator",
         "rhythm"
@@ -110,13 +110,13 @@
       "license": "Original"
     },
     {
-      "id": "generator-seven-beat",
-      "name": "Seven Beat",
-      "description": "Rhythmic pattern: Seven Beat.",
+      "id": "generator-broken-triplet",
+      "name": "Broken Triplet",
+      "description": "Broken three-part rhythm with changing reach.",
       "category": "generator",
       "group": "generator",
       "file": "patterns/generator/gen-seven-beat.mhpattern.json",
-      "cycle_ms": 4000,
+      "cycle_ms": 2900,
       "tags": [
         "generator",
         "rhythm"
@@ -125,13 +125,13 @@
       "license": "Original"
     },
     {
-      "id": "generator-double-time",
-      "name": "Double Time",
-      "description": "Rhythmic pattern: Double Time.",
+      "id": "generator-rolling-six",
+      "name": "Rolling Six",
+      "description": "Rolling six-accent sequence with changing peaks.",
       "category": "generator",
       "group": "generator",
       "file": "patterns/generator/gen-double-time.mhpattern.json",
-      "cycle_ms": 4000,
+      "cycle_ms": 3000,
       "tags": [
         "generator",
         "rhythm"

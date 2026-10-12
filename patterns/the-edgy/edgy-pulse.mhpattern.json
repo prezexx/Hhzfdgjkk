@@ -1,0 +1,97 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Pulse (Edgy)",
+  "description": "Six short high-intensity bursts separated by longer rests.",
+  "kind": "routine",
+  "cycle_ms": 12000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 180,
+      "position_percent": 82
+    },
+    {
+      "time_ms": 800,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 1950,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 2180,
+      "position_percent": 88
+    },
+    {
+      "time_ms": 2800,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 3950,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 4180,
+      "position_percent": 94
+    },
+    {
+      "time_ms": 4800,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 5950,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 6180,
+      "position_percent": 82
+    },
+    {
+      "time_ms": 6800,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 7950,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 8180,
+      "position_percent": 88
+    },
+    {
+      "time_ms": 8800,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 9950,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 10180,
+      "position_percent": 94
+    },
+    {
+      "time_ms": 10800,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 11950,
+      "position_percent": 30
+    },
+    {
+      "time_ms": 12000,
+      "position_percent": 30
+    }
+  ],
+  "tags": [
+    "the-edgy",
+    "pulse",
+    "burst"
+  ],
+  "source": "The Edgy",
+  "source_url": "https://github.com/testerone321/The-Edgy",
+  "license": "MIT / ISC"
+}

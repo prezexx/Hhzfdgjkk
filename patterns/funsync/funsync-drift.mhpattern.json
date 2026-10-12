@@ -1,0 +1,57 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Drift (FunSync)",
+  "description": "Slow randomized drift around the middle of the range.",
+  "kind": "routine",
+  "cycle_ms": 10800,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 50
+    },
+    {
+      "time_ms": 1200,
+      "position_percent": 32.878
+    },
+    {
+      "time_ms": 2400,
+      "position_percent": 38.334
+    },
+    {
+      "time_ms": 3600,
+      "position_percent": 62.475
+    },
+    {
+      "time_ms": 4800,
+      "position_percent": 28.051
+    },
+    {
+      "time_ms": 6000,
+      "position_percent": 32.683
+    },
+    {
+      "time_ms": 7200,
+      "position_percent": 55.505
+    },
+    {
+      "time_ms": 8400,
+      "position_percent": 62.734
+    },
+    {
+      "time_ms": 9600,
+      "position_percent": 75.576
+    },
+    {
+      "time_ms": 10800,
+      "position_percent": 50
+    }
+  ],
+  "tags": [
+    "funsync",
+    "random",
+    "drift"
+  ],
+  "source": "FunSync Player",
+  "source_url": "https://github.com/DaveMakesWaves/funsync-player",
+  "license": "GPL-3.0-or-later"
+}

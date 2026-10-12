@@ -1,0 +1,29 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "The Teasing Ghost",
+  "description": "Extremely slow full-range rise and return.",
+  "kind": "routine",
+  "cycle_ms": 30000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 15000,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 30000,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "the-edgy",
+    "slow",
+    "full-range"
+  ],
+  "source": "The Edgy",
+  "source_url": "https://github.com/testerone321/The-Edgy",
+  "license": "MIT / ISC"
+}

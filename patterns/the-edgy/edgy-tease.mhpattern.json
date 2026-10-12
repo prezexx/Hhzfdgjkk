@@ -1,0 +1,165 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Tease (Edgy)",
+  "description": "Small slow movements interrupted by sudden large strokes.",
+  "kind": "routine",
+  "cycle_ms": 18000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 70
+    },
+    {
+      "time_ms": 700,
+      "position_percent": 82
+    },
+    {
+      "time_ms": 1400,
+      "position_percent": 66
+    },
+    {
+      "time_ms": 2000,
+      "position_percent": 76
+    },
+    {
+      "time_ms": 2200,
+      "position_percent": 12
+    },
+    {
+      "time_ms": 2700,
+      "position_percent": 94
+    },
+    {
+      "time_ms": 3000,
+      "position_percent": 70
+    },
+    {
+      "time_ms": 3700,
+      "position_percent": 82
+    },
+    {
+      "time_ms": 4400,
+      "position_percent": 66
+    },
+    {
+      "time_ms": 5000,
+      "position_percent": 76
+    },
+    {
+      "time_ms": 5200,
+      "position_percent": 12
+    },
+    {
+      "time_ms": 5700,
+      "position_percent": 94
+    },
+    {
+      "time_ms": 6000,
+      "position_percent": 70
+    },
+    {
+      "time_ms": 6700,
+      "position_percent": 82
+    },
+    {
+      "time_ms": 7400,
+      "position_percent": 66
+    },
+    {
+      "time_ms": 8000,
+      "position_percent": 76
+    },
+    {
+      "time_ms": 8200,
+      "position_percent": 12
+    },
+    {
+      "time_ms": 8700,
+      "position_percent": 94
+    },
+    {
+      "time_ms": 9000,
+      "position_percent": 70
+    },
+    {
+      "time_ms": 9700,
+      "position_percent": 82
+    },
+    {
+      "time_ms": 10400,
+      "position_percent": 66
+    },
+    {
+      "time_ms": 11000,
+      "position_percent": 76
+    },
+    {
+      "time_ms": 11200,
+      "position_percent": 12
+    },
+    {
+      "time_ms": 11700,
+      "position_percent": 94
+    },
+    {
+      "time_ms": 12000,
+      "position_percent": 70
+    },
+    {
+      "time_ms": 12700,
+      "position_percent": 82
+    },
+    {
+      "time_ms": 13400,
+      "position_percent": 66
+    },
+    {
+      "time_ms": 14000,
+      "position_percent": 76
+    },
+    {
+      "time_ms": 14200,
+      "position_percent": 12
+    },
+    {
+      "time_ms": 14700,
+      "position_percent": 94
+    },
+    {
+      "time_ms": 15000,
+      "position_percent": 70
+    },
+    {
+      "time_ms": 15700,
+      "position_percent": 82
+    },
+    {
+      "time_ms": 16400,
+      "position_percent": 66
+    },
+    {
+      "time_ms": 17000,
+      "position_percent": 76
+    },
+    {
+      "time_ms": 17200,
+      "position_percent": 12
+    },
+    {
+      "time_ms": 17700,
+      "position_percent": 94
+    },
+    {
+      "time_ms": 18000,
+      "position_percent": 70
+    }
+  ],
+  "tags": [
+    "the-edgy",
+    "tease",
+    "contrast"
+  ],
+  "source": "The Edgy",
+  "source_url": "https://github.com/testerone321/The-Edgy",
+  "license": "MIT / ISC"
+}

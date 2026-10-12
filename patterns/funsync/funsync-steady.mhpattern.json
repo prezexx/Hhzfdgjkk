@@ -1,0 +1,65 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Steady (FunSync)",
+  "description": "Even full-depth triangle motion at roughly 40 BPM.",
+  "kind": "routine",
+  "cycle_ms": 6000,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 750,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 1500,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 1500,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 2250,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 3000,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3000,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 3750,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 4500,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 4500,
+      "position_percent": 0
+    },
+    {
+      "time_ms": 5250,
+      "position_percent": 100
+    },
+    {
+      "time_ms": 6000,
+      "position_percent": 0
+    }
+  ],
+  "tags": [
+    "funsync",
+    "triangle",
+    "steady"
+  ],
+  "source": "FunSync Player",
+  "source_url": "https://github.com/DaveMakesWaves/funsync-player",
+  "license": "GPL-3.0-or-later"
+}

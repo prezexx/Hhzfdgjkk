@@ -1,45 +1,41 @@
 {
   "schema": "handy-remote.pattern.v1",
-  "name": "Normal Eighths",
-  "description": "Rhythmic pattern: Normal Eighths.",
+  "name": "Syncopated Wave",
+  "description": "Irregular flowing rhythm with off-beat depth changes.",
   "kind": "routine",
-  "cycle_ms": 4000,
+  "cycle_ms": 3100,
   "points": [
     {
       "time_ms": 0,
-      "position_percent": 0
+      "position_percent": 15
     },
     {
-      "time_ms": 500,
-      "position_percent": 100
+      "time_ms": 360,
+      "position_percent": 78
     },
     {
-      "time_ms": 1000,
-      "position_percent": 0
+      "time_ms": 720,
+      "position_percent": 32
     },
     {
-      "time_ms": 1500,
-      "position_percent": 100
+      "time_ms": 1150,
+      "position_percent": 94
     },
     {
-      "time_ms": 2000,
-      "position_percent": 0
+      "time_ms": 1620,
+      "position_percent": 44
     },
     {
-      "time_ms": 2500,
-      "position_percent": 100
+      "time_ms": 2050,
+      "position_percent": 82
     },
     {
-      "time_ms": 3000,
-      "position_percent": 0
+      "time_ms": 2520,
+      "position_percent": 20
     },
     {
-      "time_ms": 3500,
-      "position_percent": 100
-    },
-    {
-      "time_ms": 4000,
-      "position_percent": 0
+      "time_ms": 3100,
+      "position_percent": 15
     }
   ],
   "tags": [
@@ -47,5 +43,6 @@
     "rhythm"
   ],
   "source": "Handy Remote Generator",
+  "source_url": "",
   "license": "Original"
 }

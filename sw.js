@@ -1,4 +1,4 @@
-const CACHE='handy-remote-pro-v8';
+const CACHE='handy-remote-pro-v9';
 const ASSETS=['./','./index.html','./app-v4.html','./manifest.webmanifest','./patterns/catalog.json'];
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
 
