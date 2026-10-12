@@ -1,0 +1,206 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Mixed Rhythm",
+  "description": "Wechsel aus kurzen und langen Handbewegungen mit variierender Geschwindigkeit sowie kleinen Pausen.",
+  "kind": "routine",
+  "cycle_ms": 11001,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 24
+    },
+    {
+      "time_ms": 370,
+      "position_percent": 45.76
+    },
+    {
+      "time_ms": 880,
+      "position_percent": 88
+    },
+    {
+      "time_ms": 920,
+      "position_percent": 88
+    },
+    {
+      "time_ms": 1311,
+      "position_percent": 63.68
+    },
+    {
+      "time_ms": 1830,
+      "position_percent": 24
+    },
+    {
+      "time_ms": 1860,
+      "position_percent": 24
+    },
+    {
+      "time_ms": 2097,
+      "position_percent": 53
+    },
+    {
+      "time_ms": 2244,
+      "position_percent": 62.18
+    },
+    {
+      "time_ms": 2447,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 2457,
+      "position_percent": 80
+    },
+    {
+      "time_ms": 2633,
+      "position_percent": 69.74
+    },
+    {
+      "time_ms": 2867,
+      "position_percent": 53
+    },
+    {
+      "time_ms": 2892,
+      "position_percent": 53
+    },
+    {
+      "time_ms": 3056,
+      "position_percent": 60.82
+    },
+    {
+      "time_ms": 3282,
+      "position_percent": 76
+    },
+    {
+      "time_ms": 3297,
+      "position_percent": 76
+    },
+    {
+      "time_ms": 3499,
+      "position_percent": 67.26
+    },
+    {
+      "time_ms": 3767,
+      "position_percent": 53
+    },
+    {
+      "time_ms": 3817,
+      "position_percent": 53
+    },
+    {
+      "time_ms": 4054,
+      "position_percent": 24
+    },
+    {
+      "time_ms": 4398,
+      "position_percent": 47.12
+    },
+    {
+      "time_ms": 4874,
+      "position_percent": 92
+    },
+    {
+      "time_ms": 4934,
+      "position_percent": 92
+    },
+    {
+      "time_ms": 5355,
+      "position_percent": 66.16
+    },
+    {
+      "time_ms": 5914,
+      "position_percent": 24
+    },
+    {
+      "time_ms": 6064,
+      "position_percent": 24
+    },
+    {
+      "time_ms": 6280,
+      "position_percent": 46
+    },
+    {
+      "time_ms": 6444,
+      "position_percent": 54.5
+    },
+    {
+      "time_ms": 6670,
+      "position_percent": 71
+    },
+    {
+      "time_ms": 6685,
+      "position_percent": 71
+    },
+    {
+      "time_ms": 6891,
+      "position_percent": 61.5
+    },
+    {
+      "time_ms": 7165,
+      "position_percent": 46
+    },
+    {
+      "time_ms": 7215,
+      "position_percent": 46
+    },
+    {
+      "time_ms": 7431,
+      "position_percent": 24
+    },
+    {
+      "time_ms": 7801,
+      "position_percent": 45.08
+    },
+    {
+      "time_ms": 8311,
+      "position_percent": 86
+    },
+    {
+      "time_ms": 8361,
+      "position_percent": 86
+    },
+    {
+      "time_ms": 8752,
+      "position_percent": 62.44
+    },
+    {
+      "time_ms": 9271,
+      "position_percent": 24
+    },
+    {
+      "time_ms": 9311,
+      "position_percent": 24
+    },
+    {
+      "time_ms": 9622,
+      "position_percent": 46.44
+    },
+    {
+      "time_ms": 10051,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 10091,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 10465,
+      "position_percent": 64.92
+    },
+    {
+      "time_ms": 10961,
+      "position_percent": 24
+    },
+    {
+      "time_ms": 11001,
+      "position_percent": 24
+    }
+  ],
+  "tags": [
+    "handjob",
+    "mixed",
+    "rhythm",
+    "short",
+    "long"
+  ],
+  "source": "Realistic Handjob",
+  "license": "Original"
+}
