@@ -1,0 +1,213 @@
+{
+  "schema": "handy-remote.pattern.v1",
+  "name": "Progressive Handjob",
+  "description": "Beginnt langsam und vergrößert den Hub; anschließend werden die Handbewegungen schneller, bevor die Schleife neu beginnt.",
+  "kind": "routine",
+  "cycle_ms": 15120,
+  "points": [
+    {
+      "time_ms": 0,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 567,
+      "position_percent": 40.6
+    },
+    {
+      "time_ms": 1350,
+      "position_percent": 67
+    },
+    {
+      "time_ms": 1540,
+      "position_percent": 67
+    },
+    {
+      "time_ms": 2176,
+      "position_percent": 51.8
+    },
+    {
+      "time_ms": 3020,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 3120,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 3590,
+      "position_percent": 42.3
+    },
+    {
+      "time_ms": 4240,
+      "position_percent": 72
+    },
+    {
+      "time_ms": 4370,
+      "position_percent": 72
+    },
+    {
+      "time_ms": 4912,
+      "position_percent": 54.9
+    },
+    {
+      "time_ms": 5630,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 5690,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 6081,
+      "position_percent": 44.34
+    },
+    {
+      "time_ms": 6620,
+      "position_percent": 78
+    },
+    {
+      "time_ms": 6700,
+      "position_percent": 78
+    },
+    {
+      "time_ms": 7164,
+      "position_percent": 58.62
+    },
+    {
+      "time_ms": 7780,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 7825,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 8165,
+      "position_percent": 46.38
+    },
+    {
+      "time_ms": 8635,
+      "position_percent": 84
+    },
+    {
+      "time_ms": 8675,
+      "position_percent": 84
+    },
+    {
+      "time_ms": 9066,
+      "position_percent": 62.34
+    },
+    {
+      "time_ms": 9585,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 9620,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 9901,
+      "position_percent": 48.42
+    },
+    {
+      "time_ms": 10290,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 10310,
+      "position_percent": 90
+    },
+    {
+      "time_ms": 10645,
+      "position_percent": 66.06
+    },
+    {
+      "time_ms": 11090,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 11115,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 11350,
+      "position_percent": 49.44
+    },
+    {
+      "time_ms": 11675,
+      "position_percent": 93
+    },
+    {
+      "time_ms": 11695,
+      "position_percent": 93
+    },
+    {
+      "time_ms": 11992,
+      "position_percent": 67.92
+    },
+    {
+      "time_ms": 12385,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 12410,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 12624,
+      "position_percent": 47.74
+    },
+    {
+      "time_ms": 12920,
+      "position_percent": 88
+    },
+    {
+      "time_ms": 12930,
+      "position_percent": 88
+    },
+    {
+      "time_ms": 13197,
+      "position_percent": 64.82
+    },
+    {
+      "time_ms": 13550,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 13580,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 13836,
+      "position_percent": 46.72
+    },
+    {
+      "time_ms": 14190,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 14220,
+      "position_percent": 85
+    },
+    {
+      "time_ms": 14555,
+      "position_percent": 62.96
+    },
+    {
+      "time_ms": 15000,
+      "position_percent": 27
+    },
+    {
+      "time_ms": 15120,
+      "position_percent": 27
+    }
+  ],
+  "tags": [
+    "handjob",
+    "progressive",
+    "build",
+    "accelerating"
+  ],
+  "source": "Realistic Handjob",
+  "license": "Original"
+}
