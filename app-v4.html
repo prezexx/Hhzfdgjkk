@@ -30,7 +30,7 @@
   </div></section>
   <section id="screen-settings" class="screen"><div class="stack">
     <div class="card"><div class="kicker">Verbindung</div><div style="font-size:20px;font-weight:850">Handy API v3</div><div class="field"><label>Application ID</label><input id="appId" type="password" autocomplete="off"></div><div class="field"><label>Connection Key</label><input id="ck" type="password" autocomplete="off"></div><label class="hint" style="display:block;margin:12px 2px"><input id="remember" type="checkbox" checked> Zugangsdaten nur lokal in diesem Browser speichern</label><div class="two"><button id="save" class="btn primary">Speichern</button><button id="clear" class="btn">Löschen</button></div></div>
-    <details class="card"><summary>Diagnose</summary><div id="log" class="log" style="margin-top:12px">Bereit.</div></details><div class="version">Handy Remote 7.1 · 76 MagicHandy Presets + 9 eigene</div>
+    <details class="card"><summary>Diagnose</summary><div id="log" class="log" style="margin-top:12px">Bereit.</div></details><div class="version">Handy Remote 8.0 · 138 importierte Presets + 9 eigene</div>
   </div></section>
 </div>
 <div class="footerControls"><div class="footerInner"><button id="stop" class="stop">■ SOFORT STOPPEN</button><div class="tabs"><button class="tab active" data-tab="presets"><span class="tabIcon">◫</span>Presets</button><button class="tab" data-tab="manual"><span class="tabIcon">◎</span>Manuell</button><button class="tab" data-tab="settings"><span class="tabIcon">⚙︎</span>Einstellungen</button></div></div></div>
@@ -101,7 +101,7 @@ document.querySelectorAll('.tempoBtn').forEach(b=>b.onclick=()=>{E.tempo.value=b
 E.speed.oninput=()=>{E.speedOut.textContent=E.speed.value;localStorage.setItem(K.speed,E.speed.value);if(hamp)api('hamp/velocity',{method:'PUT',body:{velocity:+(+E.speed.value/100).toFixed(4)},quiet:true}).catch(()=>{})};
 $('check').onclick=check;$('stop').onclick=emergencyStop;$('hampStart').onclick=hampStart;$('hampStop').onclick=emergencyStop;$('save').onclick=saveCreds;$('clear').onclick=clearCreds;document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>switchTab(t.dataset.tab));if(E.search)E.search.oninput=renderPresets;if(E.category)E.category.onchange=renderPresets;
 function load(){E.appId.value=localStorage.getItem(K.a)||'';E.ck.value=localStorage.getItem(K.c)||'';E.gmin.value=localStorage.getItem(K.min)||10;E.gmax.value=localStorage.getItem(K.max)||90;E.tempo.value=clamp(+(localStorage.getItem(K.tempo)||60),10,100);E.speed.value=localStorage.getItem(K.speed)||30;E.tempoOut.textContent=E.tempo.value+'%';E.speedOut.textContent=E.speed.value;renderBounds();renderPresets();loadPatternLibrary();poll();pollTimer=setInterval(poll,2500);if(E.appId.value&&E.ck.value)check()}
-window.addEventListener('pagehide',saveCreds);if('serviceWorker'in navigator&&location.protocol==='https:')navigator.serviceWorker.register('./sw.js?v=7').catch(()=>{});load();
+window.addEventListener('pagehide',saveCreds);if('serviceWorker'in navigator&&location.protocol==='https:')navigator.serviceWorker.register('./sw.js?v=8').catch(()=>{});load();
 })();
 </script>
 </body></html>
