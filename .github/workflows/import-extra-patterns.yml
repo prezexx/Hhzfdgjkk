@@ -276,23 +276,8 @@ jobs:
 
           notices=root/'THIRD_PARTY_NOTICES.md'
           text=notices.read_text() if notices.exists() else '# Third-party notices\n'
-          additions='''
+          additions = "\\n\\n## Autoblow Panel\\nSource: https://github.com/NinjaGuyDev/autoblow-panel\\nLicense: MIT. Motion preset definitions are converted to the local pattern format.\\n\\n## Handy AI Motion\\nSource: https://github.com/Fran31416/handy-ai-motion\\nLicense: MIT. The predefined loop patterns are converted to the local pattern format.\\n\\n## WaveDriver\\nSource: https://github.com/hapticforge/wavedriver\\nLicense: MIT. The four position motion functions are sampled into local loop patterns.\\n\\n## Generator patterns\\nAdditional rhythm/generator presets in patterns/generator are independently authored for this project. Public descriptions of common consistent/build/random-phase and beat-based motion were used as general inspiration; no proprietary source code is copied.\\n"
 
-## Autoblow Panel
-Source: https://github.com/NinjaGuyDev/autoblow-panel
-License: MIT. Motion preset definitions are converted to the local pattern format.
-
-## Handy AI Motion
-Source: https://github.com/Fran31416/handy-ai-motion
-License: MIT. The predefined loop patterns are converted to the local pattern format.
-
-## WaveDriver
-Source: https://github.com/hapticforge/wavedriver
-License: MIT. The four position motion functions are sampled into local loop patterns.
-
-## Generator patterns
-Additional rhythm/generator presets in patterns/generator are independently authored for this project. Public descriptions of common consistent/build/random-phase and beat-based motion were used as general inspiration; no proprietary source code is copied.
-'''
           if '## Autoblow Panel' not in text: text += additions
           notices.write_text(text)
           print('Combined external patterns:',len(patterns))
