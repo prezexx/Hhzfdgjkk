@@ -51,7 +51,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "random"
     },
     {
       "id": "mh-continuous-flow-base-drift",
@@ -66,7 +67,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "random"
     },
     {
       "id": "mh-continuous-flow-breathing-window",
@@ -81,7 +83,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-continuous-flow-centered-drift",
@@ -96,7 +99,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "random"
     },
     {
       "id": "mh-continuous-flow-centered-variety",
@@ -111,7 +115,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "random"
     },
     {
       "id": "mh-continuous-flow-even-beat",
@@ -126,7 +131,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "random"
     },
     {
       "id": "mh-continuous-flow-full-sweeps",
@@ -141,7 +147,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-continuous-flow-lower-strokes",
@@ -156,7 +163,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-continuous-flow-middle-strokes",
@@ -171,7 +179,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-continuous-flow-pace-wave",
@@ -186,7 +195,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-continuous-flow-soft-sweeps",
@@ -201,7 +211,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "gentle"
     },
     {
       "id": "mh-continuous-flow-tip-anchored",
@@ -216,7 +227,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "random"
     },
     {
       "id": "mh-continuous-flow-tip-drift",
@@ -231,7 +243,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "random"
     },
     {
       "id": "mh-continuous-flow-traveling-window",
@@ -246,7 +259,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-continuous-flow-upper-strokes",
@@ -261,7 +275,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "quick"
     },
     {
       "id": "mh-continuous-flow-wide-narrow",
@@ -276,7 +291,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-continuous-flow-zone-tour",
@@ -291,7 +307,8 @@
         "smooth"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-easy-drive-1",
@@ -307,7 +324,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "gentle"
     },
     {
       "id": "mh-curated-easy-drive-2",
@@ -323,7 +341,8 @@
         "even-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "gentle"
     },
     {
       "id": "mh-curated-easy-drive-3",
@@ -339,7 +358,8 @@
         "even-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "gentle"
     },
     {
       "id": "mh-curated-easy-drive-4",
@@ -355,7 +375,8 @@
         "even-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "gentle"
     },
     {
       "id": "mh-curated-easy-drive-5",
@@ -371,7 +392,8 @@
         "even-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "gentle"
     },
     {
       "id": "mh-curated-easy-roll",
@@ -387,7 +409,8 @@
         "syncopated"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-fast-drive-1",
@@ -403,7 +426,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "random"
     },
     {
       "id": "mh-curated-fast-drive-10",
@@ -419,7 +443,8 @@
         "even-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-fast-drive-11",
@@ -435,7 +460,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "build"
     },
     {
       "id": "mh-curated-fast-drive-12",
@@ -451,7 +477,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "quick"
     },
     {
       "id": "mh-curated-fast-drive-13",
@@ -467,7 +494,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "quick"
     },
     {
       "id": "mh-curated-fast-drive-2",
@@ -483,7 +511,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-fast-drive-3",
@@ -499,7 +528,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "pulse"
     },
     {
       "id": "mh-curated-fast-drive-4",
@@ -515,7 +545,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "build"
     },
     {
       "id": "mh-curated-fast-drive-5",
@@ -531,7 +562,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-fast-drive-6",
@@ -547,7 +579,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "pulse"
     },
     {
       "id": "mh-curated-fast-drive-7",
@@ -563,7 +596,8 @@
         "even-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "random"
     },
     {
       "id": "mh-curated-fast-drive-8",
@@ -579,7 +613,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-fast-drive-9",
@@ -595,7 +630,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "random"
     },
     {
       "id": "mh-curated-fast-roll-1",
@@ -611,7 +647,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-fast-roll-2",
@@ -627,7 +664,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-fast-roll-3",
@@ -643,7 +681,8 @@
         "syncopated"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-fast-roll-4",
@@ -659,7 +698,8 @@
         "syncopated"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "pulse"
     },
     {
       "id": "mh-curated-fast-surge-1",
@@ -675,7 +715,8 @@
         "syncopated"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "build"
     },
     {
       "id": "mh-curated-fast-surge-2",
@@ -691,7 +732,8 @@
         "syncopated"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-gentle-drive-1",
@@ -707,7 +749,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "gentle"
     },
     {
       "id": "mh-curated-gentle-drive-2",
@@ -723,7 +766,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "gentle"
     },
     {
       "id": "mh-curated-gentle-drive-3",
@@ -739,7 +783,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "gentle"
     },
     {
       "id": "mh-curated-intense-drive-1",
@@ -755,7 +800,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "pulse"
     },
     {
       "id": "mh-curated-intense-drive-10",
@@ -771,7 +817,8 @@
         "even-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-intense-drive-11",
@@ -787,7 +834,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "build"
     },
     {
       "id": "mh-curated-intense-drive-12",
@@ -803,7 +851,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-intense-drive-13",
@@ -819,7 +868,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-intense-drive-14",
@@ -835,7 +885,8 @@
         "even-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-intense-drive-15",
@@ -851,7 +902,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-intense-drive-16",
@@ -867,7 +919,8 @@
         "even-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-intense-drive-2",
@@ -883,7 +936,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "pulse"
     },
     {
       "id": "mh-curated-intense-drive-3",
@@ -899,7 +953,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "quick"
     },
     {
       "id": "mh-curated-intense-drive-4",
@@ -915,7 +970,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-intense-drive-5",
@@ -931,7 +987,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-intense-drive-6",
@@ -947,7 +1004,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-intense-drive-7",
@@ -963,7 +1021,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-intense-drive-8",
@@ -979,7 +1038,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-intense-drive-9",
@@ -995,7 +1055,8 @@
         "even-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-intense-roll-1",
@@ -1011,7 +1072,8 @@
         "syncopated"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-intense-roll-2",
@@ -1027,7 +1089,8 @@
         "syncopated"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "pulse"
     },
     {
       "id": "mh-curated-intense-roll-3",
@@ -1043,7 +1106,8 @@
         "syncopated"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-intense-roll-4",
@@ -1059,7 +1123,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-intense-roll-5",
@@ -1075,7 +1140,8 @@
         "syncopated"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-intense-surge-1",
@@ -1091,7 +1157,8 @@
         "syncopated"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "random"
     },
     {
       "id": "mh-curated-intense-surge-2",
@@ -1107,7 +1174,8 @@
         "syncopated"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-intense-surge-3",
@@ -1123,7 +1191,8 @@
         "syncopated"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-steady-drive-1",
@@ -1139,7 +1208,8 @@
         "even-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-steady-drive-2",
@@ -1155,7 +1225,8 @@
         "even-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "pulse"
     },
     {
       "id": "mh-curated-steady-drive-3",
@@ -1171,7 +1242,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "wave"
     },
     {
       "id": "mh-curated-steady-drive-4",
@@ -1187,7 +1259,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "pulse"
     },
     {
       "id": "mh-curated-steady-drive-5",
@@ -1203,7 +1276,8 @@
         "varied-rhythm"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "deep"
     },
     {
       "id": "mh-curated-steady-roll-1",
@@ -1219,7 +1293,8 @@
         "syncopated"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "pulse"
     },
     {
       "id": "mh-curated-steady-roll-2",
@@ -1235,7 +1310,8 @@
         "syncopated"
       ],
       "source": "MagicHandy",
-      "license": "GPL-3.0"
+      "license": "GPL-3.0",
+      "motion": "random"
     },
     {
       "id": "autoblow-gentle-wave-up",
@@ -1253,7 +1329,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-gentle-wave-down",
@@ -1271,7 +1348,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-gradual-climb-up",
@@ -1288,7 +1366,8 @@
         "smooth"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "build"
     },
     {
       "id": "autoblow-gradual-descent-down",
@@ -1305,7 +1384,8 @@
         "smooth"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-ramp-up-slow",
@@ -1323,7 +1403,8 @@
         "gradual"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "build"
     },
     {
       "id": "autoblow-ramp-down-slow",
@@ -1341,7 +1422,8 @@
         "gradual"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "build"
     },
     {
       "id": "autoblow-incremental-up-slow",
@@ -1358,7 +1440,8 @@
         "stepped"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "build"
     },
     {
       "id": "autoblow-incremental-down-slow",
@@ -1375,7 +1458,8 @@
         "stepped"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "build"
     },
     {
       "id": "autoblow-direct-up-8s",
@@ -1392,7 +1476,8 @@
         "smooth"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-direct-down-8s",
@@ -1409,7 +1494,8 @@
         "smooth"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-high-pause",
@@ -1425,7 +1511,8 @@
         "pause"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "pulse"
     },
     {
       "id": "autoblow-mid-pause",
@@ -1441,7 +1528,8 @@
         "pause"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "pulse"
     },
     {
       "id": "autoblow-low-pause",
@@ -1457,7 +1545,8 @@
         "pause"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "pulse"
     },
     {
       "id": "autoblow-wave-up-slow",
@@ -1474,7 +1563,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-wave-down-slow",
@@ -1491,7 +1581,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-double-wave-up",
@@ -1508,7 +1599,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-double-wave-down",
@@ -1525,7 +1617,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-plateau-up",
@@ -1542,7 +1635,8 @@
         "smooth"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-plateau-down",
@@ -1559,7 +1653,8 @@
         "smooth"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-stepped-up",
@@ -1575,7 +1670,8 @@
         "stepped"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "build"
     },
     {
       "id": "autoblow-stepped-down",
@@ -1591,7 +1687,8 @@
         "stepped"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "build"
     },
     {
       "id": "autoblow-bounce-up",
@@ -1608,7 +1705,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "pulse"
     },
     {
       "id": "autoblow-bounce-down",
@@ -1625,7 +1723,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "pulse"
     },
     {
       "id": "autoblow-peak-valley-down",
@@ -1642,7 +1741,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-valley-peak-up",
@@ -1659,7 +1759,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-surge-up",
@@ -1676,7 +1777,8 @@
         "pulse"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-surge-down",
@@ -1693,7 +1795,8 @@
         "pulse"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-stutter-up",
@@ -1710,7 +1813,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "pulse"
     },
     {
       "id": "autoblow-stutter-down",
@@ -1727,7 +1831,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "pulse"
     },
     {
       "id": "autoblow-zigzag-up",
@@ -1744,7 +1849,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-zigzag-down",
@@ -1761,7 +1867,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-accelerating-up",
@@ -1778,7 +1885,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "build"
     },
     {
       "id": "autoblow-accelerating-down",
@@ -1795,7 +1903,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "build"
     },
     {
       "id": "autoblow-decelerating-up",
@@ -1812,7 +1921,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-decelerating-down",
@@ -1829,7 +1939,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-triple-wave-up",
@@ -1846,7 +1957,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-triple-wave-down",
@@ -1863,7 +1975,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-slow-sine-wave",
@@ -1881,7 +1994,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "autoblow-rapid-pulse",
@@ -1898,7 +2012,8 @@
         "rhythmic"
       ],
       "source": "Autoblow Panel",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "pulse"
     },
     {
       "id": "handy-ai-sine",
@@ -1913,7 +2028,8 @@
         "loop"
       ],
       "source": "Handy AI Motion",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "handy-ai-fast-stroke",
@@ -1928,7 +2044,8 @@
         "loop"
       ],
       "source": "Handy AI Motion",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "quick"
     },
     {
       "id": "handy-ai-slow-tease",
@@ -1943,7 +2060,8 @@
         "loop"
       ],
       "source": "Handy AI Motion",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "gentle"
     },
     {
       "id": "handy-ai-pulse",
@@ -1958,7 +2076,8 @@
         "loop"
       ],
       "source": "Handy AI Motion",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "pulse"
     },
     {
       "id": "handy-ai-edge-hold",
@@ -1973,7 +2092,8 @@
         "loop"
       ],
       "source": "Handy AI Motion",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "pulse"
     },
     {
       "id": "handy-ai-grind",
@@ -1988,7 +2108,8 @@
         "loop"
       ],
       "source": "Handy AI Motion",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "quick"
     },
     {
       "id": "handy-ai-depth-thrust",
@@ -2003,7 +2124,8 @@
         "loop"
       ],
       "source": "Handy AI Motion",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "deep"
     },
     {
       "id": "handy-ai-random-tease",
@@ -2018,7 +2140,8 @@
         "loop"
       ],
       "source": "Handy AI Motion",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "random"
     },
     {
       "id": "handy-ai-wave-build",
@@ -2033,7 +2156,8 @@
         "loop"
       ],
       "source": "Handy AI Motion",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "build"
     },
     {
       "id": "handy-ai-shallow-fast",
@@ -2048,7 +2172,8 @@
         "loop"
       ],
       "source": "Handy AI Motion",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "quick"
     },
     {
       "id": "wavedriver-wave",
@@ -2063,7 +2188,8 @@
         "wave"
       ],
       "source": "WaveDriver",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "wave"
     },
     {
       "id": "wavedriver-realistic",
@@ -2078,7 +2204,8 @@
         "realistic"
       ],
       "source": "WaveDriver",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "steady"
     },
     {
       "id": "wavedriver-thrust",
@@ -2093,7 +2220,8 @@
         "thrust"
       ],
       "source": "WaveDriver",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "deep"
     },
     {
       "id": "wavedriver-escalate",
@@ -2108,7 +2236,8 @@
         "escalate"
       ],
       "source": "WaveDriver",
-      "license": "MIT"
+      "license": "MIT",
+      "motion": "build"
     },
     {
       "id": "generator-consistent",
@@ -2123,7 +2252,8 @@
         "steady"
       ],
       "source": "Handy Remote Generator",
-      "license": "Original"
+      "license": "Original",
+      "motion": "pulse"
     },
     {
       "id": "generator-build-over-time",
@@ -2139,7 +2269,8 @@
         "accelerating"
       ],
       "source": "Handy Remote Generator",
-      "license": "Original"
+      "license": "Original",
+      "motion": "build"
     },
     {
       "id": "generator-random-phases",
@@ -2155,7 +2286,8 @@
         "varied"
       ],
       "source": "Handy Remote Generator",
-      "license": "Original"
+      "license": "Original",
+      "motion": "random"
     },
     {
       "id": "generator-swing-3-2",
@@ -2170,7 +2302,8 @@
         "rhythm"
       ],
       "source": "Handy Remote Generator",
-      "license": "Original"
+      "license": "Original",
+      "motion": "pulse"
     },
     {
       "id": "generator-long-short-pulse",
@@ -2185,7 +2318,8 @@
         "rhythm"
       ],
       "source": "Handy Remote Generator",
-      "license": "Original"
+      "license": "Original",
+      "motion": "pulse"
     },
     {
       "id": "generator-syncopated-wave",
@@ -2200,7 +2334,8 @@
         "rhythm"
       ],
       "source": "Handy Remote Generator",
-      "license": "Original"
+      "license": "Original",
+      "motion": "wave"
     },
     {
       "id": "generator-double-accent",
@@ -2215,7 +2350,8 @@
         "rhythm"
       ],
       "source": "Handy Remote Generator",
-      "license": "Original"
+      "license": "Original",
+      "motion": "pulse"
     },
     {
       "id": "generator-broken-triplet",
@@ -2230,7 +2366,8 @@
         "rhythm"
       ],
       "source": "Handy Remote Generator",
-      "license": "Original"
+      "license": "Original",
+      "motion": "pulse"
     },
     {
       "id": "generator-rolling-six",
@@ -2245,7 +2382,8 @@
         "rhythm"
       ],
       "source": "Handy Remote Generator",
-      "license": "Original"
+      "license": "Original",
+      "motion": "pulse"
     },
     {
       "id": "the-edgy-wave",
@@ -2261,7 +2399,8 @@
         "variable"
       ],
       "source": "The Edgy",
-      "license": "MIT / ISC"
+      "license": "MIT / ISC",
+      "motion": "wave"
     },
     {
       "id": "the-edgy-pulse",
@@ -2277,7 +2416,8 @@
         "burst"
       ],
       "source": "The Edgy",
-      "license": "MIT / ISC"
+      "license": "MIT / ISC",
+      "motion": "pulse"
     },
     {
       "id": "the-edgy-escalation",
@@ -2293,7 +2433,8 @@
         "escalating"
       ],
       "source": "The Edgy",
-      "license": "MIT / ISC"
+      "license": "MIT / ISC",
+      "motion": "build"
     },
     {
       "id": "the-edgy-tease",
@@ -2309,7 +2450,8 @@
         "contrast"
       ],
       "source": "The Edgy",
-      "license": "MIT / ISC"
+      "license": "MIT / ISC",
+      "motion": "gentle"
     },
     {
       "id": "the-edgy-chaos",
@@ -2325,7 +2467,8 @@
         "chaos"
       ],
       "source": "The Edgy",
-      "license": "MIT / ISC"
+      "license": "MIT / ISC",
+      "motion": "random"
     },
     {
       "id": "the-edgy-teasing-ghost",
@@ -2341,7 +2484,8 @@
         "full-range"
       ],
       "source": "The Edgy",
-      "license": "MIT / ISC"
+      "license": "MIT / ISC",
+      "motion": "random"
     },
     {
       "id": "the-edgy-inchworm",
@@ -2357,7 +2501,8 @@
         "shallow"
       ],
       "source": "The Edgy",
-      "license": "MIT / ISC"
+      "license": "MIT / ISC",
+      "motion": "wave"
     },
     {
       "id": "the-edgy-fake-out-exit",
@@ -2373,7 +2518,8 @@
         "burst"
       ],
       "source": "The Edgy",
-      "license": "MIT / ISC"
+      "license": "MIT / ISC",
+      "motion": "random"
     },
     {
       "id": "funsync-slow-tease",
@@ -2389,7 +2535,8 @@
         "slow"
       ],
       "source": "FunSync Player",
-      "license": "GPL-3.0-or-later"
+      "license": "GPL-3.0-or-later",
+      "motion": "gentle"
     },
     {
       "id": "funsync-gentle",
@@ -2405,7 +2552,8 @@
         "gentle"
       ],
       "source": "FunSync Player",
-      "license": "GPL-3.0-or-later"
+      "license": "GPL-3.0-or-later",
+      "motion": "gentle"
     },
     {
       "id": "funsync-steady",
@@ -2421,7 +2569,8 @@
         "steady"
       ],
       "source": "FunSync Player",
-      "license": "GPL-3.0-or-later"
+      "license": "GPL-3.0-or-later",
+      "motion": "wave"
     },
     {
       "id": "funsync-building",
@@ -2437,7 +2586,8 @@
         "build"
       ],
       "source": "FunSync Player",
-      "license": "GPL-3.0-or-later"
+      "license": "GPL-3.0-or-later",
+      "motion": "build"
     },
     {
       "id": "funsync-drift",
@@ -2453,7 +2603,8 @@
         "drift"
       ],
       "source": "FunSync Player",
-      "license": "GPL-3.0-or-later"
+      "license": "GPL-3.0-or-later",
+      "motion": "random"
     },
     {
       "id": "funsync-pulse",
@@ -2469,7 +2620,8 @@
         "square-adapted"
       ],
       "source": "FunSync Player",
-      "license": "GPL-3.0-or-later"
+      "license": "GPL-3.0-or-later",
+      "motion": "pulse"
     }
   ]
 }
